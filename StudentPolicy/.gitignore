@@ -1,0 +1,48 @@
+# Python build and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Training runs, generated reports and Hydra outputs
+/logs/
+/outputs/
+/reports/
+/wandb/
+/runs/
+/multirun/
+
+# Models and exported policies, wherever generated
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.tfevents.*
+events.out.tfevents.*
+
+# Local configuration, secrets and editor files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Local motion / terrain bundles, if copied into this repository
+/data/
+/datasets/
+/assets/generated/

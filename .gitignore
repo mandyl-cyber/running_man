@@ -1,0 +1,56 @@
+# Python, package builds and local environments
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.ipynb_checkpoints/
+**/build/
+**/dist/
+**/.venv/
+**/venv/
+
+# Training, simulation and visualization output in any project
+**/logs/
+**/outputs/
+**/output/
+**/runs/
+**/multirun/
+**/wandb/
+**/recordings/
+**/videos/
+**/reports/
+events.out.tfevents.*
+*.log
+*.dmp
+
+# Checkpoints and generated policy exports
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/.vscode/
+**/.idea/
+.DS_Store
+*~
+
+# Large local datasets and generated motion/terrain bundles
+**/data/generated/
+**/data/cache/
+**/datasets/generated/
+**/assets/generated/
+**/*.zarr/
+**/.cache/
+
+# Assistant-local state
+/.agents/
+/.codex/

@@ -1,0 +1,7 @@
+[submodule "new_teacherpolicy"]
+	path = new_teacherpolicy
+	url = https://github.com/ZHUKEAHYEW/new_teacherpolicy.git
+
+[submodule "motion_matching/motion_matching"]
+	path = motion_matching/motion_matching
+	url = git@github.com:shenmaa233/motion_matching
