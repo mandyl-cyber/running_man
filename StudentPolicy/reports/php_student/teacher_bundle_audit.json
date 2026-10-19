@@ -1,0 +1,12 @@
+{
+  "compatible": true,
+  "checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261015_072805-php-teacher-seed42-locomotion/model_19999.pt",
+  "teacher_iteration": 19999,
+  "actor_input_dim": 449,
+  "action_dim": 29,
+  "actor_obs_normalizer": false,
+  "bundle": "/home/sjtu/.cache/php-parkour/motions-low-climb-76",
+  "motion_count": 40,
+  "terrain_count": 40,
+  "paired": true
+}

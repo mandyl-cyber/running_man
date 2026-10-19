@@ -1,0 +1,48 @@
+{
+  "compatible": true,
+  "official_root": "/home/sjtu/php_parkour_official",
+  "php_commit": "c7c9ce3fc75a8754a7e403c58de3b6933254d01b",
+  "holosoma_commit": "4a0bf04cde5930af5ed59da797568d32be972525",
+  "pinned_commits_match": true,
+  "allow_unpinned": false,
+  "checked_source_contract": {
+    "wbt_training/config_values/experiment.py": [
+      "student_hidden_dims=[2048, 1024, 512, 256, 128]",
+      "teacher_hidden_dims=[",
+      "critic_hidden_dims=[512, 256, 128]",
+      "DepthOnlyFCBackbone58x87Small",
+      "depth_output_dim=32",
+      "num_learning_epochs=2",
+      "num_mini_batches=96",
+      "learning_rate=3e-4",
+      "num_steps_per_env=24",
+      "num_learning_iterations=30000",
+      "empirical_normalization=False",
+      "dagger_end_epoch=10000",
+      "dagger_loss_coef=10.0",
+      "num_envs=2048",
+      "\"num_variants\": 3"
+    ],
+    "wbt_training/config_values/depth_distillation.py": [
+      "\"latency_frame\": (3, 4)",
+      "\"resize\": (58, 87)",
+      "\"buffer_len\": 6",
+      "\"enable_holes\": True",
+      "\"curriculum_start_step\": 24_000",
+      "\"curriculum_end_step\": 240_000",
+      "\"target_multiplier\": 2.0",
+      "use_adaptive_timesteps_sampler=False",
+      "\"velocity_command\"",
+      "\"which_motion\""
+    ],
+    "wbt_training/config_values/motion_command.py": [
+      "One-hot velocity command from the motion data",
+      "return cmd.vel_cmd.view(env.num_envs, -1)",
+      "idx = torch.where(expert_terminate, torch.full_like(idx, -1.0), idx)"
+    ],
+    "wbt_training/utils/student_teacher.py": [
+      "class PhpDistillationPPO",
+      "RoutingColumnTeacherMixin"
+    ]
+  }
+}
