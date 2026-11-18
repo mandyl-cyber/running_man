@@ -51,6 +51,9 @@ events.out.tfevents.*
 **/*.zarr/
 **/.cache/
 
+# Private administrative attachments
+大创/**/发票*.pdf
+
 # Assistant-local state
 /.agents/
 /.codex/
