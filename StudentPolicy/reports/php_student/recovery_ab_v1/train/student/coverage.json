@@ -1,0 +1,4400 @@
+{
+  "arm": "student",
+  "window": [
+    0.0,
+    0.0
+  ],
+  "teacher_control_probability": 1.0,
+  "early_15_25": {
+    "samples": 39678,
+    "valid_labels": 38486,
+    "teacher_control": 0
+  },
+  "phase_bins": [
+    "0-20",
+    "20-40",
+    "40-60",
+    "60-80",
+    "80-100"
+  ],
+  "counts": [
+    {
+      "samples": 39373,
+      "valid_labels": 38761,
+      "teacher_control": 0,
+      "valid_fraction": 0.9844563533385823,
+      "valid_action_l2": 0.8125437879730915
+    },
+    {
+      "samples": 117288,
+      "valid_labels": 64284,
+      "teacher_control": 0,
+      "valid_fraction": 0.5480867607939431,
+      "valid_action_l2": 1.3946722259815818
+    },
+    {
+      "samples": 141430,
+      "valid_labels": 81520,
+      "teacher_control": 0,
+      "valid_fraction": 0.5763982181998162,
+      "valid_action_l2": 1.0959683014904318
+    },
+    {
+      "samples": 141818,
+      "valid_labels": 120391,
+      "teacher_control": 0,
+      "valid_fraction": 0.8489119857845971,
+      "valid_action_l2": 1.2870881388558946
+    },
+    {
+      "samples": 174491,
+      "valid_labels": 124288,
+      "teacher_control": 0,
+      "valid_fraction": 0.7122888859597343,
+      "valid_action_l2": 0.7938032533309732
+    }
+  ],
+  "clip_phase_counts": [
+    {
+      "clip_id": 0,
+      "phase_bins": [
+        {
+          "samples": 775,
+          "valid_labels": 775,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1215,
+          "valid_labels": 605,
+          "teacher_control": 0,
+          "valid_fraction": 0.49794238683127573
+        },
+        {
+          "samples": 1141,
+          "valid_labels": 742,
+          "teacher_control": 0,
+          "valid_fraction": 0.6503067484662577
+        },
+        {
+          "samples": 1089,
+          "valid_labels": 885,
+          "teacher_control": 0,
+          "valid_fraction": 0.8126721763085399
+        },
+        {
+          "samples": 1381,
+          "valid_labels": 1162,
+          "teacher_control": 0,
+          "valid_fraction": 0.8414192614047792
+        }
+      ]
+    },
+    {
+      "clip_id": 1,
+      "phase_bins": [
+        {
+          "samples": 368,
+          "valid_labels": 368,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 824,
+          "valid_labels": 390,
+          "teacher_control": 0,
+          "valid_fraction": 0.4733009708737864
+        },
+        {
+          "samples": 847,
+          "valid_labels": 651,
+          "teacher_control": 0,
+          "valid_fraction": 0.768595041322314
+        },
+        {
+          "samples": 1286,
+          "valid_labels": 1090,
+          "teacher_control": 0,
+          "valid_fraction": 0.8475894245723172
+        },
+        {
+          "samples": 1177,
+          "valid_labels": 485,
+          "teacher_control": 0,
+          "valid_fraction": 0.41206457094307564
+        }
+      ]
+    },
+    {
+      "clip_id": 2,
+      "phase_bins": [
+        {
+          "samples": 292,
+          "valid_labels": 292,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 919,
+          "valid_labels": 491,
+          "teacher_control": 0,
+          "valid_fraction": 0.5342763873775843
+        },
+        {
+          "samples": 1505,
+          "valid_labels": 690,
+          "teacher_control": 0,
+          "valid_fraction": 0.4584717607973422
+        },
+        {
+          "samples": 1370,
+          "valid_labels": 1199,
+          "teacher_control": 0,
+          "valid_fraction": 0.8751824817518248
+        },
+        {
+          "samples": 2354,
+          "valid_labels": 1580,
+          "teacher_control": 0,
+          "valid_fraction": 0.6711979609175871
+        }
+      ]
+    },
+    {
+      "clip_id": 3,
+      "phase_bins": [
+        {
+          "samples": 27,
+          "valid_labels": 27,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 401,
+          "valid_labels": 243,
+          "teacher_control": 0,
+          "valid_fraction": 0.6059850374064838
+        },
+        {
+          "samples": 712,
+          "valid_labels": 505,
+          "teacher_control": 0,
+          "valid_fraction": 0.7092696629213483
+        },
+        {
+          "samples": 932,
+          "valid_labels": 888,
+          "teacher_control": 0,
+          "valid_fraction": 0.9527896995708155
+        },
+        {
+          "samples": 942,
+          "valid_labels": 885,
+          "teacher_control": 0,
+          "valid_fraction": 0.9394904458598726
+        }
+      ]
+    },
+    {
+      "clip_id": 4,
+      "phase_bins": [
+        {
+          "samples": 599,
+          "valid_labels": 599,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1690,
+          "valid_labels": 942,
+          "teacher_control": 0,
+          "valid_fraction": 0.557396449704142
+        },
+        {
+          "samples": 1382,
+          "valid_labels": 368,
+          "teacher_control": 0,
+          "valid_fraction": 0.2662807525325615
+        },
+        {
+          "samples": 962,
+          "valid_labels": 880,
+          "teacher_control": 0,
+          "valid_fraction": 0.9147609147609148
+        },
+        {
+          "samples": 1190,
+          "valid_labels": 711,
+          "teacher_control": 0,
+          "valid_fraction": 0.5974789915966386
+        }
+      ]
+    },
+    {
+      "clip_id": 5,
+      "phase_bins": [
+        {
+          "samples": 208,
+          "valid_labels": 177,
+          "teacher_control": 0,
+          "valid_fraction": 0.8509615384615384
+        },
+        {
+          "samples": 863,
+          "valid_labels": 526,
+          "teacher_control": 0,
+          "valid_fraction": 0.6095017381228274
+        },
+        {
+          "samples": 1367,
+          "valid_labels": 697,
+          "teacher_control": 0,
+          "valid_fraction": 0.5098756400877835
+        },
+        {
+          "samples": 1127,
+          "valid_labels": 957,
+          "teacher_control": 0,
+          "valid_fraction": 0.8491570541259982
+        },
+        {
+          "samples": 1793,
+          "valid_labels": 1389,
+          "teacher_control": 0,
+          "valid_fraction": 0.7746793084216397
+        }
+      ]
+    },
+    {
+      "clip_id": 6,
+      "phase_bins": [
+        {
+          "samples": 476,
+          "valid_labels": 476,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 834,
+          "valid_labels": 522,
+          "teacher_control": 0,
+          "valid_fraction": 0.6258992805755396
+        },
+        {
+          "samples": 1073,
+          "valid_labels": 548,
+          "teacher_control": 0,
+          "valid_fraction": 0.51071761416589
+        },
+        {
+          "samples": 1022,
+          "valid_labels": 894,
+          "teacher_control": 0,
+          "valid_fraction": 0.8747553816046967
+        },
+        {
+          "samples": 968,
+          "valid_labels": 625,
+          "teacher_control": 0,
+          "valid_fraction": 0.6456611570247934
+        }
+      ]
+    },
+    {
+      "clip_id": 7,
+      "phase_bins": [
+        {
+          "samples": 326,
+          "valid_labels": 307,
+          "teacher_control": 0,
+          "valid_fraction": 0.941717791411043
+        },
+        {
+          "samples": 1085,
+          "valid_labels": 560,
+          "teacher_control": 0,
+          "valid_fraction": 0.5161290322580645
+        },
+        {
+          "samples": 1059,
+          "valid_labels": 613,
+          "teacher_control": 0,
+          "valid_fraction": 0.5788479697828139
+        },
+        {
+          "samples": 1267,
+          "valid_labels": 1199,
+          "teacher_control": 0,
+          "valid_fraction": 0.9463299131807419
+        },
+        {
+          "samples": 1903,
+          "valid_labels": 1667,
+          "teacher_control": 0,
+          "valid_fraction": 0.8759852863899107
+        }
+      ]
+    },
+    {
+      "clip_id": 8,
+      "phase_bins": [
+        {
+          "samples": 331,
+          "valid_labels": 331,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 949,
+          "valid_labels": 371,
+          "teacher_control": 0,
+          "valid_fraction": 0.3909378292939937
+        },
+        {
+          "samples": 736,
+          "valid_labels": 383,
+          "teacher_control": 0,
+          "valid_fraction": 0.5203804347826086
+        },
+        {
+          "samples": 468,
+          "valid_labels": 444,
+          "teacher_control": 0,
+          "valid_fraction": 0.9487179487179487
+        },
+        {
+          "samples": 812,
+          "valid_labels": 637,
+          "teacher_control": 0,
+          "valid_fraction": 0.7844827586206896
+        }
+      ]
+    },
+    {
+      "clip_id": 9,
+      "phase_bins": [
+        {
+          "samples": 424,
+          "valid_labels": 411,
+          "teacher_control": 0,
+          "valid_fraction": 0.9693396226415094
+        },
+        {
+          "samples": 1410,
+          "valid_labels": 535,
+          "teacher_control": 0,
+          "valid_fraction": 0.37943262411347517
+        },
+        {
+          "samples": 1106,
+          "valid_labels": 523,
+          "teacher_control": 0,
+          "valid_fraction": 0.472875226039783
+        },
+        {
+          "samples": 760,
+          "valid_labels": 679,
+          "teacher_control": 0,
+          "valid_fraction": 0.8934210526315789
+        },
+        {
+          "samples": 1229,
+          "valid_labels": 1034,
+          "teacher_control": 0,
+          "valid_fraction": 0.8413344182262001
+        }
+      ]
+    },
+    {
+      "clip_id": 10,
+      "phase_bins": [
+        {
+          "samples": 241,
+          "valid_labels": 241,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 803,
+          "valid_labels": 458,
+          "teacher_control": 0,
+          "valid_fraction": 0.5703611457036114
+        },
+        {
+          "samples": 839,
+          "valid_labels": 500,
+          "teacher_control": 0,
+          "valid_fraction": 0.5959475566150179
+        },
+        {
+          "samples": 468,
+          "valid_labels": 387,
+          "teacher_control": 0,
+          "valid_fraction": 0.8269230769230769
+        },
+        {
+          "samples": 696,
+          "valid_labels": 489,
+          "teacher_control": 0,
+          "valid_fraction": 0.7025862068965517
+        }
+      ]
+    },
+    {
+      "clip_id": 11,
+      "phase_bins": [
+        {
+          "samples": 240,
+          "valid_labels": 240,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 849,
+          "valid_labels": 421,
+          "teacher_control": 0,
+          "valid_fraction": 0.4958775029446408
+        },
+        {
+          "samples": 1051,
+          "valid_labels": 723,
+          "teacher_control": 0,
+          "valid_fraction": 0.6879162702188392
+        },
+        {
+          "samples": 882,
+          "valid_labels": 695,
+          "teacher_control": 0,
+          "valid_fraction": 0.7879818594104309
+        },
+        {
+          "samples": 1146,
+          "valid_labels": 854,
+          "teacher_control": 0,
+          "valid_fraction": 0.7452006980802792
+        }
+      ]
+    },
+    {
+      "clip_id": 12,
+      "phase_bins": [
+        {
+          "samples": 570,
+          "valid_labels": 570,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 977,
+          "valid_labels": 700,
+          "teacher_control": 0,
+          "valid_fraction": 0.7164790174002047
+        },
+        {
+          "samples": 1931,
+          "valid_labels": 1676,
+          "teacher_control": 0,
+          "valid_fraction": 0.8679440704298291
+        },
+        {
+          "samples": 1578,
+          "valid_labels": 1260,
+          "teacher_control": 0,
+          "valid_fraction": 0.7984790874524715
+        },
+        {
+          "samples": 1747,
+          "valid_labels": 1119,
+          "teacher_control": 0,
+          "valid_fraction": 0.6405266170578134
+        }
+      ]
+    },
+    {
+      "clip_id": 13,
+      "phase_bins": [
+        {
+          "samples": 254,
+          "valid_labels": 254,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 708,
+          "valid_labels": 477,
+          "teacher_control": 0,
+          "valid_fraction": 0.673728813559322
+        },
+        {
+          "samples": 1116,
+          "valid_labels": 443,
+          "teacher_control": 0,
+          "valid_fraction": 0.39695340501792115
+        },
+        {
+          "samples": 966,
+          "valid_labels": 778,
+          "teacher_control": 0,
+          "valid_fraction": 0.8053830227743272
+        },
+        {
+          "samples": 1598,
+          "valid_labels": 1478,
+          "teacher_control": 0,
+          "valid_fraction": 0.9249061326658323
+        }
+      ]
+    },
+    {
+      "clip_id": 14,
+      "phase_bins": [
+        {
+          "samples": 148,
+          "valid_labels": 148,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1127,
+          "valid_labels": 709,
+          "teacher_control": 0,
+          "valid_fraction": 0.6291038154392191
+        },
+        {
+          "samples": 1401,
+          "valid_labels": 345,
+          "teacher_control": 0,
+          "valid_fraction": 0.2462526766595289
+        },
+        {
+          "samples": 976,
+          "valid_labels": 889,
+          "teacher_control": 0,
+          "valid_fraction": 0.9108606557377049
+        },
+        {
+          "samples": 1215,
+          "valid_labels": 1176,
+          "teacher_control": 0,
+          "valid_fraction": 0.9679012345679012
+        }
+      ]
+    },
+    {
+      "clip_id": 15,
+      "phase_bins": [
+        {
+          "samples": 106,
+          "valid_labels": 106,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1098,
+          "valid_labels": 682,
+          "teacher_control": 0,
+          "valid_fraction": 0.6211293260473588
+        },
+        {
+          "samples": 953,
+          "valid_labels": 481,
+          "teacher_control": 0,
+          "valid_fraction": 0.5047219307450157
+        },
+        {
+          "samples": 1319,
+          "valid_labels": 1192,
+          "teacher_control": 0,
+          "valid_fraction": 0.9037149355572404
+        },
+        {
+          "samples": 1326,
+          "valid_labels": 791,
+          "teacher_control": 0,
+          "valid_fraction": 0.5965309200603318
+        }
+      ]
+    },
+    {
+      "clip_id": 16,
+      "phase_bins": [
+        {
+          "samples": 97,
+          "valid_labels": 97,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 939,
+          "valid_labels": 359,
+          "teacher_control": 0,
+          "valid_fraction": 0.38232161874334397
+        },
+        {
+          "samples": 935,
+          "valid_labels": 415,
+          "teacher_control": 0,
+          "valid_fraction": 0.44385026737967914
+        },
+        {
+          "samples": 1011,
+          "valid_labels": 963,
+          "teacher_control": 0,
+          "valid_fraction": 0.9525222551928784
+        },
+        {
+          "samples": 1503,
+          "valid_labels": 1159,
+          "teacher_control": 0,
+          "valid_fraction": 0.7711244178310046
+        }
+      ]
+    },
+    {
+      "clip_id": 17,
+      "phase_bins": [
+        {
+          "samples": 317,
+          "valid_labels": 317,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1329,
+          "valid_labels": 512,
+          "teacher_control": 0,
+          "valid_fraction": 0.3852520692249812
+        },
+        {
+          "samples": 1572,
+          "valid_labels": 854,
+          "teacher_control": 0,
+          "valid_fraction": 0.5432569974554707
+        },
+        {
+          "samples": 1625,
+          "valid_labels": 1359,
+          "teacher_control": 0,
+          "valid_fraction": 0.8363076923076923
+        },
+        {
+          "samples": 1649,
+          "valid_labels": 919,
+          "teacher_control": 0,
+          "valid_fraction": 0.5573074590661007
+        }
+      ]
+    },
+    {
+      "clip_id": 18,
+      "phase_bins": [
+        {
+          "samples": 637,
+          "valid_labels": 637,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1363,
+          "valid_labels": 610,
+          "teacher_control": 0,
+          "valid_fraction": 0.4475421863536317
+        },
+        {
+          "samples": 1147,
+          "valid_labels": 629,
+          "teacher_control": 0,
+          "valid_fraction": 0.5483870967741935
+        },
+        {
+          "samples": 1336,
+          "valid_labels": 1165,
+          "teacher_control": 0,
+          "valid_fraction": 0.8720059880239521
+        },
+        {
+          "samples": 1661,
+          "valid_labels": 885,
+          "teacher_control": 0,
+          "valid_fraction": 0.5328115593016255
+        }
+      ]
+    },
+    {
+      "clip_id": 19,
+      "phase_bins": [
+        {
+          "samples": 72,
+          "valid_labels": 72,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 938,
+          "valid_labels": 496,
+          "teacher_control": 0,
+          "valid_fraction": 0.5287846481876333
+        },
+        {
+          "samples": 1359,
+          "valid_labels": 727,
+          "teacher_control": 0,
+          "valid_fraction": 0.5349521707137601
+        },
+        {
+          "samples": 959,
+          "valid_labels": 735,
+          "teacher_control": 0,
+          "valid_fraction": 0.7664233576642335
+        },
+        {
+          "samples": 1004,
+          "valid_labels": 913,
+          "teacher_control": 0,
+          "valid_fraction": 0.9093625498007968
+        }
+      ]
+    },
+    {
+      "clip_id": 20,
+      "phase_bins": [
+        {
+          "samples": 258,
+          "valid_labels": 258,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1261,
+          "valid_labels": 827,
+          "teacher_control": 0,
+          "valid_fraction": 0.6558287073750991
+        },
+        {
+          "samples": 1337,
+          "valid_labels": 493,
+          "teacher_control": 0,
+          "valid_fraction": 0.368735976065819
+        },
+        {
+          "samples": 950,
+          "valid_labels": 580,
+          "teacher_control": 0,
+          "valid_fraction": 0.6105263157894737
+        },
+        {
+          "samples": 1375,
+          "valid_labels": 1158,
+          "teacher_control": 0,
+          "valid_fraction": 0.8421818181818181
+        }
+      ]
+    },
+    {
+      "clip_id": 21,
+      "phase_bins": [
+        {
+          "samples": 265,
+          "valid_labels": 265,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 666,
+          "valid_labels": 497,
+          "teacher_control": 0,
+          "valid_fraction": 0.7462462462462462
+        },
+        {
+          "samples": 785,
+          "valid_labels": 596,
+          "teacher_control": 0,
+          "valid_fraction": 0.759235668789809
+        },
+        {
+          "samples": 1356,
+          "valid_labels": 1137,
+          "teacher_control": 0,
+          "valid_fraction": 0.838495575221239
+        },
+        {
+          "samples": 1567,
+          "valid_labels": 985,
+          "teacher_control": 0,
+          "valid_fraction": 0.6285896617740906
+        }
+      ]
+    },
+    {
+      "clip_id": 22,
+      "phase_bins": [
+        {
+          "samples": 403,
+          "valid_labels": 403,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 744,
+          "valid_labels": 458,
+          "teacher_control": 0,
+          "valid_fraction": 0.6155913978494624
+        },
+        {
+          "samples": 1057,
+          "valid_labels": 667,
+          "teacher_control": 0,
+          "valid_fraction": 0.631031220435194
+        },
+        {
+          "samples": 1626,
+          "valid_labels": 1454,
+          "teacher_control": 0,
+          "valid_fraction": 0.8942189421894219
+        },
+        {
+          "samples": 2578,
+          "valid_labels": 1666,
+          "teacher_control": 0,
+          "valid_fraction": 0.6462373933281613
+        }
+      ]
+    },
+    {
+      "clip_id": 23,
+      "phase_bins": [
+        {
+          "samples": 338,
+          "valid_labels": 338,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1195,
+          "valid_labels": 772,
+          "teacher_control": 0,
+          "valid_fraction": 0.6460251046025105
+        },
+        {
+          "samples": 1746,
+          "valid_labels": 769,
+          "teacher_control": 0,
+          "valid_fraction": 0.4404352806414662
+        },
+        {
+          "samples": 1473,
+          "valid_labels": 1237,
+          "teacher_control": 0,
+          "valid_fraction": 0.8397827562797013
+        },
+        {
+          "samples": 1769,
+          "valid_labels": 1407,
+          "teacher_control": 0,
+          "valid_fraction": 0.7953646127755795
+        }
+      ]
+    },
+    {
+      "clip_id": 24,
+      "phase_bins": [
+        {
+          "samples": 426,
+          "valid_labels": 411,
+          "teacher_control": 0,
+          "valid_fraction": 0.9647887323943662
+        },
+        {
+          "samples": 628,
+          "valid_labels": 251,
+          "teacher_control": 0,
+          "valid_fraction": 0.3996815286624204
+        },
+        {
+          "samples": 587,
+          "valid_labels": 418,
+          "teacher_control": 0,
+          "valid_fraction": 0.7120954003407155
+        },
+        {
+          "samples": 794,
+          "valid_labels": 678,
+          "teacher_control": 0,
+          "valid_fraction": 0.853904282115869
+        },
+        {
+          "samples": 1062,
+          "valid_labels": 658,
+          "teacher_control": 0,
+          "valid_fraction": 0.6195856873822976
+        }
+      ]
+    },
+    {
+      "clip_id": 25,
+      "phase_bins": [
+        {
+          "samples": 195,
+          "valid_labels": 195,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1189,
+          "valid_labels": 453,
+          "teacher_control": 0,
+          "valid_fraction": 0.3809924306139613
+        },
+        {
+          "samples": 1270,
+          "valid_labels": 517,
+          "teacher_control": 0,
+          "valid_fraction": 0.40708661417322833
+        },
+        {
+          "samples": 1587,
+          "valid_labels": 1407,
+          "teacher_control": 0,
+          "valid_fraction": 0.8865784499054821
+        },
+        {
+          "samples": 1847,
+          "valid_labels": 1210,
+          "teacher_control": 0,
+          "valid_fraction": 0.6551164049810504
+        }
+      ]
+    },
+    {
+      "clip_id": 26,
+      "phase_bins": [
+        {
+          "samples": 344,
+          "valid_labels": 344,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 632,
+          "valid_labels": 442,
+          "teacher_control": 0,
+          "valid_fraction": 0.6993670886075949
+        },
+        {
+          "samples": 1224,
+          "valid_labels": 813,
+          "teacher_control": 0,
+          "valid_fraction": 0.6642156862745098
+        },
+        {
+          "samples": 1320,
+          "valid_labels": 1111,
+          "teacher_control": 0,
+          "valid_fraction": 0.8416666666666667
+        },
+        {
+          "samples": 1500,
+          "valid_labels": 1056,
+          "teacher_control": 0,
+          "valid_fraction": 0.704
+        }
+      ]
+    },
+    {
+      "clip_id": 27,
+      "phase_bins": [
+        {
+          "samples": 18,
+          "valid_labels": 18,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 442,
+          "valid_labels": 221,
+          "teacher_control": 0,
+          "valid_fraction": 0.5
+        },
+        {
+          "samples": 904,
+          "valid_labels": 648,
+          "teacher_control": 0,
+          "valid_fraction": 0.7168141592920354
+        },
+        {
+          "samples": 1410,
+          "valid_labels": 1237,
+          "teacher_control": 0,
+          "valid_fraction": 0.8773049645390071
+        },
+        {
+          "samples": 1921,
+          "valid_labels": 1499,
+          "teacher_control": 0,
+          "valid_fraction": 0.780322748568454
+        }
+      ]
+    },
+    {
+      "clip_id": 28,
+      "phase_bins": [
+        {
+          "samples": 121,
+          "valid_labels": 121,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 837,
+          "valid_labels": 540,
+          "teacher_control": 0,
+          "valid_fraction": 0.6451612903225806
+        },
+        {
+          "samples": 1479,
+          "valid_labels": 1017,
+          "teacher_control": 0,
+          "valid_fraction": 0.6876267748478702
+        },
+        {
+          "samples": 1636,
+          "valid_labels": 1358,
+          "teacher_control": 0,
+          "valid_fraction": 0.8300733496332519
+        },
+        {
+          "samples": 2049,
+          "valid_labels": 1624,
+          "teacher_control": 0,
+          "valid_fraction": 0.7925817471937531
+        }
+      ]
+    },
+    {
+      "clip_id": 29,
+      "phase_bins": [
+        {
+          "samples": 307,
+          "valid_labels": 307,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1192,
+          "valid_labels": 774,
+          "teacher_control": 0,
+          "valid_fraction": 0.6493288590604027
+        },
+        {
+          "samples": 1575,
+          "valid_labels": 949,
+          "teacher_control": 0,
+          "valid_fraction": 0.6025396825396825
+        },
+        {
+          "samples": 875,
+          "valid_labels": 764,
+          "teacher_control": 0,
+          "valid_fraction": 0.8731428571428571
+        },
+        {
+          "samples": 993,
+          "valid_labels": 690,
+          "teacher_control": 0,
+          "valid_fraction": 0.6948640483383686
+        }
+      ]
+    },
+    {
+      "clip_id": 30,
+      "phase_bins": [
+        {
+          "samples": 534,
+          "valid_labels": 534,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1515,
+          "valid_labels": 1008,
+          "teacher_control": 0,
+          "valid_fraction": 0.6653465346534654
+        },
+        {
+          "samples": 2478,
+          "valid_labels": 1455,
+          "teacher_control": 0,
+          "valid_fraction": 0.5871670702179177
+        },
+        {
+          "samples": 1471,
+          "valid_labels": 1232,
+          "teacher_control": 0,
+          "valid_fraction": 0.8375254928619986
+        },
+        {
+          "samples": 1181,
+          "valid_labels": 957,
+          "teacher_control": 0,
+          "valid_fraction": 0.8103302286198137
+        }
+      ]
+    },
+    {
+      "clip_id": 31,
+      "phase_bins": [
+        {
+          "samples": 183,
+          "valid_labels": 183,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 976,
+          "valid_labels": 633,
+          "teacher_control": 0,
+          "valid_fraction": 0.6485655737704918
+        },
+        {
+          "samples": 1767,
+          "valid_labels": 1262,
+          "teacher_control": 0,
+          "valid_fraction": 0.7142048670062252
+        },
+        {
+          "samples": 1612,
+          "valid_labels": 1303,
+          "teacher_control": 0,
+          "valid_fraction": 0.8083126550868487
+        },
+        {
+          "samples": 2182,
+          "valid_labels": 1727,
+          "teacher_control": 0,
+          "valid_fraction": 0.7914757103574702
+        }
+      ]
+    },
+    {
+      "clip_id": 32,
+      "phase_bins": [
+        {
+          "samples": 526,
+          "valid_labels": 526,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 624,
+          "valid_labels": 392,
+          "teacher_control": 0,
+          "valid_fraction": 0.6282051282051282
+        },
+        {
+          "samples": 562,
+          "valid_labels": 427,
+          "teacher_control": 0,
+          "valid_fraction": 0.7597864768683275
+        },
+        {
+          "samples": 844,
+          "valid_labels": 825,
+          "teacher_control": 0,
+          "valid_fraction": 0.9774881516587678
+        },
+        {
+          "samples": 940,
+          "valid_labels": 940,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "clip_id": 33,
+      "phase_bins": [
+        {
+          "samples": 76,
+          "valid_labels": 76,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1080,
+          "valid_labels": 509,
+          "teacher_control": 0,
+          "valid_fraction": 0.47129629629629627
+        },
+        {
+          "samples": 1145,
+          "valid_labels": 733,
+          "teacher_control": 0,
+          "valid_fraction": 0.640174672489083
+        },
+        {
+          "samples": 765,
+          "valid_labels": 482,
+          "teacher_control": 0,
+          "valid_fraction": 0.6300653594771242
+        },
+        {
+          "samples": 411,
+          "valid_labels": 301,
+          "teacher_control": 0,
+          "valid_fraction": 0.732360097323601
+        }
+      ]
+    },
+    {
+      "clip_id": 34,
+      "phase_bins": [
+        {
+          "samples": 313,
+          "valid_labels": 241,
+          "teacher_control": 0,
+          "valid_fraction": 0.7699680511182109
+        },
+        {
+          "samples": 710,
+          "valid_labels": 301,
+          "teacher_control": 0,
+          "valid_fraction": 0.423943661971831
+        },
+        {
+          "samples": 783,
+          "valid_labels": 305,
+          "teacher_control": 0,
+          "valid_fraction": 0.3895274584929757
+        },
+        {
+          "samples": 1361,
+          "valid_labels": 1181,
+          "teacher_control": 0,
+          "valid_fraction": 0.8677443056576047
+        },
+        {
+          "samples": 1650,
+          "valid_labels": 1278,
+          "teacher_control": 0,
+          "valid_fraction": 0.7745454545454545
+        }
+      ]
+    },
+    {
+      "clip_id": 35,
+      "phase_bins": [
+        {
+          "samples": 600,
+          "valid_labels": 600,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1127,
+          "valid_labels": 426,
+          "teacher_control": 0,
+          "valid_fraction": 0.3779946761313221
+        },
+        {
+          "samples": 788,
+          "valid_labels": 260,
+          "teacher_control": 0,
+          "valid_fraction": 0.3299492385786802
+        },
+        {
+          "samples": 967,
+          "valid_labels": 822,
+          "teacher_control": 0,
+          "valid_fraction": 0.8500517063081696
+        },
+        {
+          "samples": 1511,
+          "valid_labels": 1019,
+          "teacher_control": 0,
+          "valid_fraction": 0.6743878226340172
+        }
+      ]
+    },
+    {
+      "clip_id": 36,
+      "phase_bins": [
+        {
+          "samples": 296,
+          "valid_labels": 296,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 938,
+          "valid_labels": 463,
+          "teacher_control": 0,
+          "valid_fraction": 0.4936034115138593
+        },
+        {
+          "samples": 1133,
+          "valid_labels": 737,
+          "teacher_control": 0,
+          "valid_fraction": 0.6504854368932039
+        },
+        {
+          "samples": 1231,
+          "valid_labels": 808,
+          "teacher_control": 0,
+          "valid_fraction": 0.6563769293257514
+        },
+        {
+          "samples": 1354,
+          "valid_labels": 942,
+          "teacher_control": 0,
+          "valid_fraction": 0.6957163958641064
+        }
+      ]
+    },
+    {
+      "clip_id": 37,
+      "phase_bins": [
+        {
+          "samples": 408,
+          "valid_labels": 392,
+          "teacher_control": 0,
+          "valid_fraction": 0.9607843137254902
+        },
+        {
+          "samples": 958,
+          "valid_labels": 505,
+          "teacher_control": 0,
+          "valid_fraction": 0.5271398747390397
+        },
+        {
+          "samples": 1464,
+          "valid_labels": 1228,
+          "teacher_control": 0,
+          "valid_fraction": 0.8387978142076503
+        },
+        {
+          "samples": 1353,
+          "valid_labels": 960,
+          "teacher_control": 0,
+          "valid_fraction": 0.7095343680709535
+        },
+        {
+          "samples": 1649,
+          "valid_labels": 887,
+          "teacher_control": 0,
+          "valid_fraction": 0.537901758641601
+        }
+      ]
+    },
+    {
+      "clip_id": 38,
+      "phase_bins": [
+        {
+          "samples": 252,
+          "valid_labels": 236,
+          "teacher_control": 0,
+          "valid_fraction": 0.9365079365079365
+        },
+        {
+          "samples": 733,
+          "valid_labels": 457,
+          "teacher_control": 0,
+          "valid_fraction": 0.6234652114597544
+        },
+        {
+          "samples": 665,
+          "valid_labels": 214,
+          "teacher_control": 0,
+          "valid_fraction": 0.3218045112781955
+        },
+        {
+          "samples": 1055,
+          "valid_labels": 824,
+          "teacher_control": 0,
+          "valid_fraction": 0.781042654028436
+        },
+        {
+          "samples": 1567,
+          "valid_labels": 1366,
+          "teacher_control": 0,
+          "valid_fraction": 0.8717294192724953
+        }
+      ]
+    },
+    {
+      "clip_id": 39,
+      "phase_bins": [
+        {
+          "samples": 339,
+          "valid_labels": 319,
+          "teacher_control": 0,
+          "valid_fraction": 0.9410029498525073
+        },
+        {
+          "samples": 916,
+          "valid_labels": 537,
+          "teacher_control": 0,
+          "valid_fraction": 0.5862445414847162
+        },
+        {
+          "samples": 877,
+          "valid_labels": 391,
+          "teacher_control": 0,
+          "valid_fraction": 0.44583808437856326
+        },
+        {
+          "samples": 1124,
+          "valid_labels": 877,
+          "teacher_control": 0,
+          "valid_fraction": 0.7802491103202847
+        },
+        {
+          "samples": 1157,
+          "valid_labels": 793,
+          "teacher_control": 0,
+          "valid_fraction": 0.6853932584269663
+        }
+      ]
+    },
+    {
+      "clip_id": 40,
+      "phase_bins": [
+        {
+          "samples": 399,
+          "valid_labels": 399,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 657,
+          "valid_labels": 272,
+          "teacher_control": 0,
+          "valid_fraction": 0.4140030441400304
+        },
+        {
+          "samples": 585,
+          "valid_labels": 330,
+          "teacher_control": 0,
+          "valid_fraction": 0.5641025641025641
+        },
+        {
+          "samples": 824,
+          "valid_labels": 765,
+          "teacher_control": 0,
+          "valid_fraction": 0.9283980582524272
+        },
+        {
+          "samples": 861,
+          "valid_labels": 410,
+          "teacher_control": 0,
+          "valid_fraction": 0.47619047619047616
+        }
+      ]
+    },
+    {
+      "clip_id": 41,
+      "phase_bins": [
+        {
+          "samples": 227,
+          "valid_labels": 227,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 464,
+          "valid_labels": 192,
+          "teacher_control": 0,
+          "valid_fraction": 0.41379310344827586
+        },
+        {
+          "samples": 650,
+          "valid_labels": 433,
+          "teacher_control": 0,
+          "valid_fraction": 0.6661538461538462
+        },
+        {
+          "samples": 954,
+          "valid_labels": 787,
+          "teacher_control": 0,
+          "valid_fraction": 0.8249475890985325
+        },
+        {
+          "samples": 1220,
+          "valid_labels": 573,
+          "teacher_control": 0,
+          "valid_fraction": 0.46967213114754097
+        }
+      ]
+    },
+    {
+      "clip_id": 42,
+      "phase_bins": [
+        {
+          "samples": 428,
+          "valid_labels": 428,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1101,
+          "valid_labels": 711,
+          "teacher_control": 0,
+          "valid_fraction": 0.6457765667574932
+        },
+        {
+          "samples": 1251,
+          "valid_labels": 603,
+          "teacher_control": 0,
+          "valid_fraction": 0.48201438848920863
+        },
+        {
+          "samples": 1552,
+          "valid_labels": 1468,
+          "teacher_control": 0,
+          "valid_fraction": 0.9458762886597938
+        },
+        {
+          "samples": 2443,
+          "valid_labels": 2040,
+          "teacher_control": 0,
+          "valid_fraction": 0.8350388866148178
+        }
+      ]
+    },
+    {
+      "clip_id": 43,
+      "phase_bins": [
+        {
+          "samples": 177,
+          "valid_labels": 177,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 596,
+          "valid_labels": 311,
+          "teacher_control": 0,
+          "valid_fraction": 0.5218120805369127
+        },
+        {
+          "samples": 526,
+          "valid_labels": 311,
+          "teacher_control": 0,
+          "valid_fraction": 0.591254752851711
+        },
+        {
+          "samples": 433,
+          "valid_labels": 322,
+          "teacher_control": 0,
+          "valid_fraction": 0.74364896073903
+        },
+        {
+          "samples": 639,
+          "valid_labels": 559,
+          "teacher_control": 0,
+          "valid_fraction": 0.8748043818466353
+        }
+      ]
+    },
+    {
+      "clip_id": 44,
+      "phase_bins": [
+        {
+          "samples": 475,
+          "valid_labels": 475,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1158,
+          "valid_labels": 614,
+          "teacher_control": 0,
+          "valid_fraction": 0.5302245250431779
+        },
+        {
+          "samples": 943,
+          "valid_labels": 74,
+          "teacher_control": 0,
+          "valid_fraction": 0.0784729586426299
+        },
+        {
+          "samples": 684,
+          "valid_labels": 617,
+          "teacher_control": 0,
+          "valid_fraction": 0.902046783625731
+        },
+        {
+          "samples": 1306,
+          "valid_labels": 784,
+          "teacher_control": 0,
+          "valid_fraction": 0.6003062787136294
+        }
+      ]
+    },
+    {
+      "clip_id": 45,
+      "phase_bins": [
+        {
+          "samples": 417,
+          "valid_labels": 417,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1388,
+          "valid_labels": 803,
+          "teacher_control": 0,
+          "valid_fraction": 0.5785302593659942
+        },
+        {
+          "samples": 1473,
+          "valid_labels": 391,
+          "teacher_control": 0,
+          "valid_fraction": 0.2654446707399864
+        },
+        {
+          "samples": 564,
+          "valid_labels": 549,
+          "teacher_control": 0,
+          "valid_fraction": 0.973404255319149
+        },
+        {
+          "samples": 780,
+          "valid_labels": 456,
+          "teacher_control": 0,
+          "valid_fraction": 0.5846153846153846
+        }
+      ]
+    },
+    {
+      "clip_id": 46,
+      "phase_bins": [
+        {
+          "samples": 700,
+          "valid_labels": 683,
+          "teacher_control": 0,
+          "valid_fraction": 0.9757142857142858
+        },
+        {
+          "samples": 1399,
+          "valid_labels": 842,
+          "teacher_control": 0,
+          "valid_fraction": 0.6018584703359543
+        },
+        {
+          "samples": 1732,
+          "valid_labels": 867,
+          "teacher_control": 0,
+          "valid_fraction": 0.5005773672055427
+        },
+        {
+          "samples": 1280,
+          "valid_labels": 853,
+          "teacher_control": 0,
+          "valid_fraction": 0.66640625
+        },
+        {
+          "samples": 1353,
+          "valid_labels": 882,
+          "teacher_control": 0,
+          "valid_fraction": 0.6518847006651884
+        }
+      ]
+    },
+    {
+      "clip_id": 47,
+      "phase_bins": [
+        {
+          "samples": 270,
+          "valid_labels": 270,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1133,
+          "valid_labels": 637,
+          "teacher_control": 0,
+          "valid_fraction": 0.5622241835834069
+        },
+        {
+          "samples": 970,
+          "valid_labels": 670,
+          "teacher_control": 0,
+          "valid_fraction": 0.6907216494845361
+        },
+        {
+          "samples": 1750,
+          "valid_labels": 1628,
+          "teacher_control": 0,
+          "valid_fraction": 0.9302857142857143
+        },
+        {
+          "samples": 2157,
+          "valid_labels": 1577,
+          "teacher_control": 0,
+          "valid_fraction": 0.7311080203987019
+        }
+      ]
+    },
+    {
+      "clip_id": 48,
+      "phase_bins": [
+        {
+          "samples": 202,
+          "valid_labels": 168,
+          "teacher_control": 0,
+          "valid_fraction": 0.8316831683168316
+        },
+        {
+          "samples": 702,
+          "valid_labels": 249,
+          "teacher_control": 0,
+          "valid_fraction": 0.3547008547008547
+        },
+        {
+          "samples": 1134,
+          "valid_labels": 889,
+          "teacher_control": 0,
+          "valid_fraction": 0.7839506172839507
+        },
+        {
+          "samples": 1374,
+          "valid_labels": 1090,
+          "teacher_control": 0,
+          "valid_fraction": 0.7933042212518195
+        },
+        {
+          "samples": 1345,
+          "valid_labels": 774,
+          "teacher_control": 0,
+          "valid_fraction": 0.5754646840148699
+        }
+      ]
+    },
+    {
+      "clip_id": 49,
+      "phase_bins": [
+        {
+          "samples": 160,
+          "valid_labels": 160,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1204,
+          "valid_labels": 728,
+          "teacher_control": 0,
+          "valid_fraction": 0.6046511627906976
+        },
+        {
+          "samples": 1626,
+          "valid_labels": 1358,
+          "teacher_control": 0,
+          "valid_fraction": 0.8351783517835178
+        },
+        {
+          "samples": 1407,
+          "valid_labels": 1215,
+          "teacher_control": 0,
+          "valid_fraction": 0.8635394456289979
+        },
+        {
+          "samples": 1273,
+          "valid_labels": 902,
+          "teacher_control": 0,
+          "valid_fraction": 0.7085624509033779
+        }
+      ]
+    },
+    {
+      "clip_id": 50,
+      "phase_bins": [
+        {
+          "samples": 410,
+          "valid_labels": 410,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 941,
+          "valid_labels": 487,
+          "teacher_control": 0,
+          "valid_fraction": 0.5175345377258236
+        },
+        {
+          "samples": 1094,
+          "valid_labels": 634,
+          "teacher_control": 0,
+          "valid_fraction": 0.5795246800731262
+        },
+        {
+          "samples": 1953,
+          "valid_labels": 1786,
+          "teacher_control": 0,
+          "valid_fraction": 0.9144905273937532
+        },
+        {
+          "samples": 2580,
+          "valid_labels": 1529,
+          "teacher_control": 0,
+          "valid_fraction": 0.5926356589147287
+        }
+      ]
+    },
+    {
+      "clip_id": 51,
+      "phase_bins": [
+        {
+          "samples": 101,
+          "valid_labels": 101,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 334,
+          "valid_labels": 158,
+          "teacher_control": 0,
+          "valid_fraction": 0.47305389221556887
+        },
+        {
+          "samples": 951,
+          "valid_labels": 749,
+          "teacher_control": 0,
+          "valid_fraction": 0.7875920084121977
+        },
+        {
+          "samples": 1635,
+          "valid_labels": 1585,
+          "teacher_control": 0,
+          "valid_fraction": 0.9694189602446484
+        },
+        {
+          "samples": 1995,
+          "valid_labels": 1650,
+          "teacher_control": 0,
+          "valid_fraction": 0.8270676691729323
+        }
+      ]
+    },
+    {
+      "clip_id": 52,
+      "phase_bins": [
+        {
+          "samples": 469,
+          "valid_labels": 469,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 990,
+          "valid_labels": 554,
+          "teacher_control": 0,
+          "valid_fraction": 0.5595959595959596
+        },
+        {
+          "samples": 1035,
+          "valid_labels": 556,
+          "teacher_control": 0,
+          "valid_fraction": 0.5371980676328503
+        },
+        {
+          "samples": 853,
+          "valid_labels": 526,
+          "teacher_control": 0,
+          "valid_fraction": 0.6166471277842908
+        },
+        {
+          "samples": 1017,
+          "valid_labels": 731,
+          "teacher_control": 0,
+          "valid_fraction": 0.7187807276302851
+        }
+      ]
+    },
+    {
+      "clip_id": 53,
+      "phase_bins": [
+        {
+          "samples": 46,
+          "valid_labels": 46,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 810,
+          "valid_labels": 452,
+          "teacher_control": 0,
+          "valid_fraction": 0.5580246913580247
+        },
+        {
+          "samples": 920,
+          "valid_labels": 364,
+          "teacher_control": 0,
+          "valid_fraction": 0.39565217391304347
+        },
+        {
+          "samples": 621,
+          "valid_labels": 464,
+          "teacher_control": 0,
+          "valid_fraction": 0.7471819645732689
+        },
+        {
+          "samples": 1161,
+          "valid_labels": 1161,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        }
+      ]
+    },
+    {
+      "clip_id": 54,
+      "phase_bins": [
+        {
+          "samples": 362,
+          "valid_labels": 360,
+          "teacher_control": 0,
+          "valid_fraction": 0.994475138121547
+        },
+        {
+          "samples": 962,
+          "valid_labels": 554,
+          "teacher_control": 0,
+          "valid_fraction": 0.5758835758835759
+        },
+        {
+          "samples": 759,
+          "valid_labels": 275,
+          "teacher_control": 0,
+          "valid_fraction": 0.36231884057971014
+        },
+        {
+          "samples": 951,
+          "valid_labels": 859,
+          "teacher_control": 0,
+          "valid_fraction": 0.9032597266035752
+        },
+        {
+          "samples": 1639,
+          "valid_labels": 1526,
+          "teacher_control": 0,
+          "valid_fraction": 0.9310555216595485
+        }
+      ]
+    },
+    {
+      "clip_id": 55,
+      "phase_bins": [
+        {
+          "samples": 134,
+          "valid_labels": 134,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 680,
+          "valid_labels": 344,
+          "teacher_control": 0,
+          "valid_fraction": 0.5058823529411764
+        },
+        {
+          "samples": 919,
+          "valid_labels": 365,
+          "teacher_control": 0,
+          "valid_fraction": 0.397170837867247
+        },
+        {
+          "samples": 1052,
+          "valid_labels": 914,
+          "teacher_control": 0,
+          "valid_fraction": 0.8688212927756654
+        },
+        {
+          "samples": 1649,
+          "valid_labels": 1110,
+          "teacher_control": 0,
+          "valid_fraction": 0.6731352334748333
+        }
+      ]
+    },
+    {
+      "clip_id": 56,
+      "phase_bins": [
+        {
+          "samples": 272,
+          "valid_labels": 272,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 374,
+          "valid_labels": 188,
+          "teacher_control": 0,
+          "valid_fraction": 0.5026737967914439
+        },
+        {
+          "samples": 392,
+          "valid_labels": 255,
+          "teacher_control": 0,
+          "valid_fraction": 0.6505102040816326
+        },
+        {
+          "samples": 967,
+          "valid_labels": 927,
+          "teacher_control": 0,
+          "valid_fraction": 0.9586349534643226
+        },
+        {
+          "samples": 1349,
+          "valid_labels": 1117,
+          "teacher_control": 0,
+          "valid_fraction": 0.8280207561156412
+        }
+      ]
+    },
+    {
+      "clip_id": 57,
+      "phase_bins": [
+        {
+          "samples": 221,
+          "valid_labels": 221,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1405,
+          "valid_labels": 545,
+          "teacher_control": 0,
+          "valid_fraction": 0.3879003558718861
+        },
+        {
+          "samples": 1031,
+          "valid_labels": 626,
+          "teacher_control": 0,
+          "valid_fraction": 0.6071774975751697
+        },
+        {
+          "samples": 1266,
+          "valid_labels": 902,
+          "teacher_control": 0,
+          "valid_fraction": 0.7124802527646129
+        },
+        {
+          "samples": 1069,
+          "valid_labels": 726,
+          "teacher_control": 0,
+          "valid_fraction": 0.6791393826005613
+        }
+      ]
+    },
+    {
+      "clip_id": 58,
+      "phase_bins": [
+        {
+          "samples": 279,
+          "valid_labels": 258,
+          "teacher_control": 0,
+          "valid_fraction": 0.9247311827956989
+        },
+        {
+          "samples": 671,
+          "valid_labels": 419,
+          "teacher_control": 0,
+          "valid_fraction": 0.624441132637854
+        },
+        {
+          "samples": 1082,
+          "valid_labels": 841,
+          "teacher_control": 0,
+          "valid_fraction": 0.777264325323475
+        },
+        {
+          "samples": 908,
+          "valid_labels": 781,
+          "teacher_control": 0,
+          "valid_fraction": 0.8601321585903083
+        },
+        {
+          "samples": 1462,
+          "valid_labels": 1085,
+          "teacher_control": 0,
+          "valid_fraction": 0.7421340629274966
+        }
+      ]
+    },
+    {
+      "clip_id": 59,
+      "phase_bins": [
+        {
+          "samples": 217,
+          "valid_labels": 217,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 500,
+          "valid_labels": 230,
+          "teacher_control": 0,
+          "valid_fraction": 0.46
+        },
+        {
+          "samples": 586,
+          "valid_labels": 371,
+          "teacher_control": 0,
+          "valid_fraction": 0.6331058020477816
+        },
+        {
+          "samples": 693,
+          "valid_labels": 579,
+          "teacher_control": 0,
+          "valid_fraction": 0.8354978354978355
+        },
+        {
+          "samples": 748,
+          "valid_labels": 366,
+          "teacher_control": 0,
+          "valid_fraction": 0.4893048128342246
+        }
+      ]
+    },
+    {
+      "clip_id": 60,
+      "phase_bins": [
+        {
+          "samples": 376,
+          "valid_labels": 376,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1163,
+          "valid_labels": 681,
+          "teacher_control": 0,
+          "valid_fraction": 0.585554600171969
+        },
+        {
+          "samples": 1288,
+          "valid_labels": 360,
+          "teacher_control": 0,
+          "valid_fraction": 0.2795031055900621
+        },
+        {
+          "samples": 1209,
+          "valid_labels": 1041,
+          "teacher_control": 0,
+          "valid_fraction": 0.8610421836228288
+        },
+        {
+          "samples": 1583,
+          "valid_labels": 1364,
+          "teacher_control": 0,
+          "valid_fraction": 0.8616550852811118
+        }
+      ]
+    },
+    {
+      "clip_id": 61,
+      "phase_bins": [
+        {
+          "samples": 441,
+          "valid_labels": 441,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1640,
+          "valid_labels": 922,
+          "teacher_control": 0,
+          "valid_fraction": 0.5621951219512196
+        },
+        {
+          "samples": 2286,
+          "valid_labels": 1007,
+          "teacher_control": 0,
+          "valid_fraction": 0.4405074365704287
+        },
+        {
+          "samples": 1117,
+          "valid_labels": 834,
+          "teacher_control": 0,
+          "valid_fraction": 0.7466427931960609
+        },
+        {
+          "samples": 1123,
+          "valid_labels": 750,
+          "teacher_control": 0,
+          "valid_fraction": 0.667853962600178
+        }
+      ]
+    },
+    {
+      "clip_id": 62,
+      "phase_bins": [
+        {
+          "samples": 382,
+          "valid_labels": 361,
+          "teacher_control": 0,
+          "valid_fraction": 0.9450261780104712
+        },
+        {
+          "samples": 1629,
+          "valid_labels": 946,
+          "teacher_control": 0,
+          "valid_fraction": 0.5807243707796194
+        },
+        {
+          "samples": 1611,
+          "valid_labels": 902,
+          "teacher_control": 0,
+          "valid_fraction": 0.5599006828057107
+        },
+        {
+          "samples": 1174,
+          "valid_labels": 882,
+          "teacher_control": 0,
+          "valid_fraction": 0.7512776831345827
+        },
+        {
+          "samples": 1046,
+          "valid_labels": 570,
+          "teacher_control": 0,
+          "valid_fraction": 0.5449330783938815
+        }
+      ]
+    },
+    {
+      "clip_id": 63,
+      "phase_bins": [
+        {
+          "samples": 550,
+          "valid_labels": 541,
+          "teacher_control": 0,
+          "valid_fraction": 0.9836363636363636
+        },
+        {
+          "samples": 1458,
+          "valid_labels": 954,
+          "teacher_control": 0,
+          "valid_fraction": 0.654320987654321
+        },
+        {
+          "samples": 1027,
+          "valid_labels": 59,
+          "teacher_control": 0,
+          "valid_fraction": 0.05744888023369036
+        },
+        {
+          "samples": 407,
+          "valid_labels": 387,
+          "teacher_control": 0,
+          "valid_fraction": 0.9508599508599509
+        },
+        {
+          "samples": 518,
+          "valid_labels": 406,
+          "teacher_control": 0,
+          "valid_fraction": 0.7837837837837838
+        }
+      ]
+    },
+    {
+      "clip_id": 64,
+      "phase_bins": [
+        {
+          "samples": 66,
+          "valid_labels": 66,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 698,
+          "valid_labels": 499,
+          "teacher_control": 0,
+          "valid_fraction": 0.7148997134670487
+        },
+        {
+          "samples": 1328,
+          "valid_labels": 1140,
+          "teacher_control": 0,
+          "valid_fraction": 0.858433734939759
+        },
+        {
+          "samples": 1595,
+          "valid_labels": 1332,
+          "teacher_control": 0,
+          "valid_fraction": 0.8351097178683385
+        },
+        {
+          "samples": 2086,
+          "valid_labels": 1430,
+          "teacher_control": 0,
+          "valid_fraction": 0.6855225311601151
+        }
+      ]
+    },
+    {
+      "clip_id": 65,
+      "phase_bins": [
+        {
+          "samples": 412,
+          "valid_labels": 390,
+          "teacher_control": 0,
+          "valid_fraction": 0.9466019417475728
+        },
+        {
+          "samples": 1132,
+          "valid_labels": 457,
+          "teacher_control": 0,
+          "valid_fraction": 0.4037102473498233
+        },
+        {
+          "samples": 919,
+          "valid_labels": 591,
+          "teacher_control": 0,
+          "valid_fraction": 0.6430903155603918
+        },
+        {
+          "samples": 1394,
+          "valid_labels": 1144,
+          "teacher_control": 0,
+          "valid_fraction": 0.8206599713055954
+        },
+        {
+          "samples": 1733,
+          "valid_labels": 1231,
+          "teacher_control": 0,
+          "valid_fraction": 0.710328909405655
+        }
+      ]
+    },
+    {
+      "clip_id": 66,
+      "phase_bins": [
+        {
+          "samples": 673,
+          "valid_labels": 673,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1384,
+          "valid_labels": 896,
+          "teacher_control": 0,
+          "valid_fraction": 0.6473988439306358
+        },
+        {
+          "samples": 1202,
+          "valid_labels": 655,
+          "teacher_control": 0,
+          "valid_fraction": 0.5449251247920133
+        },
+        {
+          "samples": 1154,
+          "valid_labels": 1066,
+          "teacher_control": 0,
+          "valid_fraction": 0.9237435008665511
+        },
+        {
+          "samples": 1403,
+          "valid_labels": 947,
+          "teacher_control": 0,
+          "valid_fraction": 0.6749821810406272
+        }
+      ]
+    },
+    {
+      "clip_id": 67,
+      "phase_bins": [
+        {
+          "samples": 604,
+          "valid_labels": 560,
+          "teacher_control": 0,
+          "valid_fraction": 0.9271523178807947
+        },
+        {
+          "samples": 1161,
+          "valid_labels": 661,
+          "teacher_control": 0,
+          "valid_fraction": 0.5693367786391043
+        },
+        {
+          "samples": 1347,
+          "valid_labels": 637,
+          "teacher_control": 0,
+          "valid_fraction": 0.4729027468448404
+        },
+        {
+          "samples": 856,
+          "valid_labels": 783,
+          "teacher_control": 0,
+          "valid_fraction": 0.9147196261682243
+        },
+        {
+          "samples": 861,
+          "valid_labels": 592,
+          "teacher_control": 0,
+          "valid_fraction": 0.6875725900116144
+        }
+      ]
+    },
+    {
+      "clip_id": 68,
+      "phase_bins": [
+        {
+          "samples": 321,
+          "valid_labels": 321,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1370,
+          "valid_labels": 741,
+          "teacher_control": 0,
+          "valid_fraction": 0.5408759124087591
+        },
+        {
+          "samples": 1589,
+          "valid_labels": 903,
+          "teacher_control": 0,
+          "valid_fraction": 0.5682819383259912
+        },
+        {
+          "samples": 1275,
+          "valid_labels": 1201,
+          "teacher_control": 0,
+          "valid_fraction": 0.9419607843137255
+        },
+        {
+          "samples": 1624,
+          "valid_labels": 1152,
+          "teacher_control": 0,
+          "valid_fraction": 0.7093596059113301
+        }
+      ]
+    },
+    {
+      "clip_id": 69,
+      "phase_bins": [
+        {
+          "samples": 95,
+          "valid_labels": 95,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 600,
+          "valid_labels": 361,
+          "teacher_control": 0,
+          "valid_fraction": 0.6016666666666667
+        },
+        {
+          "samples": 833,
+          "valid_labels": 662,
+          "teacher_control": 0,
+          "valid_fraction": 0.7947178871548619
+        },
+        {
+          "samples": 1465,
+          "valid_labels": 1202,
+          "teacher_control": 0,
+          "valid_fraction": 0.8204778156996587
+        },
+        {
+          "samples": 1193,
+          "valid_labels": 721,
+          "teacher_control": 0,
+          "valid_fraction": 0.6043587594300084
+        }
+      ]
+    },
+    {
+      "clip_id": 70,
+      "phase_bins": [
+        {
+          "samples": 354,
+          "valid_labels": 354,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 755,
+          "valid_labels": 410,
+          "teacher_control": 0,
+          "valid_fraction": 0.543046357615894
+        },
+        {
+          "samples": 1467,
+          "valid_labels": 826,
+          "teacher_control": 0,
+          "valid_fraction": 0.5630538513974097
+        },
+        {
+          "samples": 1513,
+          "valid_labels": 1394,
+          "teacher_control": 0,
+          "valid_fraction": 0.9213483146067416
+        },
+        {
+          "samples": 2114,
+          "valid_labels": 1188,
+          "teacher_control": 0,
+          "valid_fraction": 0.5619678334910123
+        }
+      ]
+    },
+    {
+      "clip_id": 71,
+      "phase_bins": [
+        {
+          "samples": 36,
+          "valid_labels": 36,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 601,
+          "valid_labels": 365,
+          "teacher_control": 0,
+          "valid_fraction": 0.6073211314475874
+        },
+        {
+          "samples": 822,
+          "valid_labels": 467,
+          "teacher_control": 0,
+          "valid_fraction": 0.5681265206812652
+        },
+        {
+          "samples": 1451,
+          "valid_labels": 1413,
+          "teacher_control": 0,
+          "valid_fraction": 0.9738111647139903
+        },
+        {
+          "samples": 1744,
+          "valid_labels": 1207,
+          "teacher_control": 0,
+          "valid_fraction": 0.6920871559633027
+        }
+      ]
+    },
+    {
+      "clip_id": 72,
+      "phase_bins": [
+        {
+          "samples": 359,
+          "valid_labels": 359,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1009,
+          "valid_labels": 494,
+          "teacher_control": 0,
+          "valid_fraction": 0.489593657086224
+        },
+        {
+          "samples": 1070,
+          "valid_labels": 617,
+          "teacher_control": 0,
+          "valid_fraction": 0.5766355140186916
+        },
+        {
+          "samples": 932,
+          "valid_labels": 769,
+          "teacher_control": 0,
+          "valid_fraction": 0.825107296137339
+        },
+        {
+          "samples": 1356,
+          "valid_labels": 1143,
+          "teacher_control": 0,
+          "valid_fraction": 0.8429203539823009
+        }
+      ]
+    },
+    {
+      "clip_id": 73,
+      "phase_bins": [
+        {
+          "samples": 9,
+          "valid_labels": 9,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 609,
+          "valid_labels": 274,
+          "teacher_control": 0,
+          "valid_fraction": 0.44991789819376027
+        },
+        {
+          "samples": 1001,
+          "valid_labels": 773,
+          "teacher_control": 0,
+          "valid_fraction": 0.7722277722277723
+        },
+        {
+          "samples": 1741,
+          "valid_labels": 1437,
+          "teacher_control": 0,
+          "valid_fraction": 0.8253877082136704
+        },
+        {
+          "samples": 1627,
+          "valid_labels": 1148,
+          "teacher_control": 0,
+          "valid_fraction": 0.7055931161647203
+        }
+      ]
+    },
+    {
+      "clip_id": 74,
+      "phase_bins": [
+        {
+          "samples": 477,
+          "valid_labels": 477,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 970,
+          "valid_labels": 513,
+          "teacher_control": 0,
+          "valid_fraction": 0.5288659793814433
+        },
+        {
+          "samples": 1354,
+          "valid_labels": 594,
+          "teacher_control": 0,
+          "valid_fraction": 0.43870014771048743
+        },
+        {
+          "samples": 997,
+          "valid_labels": 818,
+          "teacher_control": 0,
+          "valid_fraction": 0.8204613841524574
+        },
+        {
+          "samples": 1243,
+          "valid_labels": 712,
+          "teacher_control": 0,
+          "valid_fraction": 0.5728077232502011
+        }
+      ]
+    },
+    {
+      "clip_id": 75,
+      "phase_bins": [
+        {
+          "samples": 472,
+          "valid_labels": 472,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1213,
+          "valid_labels": 574,
+          "teacher_control": 0,
+          "valid_fraction": 0.47320692497938993
+        },
+        {
+          "samples": 936,
+          "valid_labels": 456,
+          "teacher_control": 0,
+          "valid_fraction": 0.48717948717948717
+        },
+        {
+          "samples": 714,
+          "valid_labels": 457,
+          "teacher_control": 0,
+          "valid_fraction": 0.6400560224089635
+        },
+        {
+          "samples": 1100,
+          "valid_labels": 736,
+          "teacher_control": 0,
+          "valid_fraction": 0.6690909090909091
+        }
+      ]
+    },
+    {
+      "clip_id": 76,
+      "phase_bins": [
+        {
+          "samples": 168,
+          "valid_labels": 168,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 716,
+          "valid_labels": 396,
+          "teacher_control": 0,
+          "valid_fraction": 0.553072625698324
+        },
+        {
+          "samples": 636,
+          "valid_labels": 406,
+          "teacher_control": 0,
+          "valid_fraction": 0.6383647798742138
+        },
+        {
+          "samples": 966,
+          "valid_labels": 849,
+          "teacher_control": 0,
+          "valid_fraction": 0.8788819875776398
+        },
+        {
+          "samples": 1619,
+          "valid_labels": 1057,
+          "teacher_control": 0,
+          "valid_fraction": 0.6528721432983323
+        }
+      ]
+    },
+    {
+      "clip_id": 77,
+      "phase_bins": [
+        {
+          "samples": 659,
+          "valid_labels": 640,
+          "teacher_control": 0,
+          "valid_fraction": 0.9711684370257967
+        },
+        {
+          "samples": 1847,
+          "valid_labels": 961,
+          "teacher_control": 0,
+          "valid_fraction": 0.5203031943692474
+        },
+        {
+          "samples": 2199,
+          "valid_labels": 1412,
+          "teacher_control": 0,
+          "valid_fraction": 0.6421100500227376
+        },
+        {
+          "samples": 1695,
+          "valid_labels": 1294,
+          "teacher_control": 0,
+          "valid_fraction": 0.7634218289085546
+        },
+        {
+          "samples": 1553,
+          "valid_labels": 659,
+          "teacher_control": 0,
+          "valid_fraction": 0.42433998712169996
+        }
+      ]
+    },
+    {
+      "clip_id": 78,
+      "phase_bins": [
+        {
+          "samples": 340,
+          "valid_labels": 340,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1083,
+          "valid_labels": 677,
+          "teacher_control": 0,
+          "valid_fraction": 0.6251154201292706
+        },
+        {
+          "samples": 1735,
+          "valid_labels": 1074,
+          "teacher_control": 0,
+          "valid_fraction": 0.6190201729106628
+        },
+        {
+          "samples": 1141,
+          "valid_labels": 800,
+          "teacher_control": 0,
+          "valid_fraction": 0.7011393514461
+        },
+        {
+          "samples": 995,
+          "valid_labels": 822,
+          "teacher_control": 0,
+          "valid_fraction": 0.8261306532663316
+        }
+      ]
+    },
+    {
+      "clip_id": 79,
+      "phase_bins": [
+        {
+          "samples": 632,
+          "valid_labels": 631,
+          "teacher_control": 0,
+          "valid_fraction": 0.9984177215189873
+        },
+        {
+          "samples": 1382,
+          "valid_labels": 768,
+          "teacher_control": 0,
+          "valid_fraction": 0.5557163531114327
+        },
+        {
+          "samples": 1577,
+          "valid_labels": 862,
+          "teacher_control": 0,
+          "valid_fraction": 0.5466074825618262
+        },
+        {
+          "samples": 1701,
+          "valid_labels": 1291,
+          "teacher_control": 0,
+          "valid_fraction": 0.7589653145208701
+        },
+        {
+          "samples": 1607,
+          "valid_labels": 1023,
+          "teacher_control": 0,
+          "valid_fraction": 0.6365899191039204
+        }
+      ]
+    },
+    {
+      "clip_id": 80,
+      "phase_bins": [
+        {
+          "samples": 352,
+          "valid_labels": 352,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 898,
+          "valid_labels": 543,
+          "teacher_control": 0,
+          "valid_fraction": 0.6046770601336303
+        },
+        {
+          "samples": 1703,
+          "valid_labels": 1380,
+          "teacher_control": 0,
+          "valid_fraction": 0.8103347034644744
+        },
+        {
+          "samples": 2286,
+          "valid_labels": 1851,
+          "teacher_control": 0,
+          "valid_fraction": 0.8097112860892388
+        },
+        {
+          "samples": 1516,
+          "valid_labels": 621,
+          "teacher_control": 0,
+          "valid_fraction": 0.4096306068601583
+        }
+      ]
+    },
+    {
+      "clip_id": 81,
+      "phase_bins": [
+        {
+          "samples": 525,
+          "valid_labels": 525,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 950,
+          "valid_labels": 435,
+          "teacher_control": 0,
+          "valid_fraction": 0.45789473684210524
+        },
+        {
+          "samples": 1652,
+          "valid_labels": 1230,
+          "teacher_control": 0,
+          "valid_fraction": 0.7445520581113801
+        },
+        {
+          "samples": 1769,
+          "valid_labels": 1481,
+          "teacher_control": 0,
+          "valid_fraction": 0.8371961560203505
+        },
+        {
+          "samples": 2508,
+          "valid_labels": 1344,
+          "teacher_control": 0,
+          "valid_fraction": 0.5358851674641149
+        }
+      ]
+    },
+    {
+      "clip_id": 82,
+      "phase_bins": [
+        {
+          "samples": 628,
+          "valid_labels": 628,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1310,
+          "valid_labels": 741,
+          "teacher_control": 0,
+          "valid_fraction": 0.565648854961832
+        },
+        {
+          "samples": 1553,
+          "valid_labels": 501,
+          "teacher_control": 0,
+          "valid_fraction": 0.32260141661300706
+        },
+        {
+          "samples": 720,
+          "valid_labels": 629,
+          "teacher_control": 0,
+          "valid_fraction": 0.8736111111111111
+        },
+        {
+          "samples": 979,
+          "valid_labels": 884,
+          "teacher_control": 0,
+          "valid_fraction": 0.9029622063329928
+        }
+      ]
+    },
+    {
+      "clip_id": 83,
+      "phase_bins": [
+        {
+          "samples": 687,
+          "valid_labels": 687,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1044,
+          "valid_labels": 601,
+          "teacher_control": 0,
+          "valid_fraction": 0.5756704980842912
+        },
+        {
+          "samples": 601,
+          "valid_labels": 231,
+          "teacher_control": 0,
+          "valid_fraction": 0.3843594009983361
+        },
+        {
+          "samples": 635,
+          "valid_labels": 490,
+          "teacher_control": 0,
+          "valid_fraction": 0.7716535433070866
+        },
+        {
+          "samples": 1078,
+          "valid_labels": 663,
+          "teacher_control": 0,
+          "valid_fraction": 0.6150278293135436
+        }
+      ]
+    },
+    {
+      "clip_id": 84,
+      "phase_bins": [
+        {
+          "samples": 579,
+          "valid_labels": 532,
+          "teacher_control": 0,
+          "valid_fraction": 0.918825561312608
+        },
+        {
+          "samples": 775,
+          "valid_labels": 458,
+          "teacher_control": 0,
+          "valid_fraction": 0.5909677419354838
+        },
+        {
+          "samples": 650,
+          "valid_labels": 237,
+          "teacher_control": 0,
+          "valid_fraction": 0.3646153846153846
+        },
+        {
+          "samples": 878,
+          "valid_labels": 790,
+          "teacher_control": 0,
+          "valid_fraction": 0.8997722095671982
+        },
+        {
+          "samples": 1245,
+          "valid_labels": 798,
+          "teacher_control": 0,
+          "valid_fraction": 0.6409638554216868
+        }
+      ]
+    },
+    {
+      "clip_id": 85,
+      "phase_bins": [
+        {
+          "samples": 80,
+          "valid_labels": 80,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 879,
+          "valid_labels": 534,
+          "teacher_control": 0,
+          "valid_fraction": 0.6075085324232082
+        },
+        {
+          "samples": 627,
+          "valid_labels": 342,
+          "teacher_control": 0,
+          "valid_fraction": 0.5454545454545454
+        },
+        {
+          "samples": 604,
+          "valid_labels": 504,
+          "teacher_control": 0,
+          "valid_fraction": 0.8344370860927153
+        },
+        {
+          "samples": 583,
+          "valid_labels": 378,
+          "teacher_control": 0,
+          "valid_fraction": 0.6483704974271012
+        }
+      ]
+    },
+    {
+      "clip_id": 86,
+      "phase_bins": [
+        {
+          "samples": 291,
+          "valid_labels": 291,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1598,
+          "valid_labels": 984,
+          "teacher_control": 0,
+          "valid_fraction": 0.6157697121401752
+        },
+        {
+          "samples": 1610,
+          "valid_labels": 905,
+          "teacher_control": 0,
+          "valid_fraction": 0.562111801242236
+        },
+        {
+          "samples": 914,
+          "valid_labels": 722,
+          "teacher_control": 0,
+          "valid_fraction": 0.7899343544857768
+        },
+        {
+          "samples": 1074,
+          "valid_labels": 918,
+          "teacher_control": 0,
+          "valid_fraction": 0.8547486033519553
+        }
+      ]
+    },
+    {
+      "clip_id": 87,
+      "phase_bins": [
+        {
+          "samples": 219,
+          "valid_labels": 219,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 872,
+          "valid_labels": 403,
+          "teacher_control": 0,
+          "valid_fraction": 0.46215596330275227
+        },
+        {
+          "samples": 921,
+          "valid_labels": 543,
+          "teacher_control": 0,
+          "valid_fraction": 0.5895765472312704
+        },
+        {
+          "samples": 1068,
+          "valid_labels": 873,
+          "teacher_control": 0,
+          "valid_fraction": 0.8174157303370787
+        },
+        {
+          "samples": 1306,
+          "valid_labels": 1224,
+          "teacher_control": 0,
+          "valid_fraction": 0.9372128637059725
+        }
+      ]
+    },
+    {
+      "clip_id": 88,
+      "phase_bins": [
+        {
+          "samples": 93,
+          "valid_labels": 93,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1201,
+          "valid_labels": 579,
+          "teacher_control": 0,
+          "valid_fraction": 0.48209825145711904
+        },
+        {
+          "samples": 1944,
+          "valid_labels": 1647,
+          "teacher_control": 0,
+          "valid_fraction": 0.8472222222222222
+        },
+        {
+          "samples": 2374,
+          "valid_labels": 1978,
+          "teacher_control": 0,
+          "valid_fraction": 0.8331929233361416
+        },
+        {
+          "samples": 1808,
+          "valid_labels": 855,
+          "teacher_control": 0,
+          "valid_fraction": 0.4728982300884956
+        }
+      ]
+    },
+    {
+      "clip_id": 89,
+      "phase_bins": [
+        {
+          "samples": 242,
+          "valid_labels": 242,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 832,
+          "valid_labels": 334,
+          "teacher_control": 0,
+          "valid_fraction": 0.4014423076923077
+        },
+        {
+          "samples": 912,
+          "valid_labels": 698,
+          "teacher_control": 0,
+          "valid_fraction": 0.7653508771929824
+        },
+        {
+          "samples": 988,
+          "valid_labels": 884,
+          "teacher_control": 0,
+          "valid_fraction": 0.8947368421052632
+        },
+        {
+          "samples": 1123,
+          "valid_labels": 605,
+          "teacher_control": 0,
+          "valid_fraction": 0.5387355298308103
+        }
+      ]
+    },
+    {
+      "clip_id": 90,
+      "phase_bins": [
+        {
+          "samples": 234,
+          "valid_labels": 234,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1136,
+          "valid_labels": 622,
+          "teacher_control": 0,
+          "valid_fraction": 0.5475352112676056
+        },
+        {
+          "samples": 1177,
+          "valid_labels": 775,
+          "teacher_control": 0,
+          "valid_fraction": 0.6584536958368734
+        },
+        {
+          "samples": 1105,
+          "valid_labels": 723,
+          "teacher_control": 0,
+          "valid_fraction": 0.6542986425339367
+        },
+        {
+          "samples": 1346,
+          "valid_labels": 913,
+          "teacher_control": 0,
+          "valid_fraction": 0.6783060921248143
+        }
+      ]
+    },
+    {
+      "clip_id": 91,
+      "phase_bins": [
+        {
+          "samples": 242,
+          "valid_labels": 242,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 973,
+          "valid_labels": 577,
+          "teacher_control": 0,
+          "valid_fraction": 0.593011305241521
+        },
+        {
+          "samples": 1419,
+          "valid_labels": 1034,
+          "teacher_control": 0,
+          "valid_fraction": 0.7286821705426356
+        },
+        {
+          "samples": 1646,
+          "valid_labels": 1368,
+          "teacher_control": 0,
+          "valid_fraction": 0.8311057108140948
+        },
+        {
+          "samples": 1657,
+          "valid_labels": 1064,
+          "teacher_control": 0,
+          "valid_fraction": 0.6421243210621606
+        }
+      ]
+    },
+    {
+      "clip_id": 92,
+      "phase_bins": [
+        {
+          "samples": 343,
+          "valid_labels": 343,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 746,
+          "valid_labels": 426,
+          "teacher_control": 0,
+          "valid_fraction": 0.5710455764075067
+        },
+        {
+          "samples": 1008,
+          "valid_labels": 768,
+          "teacher_control": 0,
+          "valid_fraction": 0.7619047619047619
+        },
+        {
+          "samples": 1325,
+          "valid_labels": 1285,
+          "teacher_control": 0,
+          "valid_fraction": 0.969811320754717
+        },
+        {
+          "samples": 1675,
+          "valid_labels": 1194,
+          "teacher_control": 0,
+          "valid_fraction": 0.7128358208955224
+        }
+      ]
+    },
+    {
+      "clip_id": 93,
+      "phase_bins": [
+        {
+          "samples": 292,
+          "valid_labels": 254,
+          "teacher_control": 0,
+          "valid_fraction": 0.8698630136986302
+        },
+        {
+          "samples": 724,
+          "valid_labels": 385,
+          "teacher_control": 0,
+          "valid_fraction": 0.5317679558011049
+        },
+        {
+          "samples": 655,
+          "valid_labels": 206,
+          "teacher_control": 0,
+          "valid_fraction": 0.3145038167938931
+        },
+        {
+          "samples": 538,
+          "valid_labels": 441,
+          "teacher_control": 0,
+          "valid_fraction": 0.8197026022304833
+        },
+        {
+          "samples": 1555,
+          "valid_labels": 1268,
+          "teacher_control": 0,
+          "valid_fraction": 0.8154340836012862
+        }
+      ]
+    },
+    {
+      "clip_id": 94,
+      "phase_bins": [
+        {
+          "samples": 437,
+          "valid_labels": 430,
+          "teacher_control": 0,
+          "valid_fraction": 0.9839816933638444
+        },
+        {
+          "samples": 1083,
+          "valid_labels": 608,
+          "teacher_control": 0,
+          "valid_fraction": 0.5614035087719298
+        },
+        {
+          "samples": 1250,
+          "valid_labels": 770,
+          "teacher_control": 0,
+          "valid_fraction": 0.616
+        },
+        {
+          "samples": 1055,
+          "valid_labels": 899,
+          "teacher_control": 0,
+          "valid_fraction": 0.852132701421801
+        },
+        {
+          "samples": 1468,
+          "valid_labels": 1376,
+          "teacher_control": 0,
+          "valid_fraction": 0.9373297002724795
+        }
+      ]
+    },
+    {
+      "clip_id": 95,
+      "phase_bins": [
+        {
+          "samples": 799,
+          "valid_labels": 799,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1457,
+          "valid_labels": 762,
+          "teacher_control": 0,
+          "valid_fraction": 0.5229924502402197
+        },
+        {
+          "samples": 1353,
+          "valid_labels": 681,
+          "teacher_control": 0,
+          "valid_fraction": 0.5033259423503326
+        },
+        {
+          "samples": 1192,
+          "valid_labels": 1095,
+          "teacher_control": 0,
+          "valid_fraction": 0.9186241610738255
+        },
+        {
+          "samples": 2355,
+          "valid_labels": 1933,
+          "teacher_control": 0,
+          "valid_fraction": 0.8208067940552017
+        }
+      ]
+    },
+    {
+      "clip_id": 96,
+      "phase_bins": [
+        {
+          "samples": 169,
+          "valid_labels": 169,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 911,
+          "valid_labels": 362,
+          "teacher_control": 0,
+          "valid_fraction": 0.3973655323819978
+        },
+        {
+          "samples": 1133,
+          "valid_labels": 530,
+          "teacher_control": 0,
+          "valid_fraction": 0.4677846425419241
+        },
+        {
+          "samples": 838,
+          "valid_labels": 675,
+          "teacher_control": 0,
+          "valid_fraction": 0.8054892601431981
+        },
+        {
+          "samples": 1043,
+          "valid_labels": 655,
+          "teacher_control": 0,
+          "valid_fraction": 0.6279961649089166
+        }
+      ]
+    },
+    {
+      "clip_id": 97,
+      "phase_bins": [
+        {
+          "samples": 321,
+          "valid_labels": 321,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1604,
+          "valid_labels": 669,
+          "teacher_control": 0,
+          "valid_fraction": 0.4170822942643391
+        },
+        {
+          "samples": 1253,
+          "valid_labels": 631,
+          "teacher_control": 0,
+          "valid_fraction": 0.5035913806863528
+        },
+        {
+          "samples": 1192,
+          "valid_labels": 1038,
+          "teacher_control": 0,
+          "valid_fraction": 0.8708053691275168
+        },
+        {
+          "samples": 1307,
+          "valid_labels": 991,
+          "teacher_control": 0,
+          "valid_fraction": 0.7582249426166794
+        }
+      ]
+    },
+    {
+      "clip_id": 98,
+      "phase_bins": [
+        {
+          "samples": 503,
+          "valid_labels": 503,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1051,
+          "valid_labels": 550,
+          "teacher_control": 0,
+          "valid_fraction": 0.5233111322549953
+        },
+        {
+          "samples": 1468,
+          "valid_labels": 967,
+          "teacher_control": 0,
+          "valid_fraction": 0.6587193460490464
+        },
+        {
+          "samples": 1100,
+          "valid_labels": 738,
+          "teacher_control": 0,
+          "valid_fraction": 0.6709090909090909
+        },
+        {
+          "samples": 1193,
+          "valid_labels": 909,
+          "teacher_control": 0,
+          "valid_fraction": 0.7619446772841576
+        }
+      ]
+    },
+    {
+      "clip_id": 99,
+      "phase_bins": [
+        {
+          "samples": 251,
+          "valid_labels": 251,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 981,
+          "valid_labels": 447,
+          "teacher_control": 0,
+          "valid_fraction": 0.45565749235474007
+        },
+        {
+          "samples": 1557,
+          "valid_labels": 1024,
+          "teacher_control": 0,
+          "valid_fraction": 0.6576750160565189
+        },
+        {
+          "samples": 2172,
+          "valid_labels": 1970,
+          "teacher_control": 0,
+          "valid_fraction": 0.9069981583793738
+        },
+        {
+          "samples": 2872,
+          "valid_labels": 1902,
+          "teacher_control": 0,
+          "valid_fraction": 0.6622562674094707
+        }
+      ]
+    },
+    {
+      "clip_id": 100,
+      "phase_bins": [
+        {
+          "samples": 159,
+          "valid_labels": 159,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 851,
+          "valid_labels": 552,
+          "teacher_control": 0,
+          "valid_fraction": 0.6486486486486487
+        },
+        {
+          "samples": 1389,
+          "valid_labels": 696,
+          "teacher_control": 0,
+          "valid_fraction": 0.5010799136069114
+        },
+        {
+          "samples": 2288,
+          "valid_labels": 2081,
+          "teacher_control": 0,
+          "valid_fraction": 0.909527972027972
+        },
+        {
+          "samples": 2412,
+          "valid_labels": 1995,
+          "teacher_control": 0,
+          "valid_fraction": 0.8271144278606966
+        }
+      ]
+    },
+    {
+      "clip_id": 101,
+      "phase_bins": [
+        {
+          "samples": 251,
+          "valid_labels": 215,
+          "teacher_control": 0,
+          "valid_fraction": 0.8565737051792829
+        },
+        {
+          "samples": 576,
+          "valid_labels": 349,
+          "teacher_control": 0,
+          "valid_fraction": 0.6059027777777778
+        },
+        {
+          "samples": 482,
+          "valid_labels": 129,
+          "teacher_control": 0,
+          "valid_fraction": 0.2676348547717842
+        },
+        {
+          "samples": 414,
+          "valid_labels": 414,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 886,
+          "valid_labels": 635,
+          "teacher_control": 0,
+          "valid_fraction": 0.7167042889390519
+        }
+      ]
+    },
+    {
+      "clip_id": 102,
+      "phase_bins": [
+        {
+          "samples": 436,
+          "valid_labels": 416,
+          "teacher_control": 0,
+          "valid_fraction": 0.9541284403669725
+        },
+        {
+          "samples": 824,
+          "valid_labels": 473,
+          "teacher_control": 0,
+          "valid_fraction": 0.5740291262135923
+        },
+        {
+          "samples": 1622,
+          "valid_labels": 1229,
+          "teacher_control": 0,
+          "valid_fraction": 0.7577065351418002
+        },
+        {
+          "samples": 1462,
+          "valid_labels": 1185,
+          "teacher_control": 0,
+          "valid_fraction": 0.8105335157318742
+        },
+        {
+          "samples": 1481,
+          "valid_labels": 963,
+          "teacher_control": 0,
+          "valid_fraction": 0.650236326806212
+        }
+      ]
+    },
+    {
+      "clip_id": 103,
+      "phase_bins": [
+        {
+          "samples": 308,
+          "valid_labels": 308,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1023,
+          "valid_labels": 657,
+          "teacher_control": 0,
+          "valid_fraction": 0.6422287390029325
+        },
+        {
+          "samples": 1864,
+          "valid_labels": 1024,
+          "teacher_control": 0,
+          "valid_fraction": 0.5493562231759657
+        },
+        {
+          "samples": 1553,
+          "valid_labels": 1467,
+          "teacher_control": 0,
+          "valid_fraction": 0.9446233097231166
+        },
+        {
+          "samples": 1808,
+          "valid_labels": 1545,
+          "teacher_control": 0,
+          "valid_fraction": 0.8545353982300885
+        }
+      ]
+    },
+    {
+      "clip_id": 104,
+      "phase_bins": [
+        {
+          "samples": 316,
+          "valid_labels": 316,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 622,
+          "valid_labels": 330,
+          "teacher_control": 0,
+          "valid_fraction": 0.5305466237942122
+        },
+        {
+          "samples": 1188,
+          "valid_labels": 907,
+          "teacher_control": 0,
+          "valid_fraction": 0.7634680134680135
+        },
+        {
+          "samples": 1206,
+          "valid_labels": 929,
+          "teacher_control": 0,
+          "valid_fraction": 0.7703150912106136
+        },
+        {
+          "samples": 1547,
+          "valid_labels": 1037,
+          "teacher_control": 0,
+          "valid_fraction": 0.6703296703296703
+        }
+      ]
+    },
+    {
+      "clip_id": 105,
+      "phase_bins": [
+        {
+          "samples": 100,
+          "valid_labels": 100,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 852,
+          "valid_labels": 427,
+          "teacher_control": 0,
+          "valid_fraction": 0.5011737089201878
+        },
+        {
+          "samples": 1039,
+          "valid_labels": 540,
+          "teacher_control": 0,
+          "valid_fraction": 0.519730510105871
+        },
+        {
+          "samples": 885,
+          "valid_labels": 625,
+          "teacher_control": 0,
+          "valid_fraction": 0.7062146892655368
+        },
+        {
+          "samples": 1185,
+          "valid_labels": 792,
+          "teacher_control": 0,
+          "valid_fraction": 0.6683544303797468
+        }
+      ]
+    },
+    {
+      "clip_id": 106,
+      "phase_bins": [
+        {
+          "samples": 401,
+          "valid_labels": 401,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1002,
+          "valid_labels": 556,
+          "teacher_control": 0,
+          "valid_fraction": 0.5548902195608783
+        },
+        {
+          "samples": 1427,
+          "valid_labels": 618,
+          "teacher_control": 0,
+          "valid_fraction": 0.43307638402242465
+        },
+        {
+          "samples": 821,
+          "valid_labels": 776,
+          "teacher_control": 0,
+          "valid_fraction": 0.9451887941534713
+        },
+        {
+          "samples": 1513,
+          "valid_labels": 1333,
+          "teacher_control": 0,
+          "valid_fraction": 0.8810310641110377
+        }
+      ]
+    },
+    {
+      "clip_id": 107,
+      "phase_bins": [
+        {
+          "samples": 287,
+          "valid_labels": 287,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 734,
+          "valid_labels": 440,
+          "teacher_control": 0,
+          "valid_fraction": 0.5994550408719346
+        },
+        {
+          "samples": 1252,
+          "valid_labels": 823,
+          "teacher_control": 0,
+          "valid_fraction": 0.6573482428115016
+        },
+        {
+          "samples": 944,
+          "valid_labels": 878,
+          "teacher_control": 0,
+          "valid_fraction": 0.9300847457627118
+        },
+        {
+          "samples": 1638,
+          "valid_labels": 1221,
+          "teacher_control": 0,
+          "valid_fraction": 0.7454212454212454
+        }
+      ]
+    },
+    {
+      "clip_id": 108,
+      "phase_bins": [
+        {
+          "samples": 158,
+          "valid_labels": 158,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 449,
+          "valid_labels": 243,
+          "teacher_control": 0,
+          "valid_fraction": 0.5412026726057907
+        },
+        {
+          "samples": 645,
+          "valid_labels": 397,
+          "teacher_control": 0,
+          "valid_fraction": 0.6155038759689923
+        },
+        {
+          "samples": 1287,
+          "valid_labels": 1232,
+          "teacher_control": 0,
+          "valid_fraction": 0.9572649572649573
+        },
+        {
+          "samples": 1270,
+          "valid_labels": 1003,
+          "teacher_control": 0,
+          "valid_fraction": 0.789763779527559
+        }
+      ]
+    },
+    {
+      "clip_id": 109,
+      "phase_bins": [
+        {
+          "samples": 239,
+          "valid_labels": 239,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1104,
+          "valid_labels": 532,
+          "teacher_control": 0,
+          "valid_fraction": 0.48188405797101447
+        },
+        {
+          "samples": 1717,
+          "valid_labels": 937,
+          "teacher_control": 0,
+          "valid_fraction": 0.545719277810134
+        },
+        {
+          "samples": 1724,
+          "valid_labels": 1611,
+          "teacher_control": 0,
+          "valid_fraction": 0.9344547563805105
+        },
+        {
+          "samples": 2351,
+          "valid_labels": 1378,
+          "teacher_control": 0,
+          "valid_fraction": 0.5861335601871545
+        }
+      ]
+    },
+    {
+      "clip_id": 110,
+      "phase_bins": [
+        {
+          "samples": 437,
+          "valid_labels": 437,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1271,
+          "valid_labels": 823,
+          "teacher_control": 0,
+          "valid_fraction": 0.6475216365066876
+        },
+        {
+          "samples": 1766,
+          "valid_labels": 1072,
+          "teacher_control": 0,
+          "valid_fraction": 0.6070215175537939
+        },
+        {
+          "samples": 1493,
+          "valid_labels": 1231,
+          "teacher_control": 0,
+          "valid_fraction": 0.8245144005358339
+        },
+        {
+          "samples": 1640,
+          "valid_labels": 1178,
+          "teacher_control": 0,
+          "valid_fraction": 0.7182926829268292
+        }
+      ]
+    },
+    {
+      "clip_id": 111,
+      "phase_bins": [
+        {
+          "samples": 224,
+          "valid_labels": 224,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 713,
+          "valid_labels": 389,
+          "teacher_control": 0,
+          "valid_fraction": 0.5455820476858345
+        },
+        {
+          "samples": 481,
+          "valid_labels": 280,
+          "teacher_control": 0,
+          "valid_fraction": 0.5821205821205822
+        },
+        {
+          "samples": 1043,
+          "valid_labels": 1012,
+          "teacher_control": 0,
+          "valid_fraction": 0.9702780441035475
+        },
+        {
+          "samples": 1538,
+          "valid_labels": 1155,
+          "teacher_control": 0,
+          "valid_fraction": 0.7509752925877763
+        }
+      ]
+    },
+    {
+      "clip_id": 112,
+      "phase_bins": [
+        {
+          "samples": 161,
+          "valid_labels": 161,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 660,
+          "valid_labels": 447,
+          "teacher_control": 0,
+          "valid_fraction": 0.6772727272727272
+        },
+        {
+          "samples": 1079,
+          "valid_labels": 679,
+          "teacher_control": 0,
+          "valid_fraction": 0.629286376274328
+        },
+        {
+          "samples": 765,
+          "valid_labels": 713,
+          "teacher_control": 0,
+          "valid_fraction": 0.9320261437908497
+        },
+        {
+          "samples": 995,
+          "valid_labels": 900,
+          "teacher_control": 0,
+          "valid_fraction": 0.9045226130653267
+        }
+      ]
+    },
+    {
+      "clip_id": 113,
+      "phase_bins": [
+        {
+          "samples": 95,
+          "valid_labels": 95,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 506,
+          "valid_labels": 270,
+          "teacher_control": 0,
+          "valid_fraction": 0.5335968379446641
+        },
+        {
+          "samples": 556,
+          "valid_labels": 474,
+          "teacher_control": 0,
+          "valid_fraction": 0.8525179856115108
+        },
+        {
+          "samples": 1657,
+          "valid_labels": 1371,
+          "teacher_control": 0,
+          "valid_fraction": 0.8273989136994568
+        },
+        {
+          "samples": 2035,
+          "valid_labels": 1606,
+          "teacher_control": 0,
+          "valid_fraction": 0.7891891891891892
+        }
+      ]
+    },
+    {
+      "clip_id": 114,
+      "phase_bins": [
+        {
+          "samples": 373,
+          "valid_labels": 373,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 947,
+          "valid_labels": 652,
+          "teacher_control": 0,
+          "valid_fraction": 0.6884899683210137
+        },
+        {
+          "samples": 1246,
+          "valid_labels": 732,
+          "teacher_control": 0,
+          "valid_fraction": 0.5874799357945425
+        },
+        {
+          "samples": 1271,
+          "valid_labels": 1065,
+          "teacher_control": 0,
+          "valid_fraction": 0.8379228953579858
+        },
+        {
+          "samples": 1291,
+          "valid_labels": 866,
+          "teacher_control": 0,
+          "valid_fraction": 0.6707978311386522
+        }
+      ]
+    },
+    {
+      "clip_id": 115,
+      "phase_bins": [
+        {
+          "samples": 211,
+          "valid_labels": 211,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 593,
+          "valid_labels": 472,
+          "teacher_control": 0,
+          "valid_fraction": 0.7959527824620574
+        },
+        {
+          "samples": 1549,
+          "valid_labels": 1422,
+          "teacher_control": 0,
+          "valid_fraction": 0.9180116204002582
+        },
+        {
+          "samples": 1647,
+          "valid_labels": 1337,
+          "teacher_control": 0,
+          "valid_fraction": 0.811778992106861
+        },
+        {
+          "samples": 1692,
+          "valid_labels": 1134,
+          "teacher_control": 0,
+          "valid_fraction": 0.6702127659574468
+        }
+      ]
+    },
+    {
+      "clip_id": 116,
+      "phase_bins": [
+        {
+          "samples": 291,
+          "valid_labels": 291,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1120,
+          "valid_labels": 778,
+          "teacher_control": 0,
+          "valid_fraction": 0.6946428571428571
+        },
+        {
+          "samples": 1951,
+          "valid_labels": 1415,
+          "teacher_control": 0,
+          "valid_fraction": 0.7252690927729369
+        },
+        {
+          "samples": 1785,
+          "valid_labels": 1680,
+          "teacher_control": 0,
+          "valid_fraction": 0.9411764705882353
+        },
+        {
+          "samples": 1921,
+          "valid_labels": 1391,
+          "teacher_control": 0,
+          "valid_fraction": 0.724102030192608
+        }
+      ]
+    },
+    {
+      "clip_id": 117,
+      "phase_bins": [
+        {
+          "samples": 469,
+          "valid_labels": 469,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1272,
+          "valid_labels": 562,
+          "teacher_control": 0,
+          "valid_fraction": 0.4418238993710692
+        },
+        {
+          "samples": 1296,
+          "valid_labels": 846,
+          "teacher_control": 0,
+          "valid_fraction": 0.6527777777777778
+        },
+        {
+          "samples": 1583,
+          "valid_labels": 1486,
+          "teacher_control": 0,
+          "valid_fraction": 0.9387239418825016
+        },
+        {
+          "samples": 1925,
+          "valid_labels": 1353,
+          "teacher_control": 0,
+          "valid_fraction": 0.7028571428571428
+        }
+      ]
+    },
+    {
+      "clip_id": 118,
+      "phase_bins": [
+        {
+          "samples": 325,
+          "valid_labels": 325,
+          "teacher_control": 0,
+          "valid_fraction": 1.0
+        },
+        {
+          "samples": 1479,
+          "valid_labels": 825,
+          "teacher_control": 0,
+          "valid_fraction": 0.5578093306288032
+        },
+        {
+          "samples": 1056,
+          "valid_labels": 189,
+          "teacher_control": 0,
+          "valid_fraction": 0.17897727272727273
+        },
+        {
+          "samples": 661,
+          "valid_labels": 558,
+          "teacher_control": 0,
+          "valid_fraction": 0.8441754916792739
+        },
+        {
+          "samples": 1300,
+          "valid_labels": 860,
+          "teacher_control": 0,
+          "valid_fraction": 0.6615384615384615
+        }
+      ]
+    },
+    {
+      "clip_id": 119,
+      "phase_bins": [
+        {
+          "samples": 743,
+          "valid_labels": 671,
+          "teacher_control": 0,
+          "valid_fraction": 0.9030955585464334
+        },
+        {
+          "samples": 1092,
+          "valid_labels": 572,
+          "teacher_control": 0,
+          "valid_fraction": 0.5238095238095238
+        },
+        {
+          "samples": 635,
+          "valid_labels": 234,
+          "teacher_control": 0,
+          "valid_fraction": 0.36850393700787404
+        },
+        {
+          "samples": 499,
+          "valid_labels": 480,
+          "teacher_control": 0,
+          "valid_fraction": 0.9619238476953907
+        },
+        {
+          "samples": 641,
+          "valid_labels": 511,
+          "teacher_control": 0,
+          "valid_fraction": 0.797191887675507
+        }
+      ]
+    }
+  ],
+  "recovery": {
+    "arm": "student",
+    "steps_per_event": 80,
+    "max_events": 3,
+    "cooldown_steps": 40,
+    "sustain": 3,
+    "action_l2_threshold": 1.0,
+    "event_count": 3512,
+    "active_valid_step_count": 215163,
+    "teacher_control_step_count": 0,
+    "invalid_abort_count": 1398,
+    "event_phase_bins": [
+      345,
+      819,
+      816,
+      1098,
+      434
+    ],
+    "per_clip_event_counts": [
+      31,
+      22,
+      33,
+      16,
+      29,
+      27,
+      28,
+      34,
+      16,
+      27,
+      14,
+      24,
+      43,
+      25,
+      27,
+      32,
+      26,
+      31,
+      34,
+      22,
+      32,
+      30,
+      36,
+      36,
+      20,
+      39,
+      31,
+      29,
+      37,
+      28,
+      43,
+      34,
+      20,
+      19,
+      27,
+      26,
+      29,
+      32,
+      26,
+      36,
+      16,
+      20,
+      36,
+      14,
+      22,
+      22,
+      36,
+      31,
+      28,
+      37,
+      39,
+      31,
+      22,
+      21,
+      25,
+      24,
+      21,
+      29,
+      24,
+      17,
+      37,
+      37,
+      33,
+      22,
+      35,
+      33,
+      30,
+      22,
+      34,
+      27,
+      32,
+      23,
+      25,
+      30,
+      27,
+      20,
+      28,
+      53,
+      36,
+      42,
+      46,
+      42,
+      28,
+      25,
+      26,
+      18,
+      32,
+      23,
+      45,
+      21,
+      35,
+      37,
+      32,
+      20,
+      30,
+      38,
+      18,
+      27,
+      31,
+      41,
+      42,
+      16,
+      35,
+      41,
+      32,
+      26,
+      23,
+      32,
+      26,
+      37,
+      37,
+      23,
+      21,
+      29,
+      28,
+      34,
+      36,
+      38,
+      28,
+      21
+    ]
+  }
+}

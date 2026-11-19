@@ -1,0 +1,76 @@
+{
+  "contract": "xy_reference_path_projection_proxy_not_contact_or_clearance_success",
+  "corridor_half_width_m": 1.5,
+  "rows": [
+    {
+      "motion_id": 0,
+      "motion": "forward_walk0.6s_step0.7s",
+      "reference_path_length_m": 5.143190383911133,
+      "first_obstacle_index": 0,
+      "obstacle_front_projection_m": 1.219317078590393,
+      "obstacle_center_projection_m": 1.9627588987350464,
+      "obstacle_back_projection_m": 2.6918859481811523,
+      "student_max_anchor_projection_m": 1.5557935237884521,
+      "teacher_max_anchor_projection_m": 5.173655986785889,
+      "student_passed_front_proxy": true,
+      "student_passed_center_proxy": false,
+      "student_passed_back_proxy": false
+    },
+    {
+      "motion_id": 1,
+      "motion": "left_45_walk0.9s_step0.7s",
+      "reference_path_length_m": 5.315217018127441,
+      "first_obstacle_index": 2,
+      "obstacle_front_projection_m": 1.3439586162567139,
+      "obstacle_center_projection_m": 2.0313360691070557,
+      "obstacle_back_projection_m": 2.7268645763397217,
+      "student_max_anchor_projection_m": 1.3787773847579956,
+      "teacher_max_anchor_projection_m": 5.330424785614014,
+      "student_passed_front_proxy": true,
+      "student_passed_center_proxy": false,
+      "student_passed_back_proxy": false
+    },
+    {
+      "motion_id": 2,
+      "motion": "left_45_walk1.2s_step1.2s",
+      "reference_path_length_m": 4.240224361419678,
+      "first_obstacle_index": 4,
+      "obstacle_front_projection_m": 1.3631033897399902,
+      "obstacle_center_projection_m": 2.108238458633423,
+      "obstacle_back_projection_m": 2.8575358390808105,
+      "student_max_anchor_projection_m": 1.789432406425476,
+      "teacher_max_anchor_projection_m": 4.241966247558594,
+      "student_passed_front_proxy": true,
+      "student_passed_center_proxy": false,
+      "student_passed_back_proxy": false
+    },
+    {
+      "motion_id": 3,
+      "motion": "right_45_walk0.6s_step1.2s",
+      "reference_path_length_m": 4.720980167388916,
+      "first_obstacle_index": 7,
+      "obstacle_front_projection_m": 1.3099472522735596,
+      "obstacle_center_projection_m": 2.086711883544922,
+      "obstacle_back_projection_m": 2.855083465576172,
+      "student_max_anchor_projection_m": 1.3842586278915405,
+      "teacher_max_anchor_projection_m": 4.782527446746826,
+      "student_passed_front_proxy": true,
+      "student_passed_center_proxy": false,
+      "student_passed_back_proxy": false
+    },
+    {
+      "motion_id": 4,
+      "motion": "right_90_walk0.9s_step0.7s",
+      "reference_path_length_m": 3.99851393699646,
+      "first_obstacle_index": 10,
+      "obstacle_front_projection_m": 0.9756150841712952,
+      "obstacle_center_projection_m": 1.6602267026901245,
+      "obstacle_back_projection_m": 2.3264243602752686,
+      "student_max_anchor_projection_m": 1.4238345623016357,
+      "teacher_max_anchor_projection_m": 3.999588966369629,
+      "student_passed_front_proxy": true,
+      "student_passed_center_proxy": false,
+      "student_passed_back_proxy": false
+    }
+  ]
+}

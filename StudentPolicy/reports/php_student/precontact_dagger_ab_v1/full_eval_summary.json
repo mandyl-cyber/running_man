@@ -1,0 +1,94 @@
+{
+  "contract": "precontact_dagger_ab_no_takeover_clean",
+  "seeds": [
+    43,
+    44,
+    45,
+    46
+  ],
+  "episodes_per_clip_per_seed": 3,
+  "arms": {
+    "source": {
+      "successes": 39,
+      "episodes": 480,
+      "success_rate": 0.08125,
+      "per_seed": {
+        "43": {
+          "successes": 10,
+          "episodes": 120,
+          "success_rate": 0.08333333333333333
+        },
+        "44": {
+          "successes": 6,
+          "episodes": 120,
+          "success_rate": 0.05
+        },
+        "45": {
+          "successes": 14,
+          "episodes": 120,
+          "success_rate": 0.11666666666666667
+        },
+        "46": {
+          "successes": 9,
+          "episodes": 120,
+          "success_rate": 0.075
+        }
+      }
+    },
+    "baseline": {
+      "successes": 0,
+      "episodes": 480,
+      "success_rate": 0.0,
+      "per_seed": {
+        "43": {
+          "successes": 0,
+          "episodes": 120,
+          "success_rate": 0.0
+        },
+        "44": {
+          "successes": 0,
+          "episodes": 120,
+          "success_rate": 0.0
+        },
+        "45": {
+          "successes": 0,
+          "episodes": 120,
+          "success_rate": 0.0
+        },
+        "46": {
+          "successes": 0,
+          "episodes": 120,
+          "success_rate": 0.0
+        }
+      }
+    },
+    "focus": {
+      "successes": 0,
+      "episodes": 480,
+      "success_rate": 0.0,
+      "per_seed": {
+        "43": {
+          "successes": 0,
+          "episodes": 120,
+          "success_rate": 0.0
+        },
+        "44": {
+          "successes": 0,
+          "episodes": 120,
+          "success_rate": 0.0
+        },
+        "45": {
+          "successes": 0,
+          "episodes": 120,
+          "success_rate": 0.0
+        },
+        "46": {
+          "successes": 0,
+          "episodes": 120,
+          "success_rate": 0.0
+        }
+      }
+    }
+  },
+  "decision": "STOP"
+}

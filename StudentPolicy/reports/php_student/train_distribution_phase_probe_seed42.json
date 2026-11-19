@@ -1,0 +1,50 @@
+{
+  "contract": "saved_student_training_config_inference_rollout",
+  "checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "num_envs": 128,
+  "steps": 500,
+  "reset_count": 135,
+  "preprocess_hook_kwargs": "{\"add_onpath_obstacle\": true, \"num_variants\": 3}",
+  "rows": [
+    {
+      "phase": "0-20%",
+      "samples": 6431,
+      "teacher_valid_samples": 6381,
+      "teacher_valid_rate": 0.9922251593842326,
+      "valid_action_l2_mean": 0.7254011445874201,
+      "ref_pos_error_mean_m": 0.12171810101691644
+    },
+    {
+      "phase": "20-40%",
+      "samples": 13969,
+      "teacher_valid_samples": 7887,
+      "teacher_valid_rate": 0.5646073448349918,
+      "valid_action_l2_mean": 1.4014593004439742,
+      "ref_pos_error_mean_m": 0.3054632331086038
+    },
+    {
+      "phase": "40-60%",
+      "samples": 13095,
+      "teacher_valid_samples": 5845,
+      "teacher_valid_rate": 0.4463535700649103,
+      "valid_action_l2_mean": 0.9788469421853359,
+      "ref_pos_error_mean_m": 0.4718164737509516
+    },
+    {
+      "phase": "60-80%",
+      "samples": 12837,
+      "teacher_valid_samples": 11855,
+      "teacher_valid_rate": 0.9235023759445353,
+      "valid_action_l2_mean": 1.1103325219156368,
+      "ref_pos_error_mean_m": 0.2044606078977645
+    },
+    {
+      "phase": "80-100%",
+      "samples": 17668,
+      "teacher_valid_samples": 13571,
+      "teacher_valid_rate": 0.7681118406158026,
+      "valid_action_l2_mean": 0.6899925001016652,
+      "ref_pos_error_mean_m": 0.31384602439722004
+    }
+  ]
+}

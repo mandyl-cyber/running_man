@@ -1,0 +1,203 @@
+{
+  "contract": "offline_student_closed_loop_teacher_labels_grouped_motion_cv",
+  "warning": "Not a closed-loop success estimate; frozen depth features and finite-capacity regressor.",
+  "checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "trace_dir": "/home/sjtu/running_man/StudentPolicy/reports/php_student/own_state_supervision_probe_v1/eval/traces",
+  "samples": 5539,
+  "clips": 40,
+  "phase_window": [
+    0.25,
+    0.65
+  ],
+  "history_frames": 5,
+  "steps_per_fold": 1200,
+  "seed": 42,
+  "baseline_current_frame": {
+    "history": 1,
+    "input_dim": 140,
+    "folds": [
+      {
+        "fold": 0,
+        "heldout_clips": [
+          32,
+          37,
+          21,
+          27,
+          29,
+          22,
+          17,
+          2
+        ],
+        "train_samples": 4418,
+        "heldout_samples": 1121,
+        "train_l2": 0.7743144631385803,
+        "heldout_l2": 1.3035739660263062
+      },
+      {
+        "fold": 1,
+        "heldout_clips": [
+          7,
+          16,
+          20,
+          31,
+          11,
+          19,
+          34,
+          33
+        ],
+        "train_samples": 4446,
+        "heldout_samples": 1093,
+        "train_l2": 0.7870385050773621,
+        "heldout_l2": 1.1098583936691284
+      },
+      {
+        "fold": 2,
+        "heldout_clips": [
+          39,
+          5,
+          35,
+          30,
+          23,
+          3,
+          12,
+          1
+        ],
+        "train_samples": 4408,
+        "heldout_samples": 1131,
+        "train_l2": 0.7730247378349304,
+        "heldout_l2": 1.1970105171203613
+      },
+      {
+        "fold": 3,
+        "heldout_clips": [
+          18,
+          25,
+          24,
+          26,
+          9,
+          0,
+          14,
+          13
+        ],
+        "train_samples": 4497,
+        "heldout_samples": 1042,
+        "train_l2": 0.7531676292419434,
+        "heldout_l2": 1.3543781042099
+      },
+      {
+        "fold": 4,
+        "heldout_clips": [
+          4,
+          28,
+          10,
+          6,
+          36,
+          15,
+          38,
+          8
+        ],
+        "train_samples": 4387,
+        "heldout_samples": 1152,
+        "train_l2": 0.7804093360900879,
+        "heldout_l2": 1.168344259262085
+      }
+    ],
+    "mean_train_l2": 0.7735909342765808,
+    "mean_heldout_l2": 1.2266330480575562
+  },
+  "temporal_5frame": {
+    "history": 5,
+    "input_dim": 700,
+    "folds": [
+      {
+        "fold": 0,
+        "heldout_clips": [
+          32,
+          37,
+          21,
+          27,
+          29,
+          22,
+          17,
+          2
+        ],
+        "train_samples": 4418,
+        "heldout_samples": 1121,
+        "train_l2": 0.5324035882949829,
+        "heldout_l2": 1.4623582363128662
+      },
+      {
+        "fold": 1,
+        "heldout_clips": [
+          7,
+          16,
+          20,
+          31,
+          11,
+          19,
+          34,
+          33
+        ],
+        "train_samples": 4446,
+        "heldout_samples": 1093,
+        "train_l2": 0.5510228872299194,
+        "heldout_l2": 1.2062342166900635
+      },
+      {
+        "fold": 2,
+        "heldout_clips": [
+          39,
+          5,
+          35,
+          30,
+          23,
+          3,
+          12,
+          1
+        ],
+        "train_samples": 4408,
+        "heldout_samples": 1131,
+        "train_l2": 0.5300528407096863,
+        "heldout_l2": 1.3623028993606567
+      },
+      {
+        "fold": 3,
+        "heldout_clips": [
+          18,
+          25,
+          24,
+          26,
+          9,
+          0,
+          14,
+          13
+        ],
+        "train_samples": 4497,
+        "heldout_samples": 1042,
+        "train_l2": 0.5206875205039978,
+        "heldout_l2": 1.460321068763733
+      },
+      {
+        "fold": 4,
+        "heldout_clips": [
+          4,
+          28,
+          10,
+          6,
+          36,
+          15,
+          38,
+          8
+        ],
+        "train_samples": 4387,
+        "heldout_samples": 1152,
+        "train_l2": 0.5188109874725342,
+        "heldout_l2": 1.2334866523742676
+      }
+    ],
+    "mean_train_l2": 0.5305955648422241,
+    "mean_heldout_l2": 1.3449406147003173
+  },
+  "heldout_l2_improvement": -0.1183075666427611,
+  "gate": "STOP"
+}

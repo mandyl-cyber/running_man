@@ -1,0 +1,16 @@
+{
+  "contract": "actual_checkpoint_and_saved_depth_aligned_rollout_states_no_optimizer_step",
+  "checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "valid_teacher_samples": 40,
+  "expert_lost_samples": 40,
+  "teacher_action_recompute_max_abs": 1.1920928955078125e-06,
+  "student_action_recompute_max_abs": 5.291402339935303e-05,
+  "loss_manual_max_abs": 0.0,
+  "valid_loss_mean": 0.057974863797426224,
+  "lost_loss_max_abs": 0.0,
+  "student_grad_l2": 0.41279274062964433,
+  "depth_backbone_grad_l2": 0.03212525267420129,
+  "teacher_grad_l2": 0.0,
+  "ppo_coef_checkpoint": 0.9,
+  "dagger_loss_coef": 10.0
+}

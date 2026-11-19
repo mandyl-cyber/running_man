@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "source_checkpoint": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_rollin_early15_ab_v1/train/teacher/model_30098.pt",
+  "control_events": 235,
+  "teacher_events": 227,
+  "teacher_control_steps": 12651,
+  "teacher_invalid_aborts": 19
+}

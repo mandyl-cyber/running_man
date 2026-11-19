@@ -1,0 +1,58 @@
+{
+  "contract": "same Teacher/data/seed/config; desired_kl 0.01 vs 0.03",
+  "decision": "STOP",
+  "rule": "at 2500: any success gain or failure progress +0.03; no >0.02 regression at 1000",
+  "rows": [
+    {
+      "iteration": 500,
+      "baseline": {
+        "successes": 0,
+        "episodes": 40,
+        "success_rate": 0.0,
+        "failure_progress": 0.21960887793747644
+      },
+      "candidate": {
+        "successes": 0,
+        "episodes": 40,
+        "success_rate": 0.0,
+        "failure_progress": 0.2804519912245182
+      },
+      "success_delta": 0.0,
+      "failure_progress_delta": 0.060843113287041756
+    },
+    {
+      "iteration": 1000,
+      "baseline": {
+        "successes": 0,
+        "episodes": 40,
+        "success_rate": 0.0,
+        "failure_progress": 0.2762076863347379
+      },
+      "candidate": {
+        "successes": 0,
+        "episodes": 40,
+        "success_rate": 0.0,
+        "failure_progress": 0.17882714115184806
+      },
+      "success_delta": 0.0,
+      "failure_progress_delta": -0.09738054518288985
+    },
+    {
+      "iteration": 2500,
+      "baseline": {
+        "successes": 0,
+        "episodes": 40,
+        "success_rate": 0.0,
+        "failure_progress": 0.3042843978105921
+      },
+      "candidate": {
+        "successes": 0,
+        "episodes": 40,
+        "success_rate": 0.0,
+        "failure_progress": 0.3021558329715239
+      },
+      "success_delta": 0.0,
+      "failure_progress_delta": -0.0021285648390682033
+    }
+  ]
+}

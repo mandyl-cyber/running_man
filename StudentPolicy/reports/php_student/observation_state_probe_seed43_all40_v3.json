@@ -1,0 +1,1215 @@
+{
+  "contract": "offline_teacher_controlled_same_state_same_label_leave_one_clip_out",
+  "interpretation_warning": "Teacher observations contain privileged reference state; this is an oracle bound, not a deployable policy. Frozen depth features cannot distinguish missing image information from a weak saved encoder.",
+  "checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "teacher_traces": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_state_action_audit_seed43_all40/traces",
+  "phase_window": [
+    0.25,
+    0.65
+  ],
+  "steps_per_fold": 600,
+  "seed": 43,
+  "samples": 2542,
+  "clips": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "folds": [
+    {
+      "heldout_clip_id": 0,
+      "existing_student_l2": 0.4799788296222687,
+      "actor_only": {
+        "train_l2": 0.4440601170063019,
+        "heldout_l2": 0.45780205726623535,
+        "train_n": 2521,
+        "heldout_n": 21
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44656506180763245,
+        "heldout_l2": 0.4412209987640381,
+        "train_n": 2521,
+        "heldout_n": 21
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4633292257785797,
+        "heldout_l2": 0.5045048594474792,
+        "train_n": 2521,
+        "heldout_n": 21
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45638424158096313,
+        "heldout_l2": 0.5716152787208557,
+        "train_n": 2521,
+        "heldout_n": 21
+      }
+    },
+    {
+      "heldout_clip_id": 1,
+      "existing_student_l2": 0.6378641128540039,
+      "actor_only": {
+        "train_l2": 0.44629982113838196,
+        "heldout_l2": 0.4573540985584259,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44755059480667114,
+        "heldout_l2": 0.45097440481185913,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4631071090698242,
+        "heldout_l2": 0.4743407666683197,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4561673402786255,
+        "heldout_l2": 0.5157852172851562,
+        "train_n": 2475,
+        "heldout_n": 67
+      }
+    },
+    {
+      "heldout_clip_id": 2,
+      "existing_student_l2": 0.6084697246551514,
+      "actor_only": {
+        "train_l2": 0.4449394941329956,
+        "heldout_l2": 0.43225952982902527,
+        "train_n": 2482,
+        "heldout_n": 60
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4491463601589203,
+        "heldout_l2": 0.41229161620140076,
+        "train_n": 2482,
+        "heldout_n": 60
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4636118710041046,
+        "heldout_l2": 0.42714500427246094,
+        "train_n": 2482,
+        "heldout_n": 60
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4573895037174225,
+        "heldout_l2": 0.5064417123794556,
+        "train_n": 2482,
+        "heldout_n": 60
+      }
+    },
+    {
+      "heldout_clip_id": 3,
+      "existing_student_l2": 0.6771277785301208,
+      "actor_only": {
+        "train_l2": 0.4435461461544037,
+        "heldout_l2": 0.48506563901901245,
+        "train_n": 2479,
+        "heldout_n": 63
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44656240940093994,
+        "heldout_l2": 0.5023311376571655,
+        "train_n": 2479,
+        "heldout_n": 63
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46216917037963867,
+        "heldout_l2": 0.5154750943183899,
+        "train_n": 2479,
+        "heldout_n": 63
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.462027370929718,
+        "heldout_l2": 0.5674289464950562,
+        "train_n": 2479,
+        "heldout_n": 63
+      }
+    },
+    {
+      "heldout_clip_id": 4,
+      "existing_student_l2": 0.6958878040313721,
+      "actor_only": {
+        "train_l2": 0.44195231795310974,
+        "heldout_l2": 0.4567975699901581,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4468230605125427,
+        "heldout_l2": 0.4645230770111084,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46310821175575256,
+        "heldout_l2": 0.4696149230003357,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4552422761917114,
+        "heldout_l2": 0.5351073145866394,
+        "train_n": 2478,
+        "heldout_n": 64
+      }
+    },
+    {
+      "heldout_clip_id": 5,
+      "existing_student_l2": 0.6960974931716919,
+      "actor_only": {
+        "train_l2": 0.44242724776268005,
+        "heldout_l2": 0.4773908853530884,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4476686418056488,
+        "heldout_l2": 0.48274514079093933,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46337398886680603,
+        "heldout_l2": 0.5021765232086182,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45576000213623047,
+        "heldout_l2": 0.5445600152015686,
+        "train_n": 2478,
+        "heldout_n": 64
+      }
+    },
+    {
+      "heldout_clip_id": 6,
+      "existing_student_l2": 0.7161861658096313,
+      "actor_only": {
+        "train_l2": 0.4453771114349365,
+        "heldout_l2": 0.4982753098011017,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4469135105609894,
+        "heldout_l2": 0.48719775676727295,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46248865127563477,
+        "heldout_l2": 0.509015679359436,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45553675293922424,
+        "heldout_l2": 0.5705521106719971,
+        "train_n": 2475,
+        "heldout_n": 67
+      }
+    },
+    {
+      "heldout_clip_id": 7,
+      "existing_student_l2": 0.730305552482605,
+      "actor_only": {
+        "train_l2": 0.441940575838089,
+        "heldout_l2": 0.6060583591461182,
+        "train_n": 2510,
+        "heldout_n": 32
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4462413489818573,
+        "heldout_l2": 0.577315092086792,
+        "train_n": 2510,
+        "heldout_n": 32
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46251341700553894,
+        "heldout_l2": 0.6349552273750305,
+        "train_n": 2510,
+        "heldout_n": 32
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4531634747982025,
+        "heldout_l2": 0.7030550241470337,
+        "train_n": 2510,
+        "heldout_n": 32
+      }
+    },
+    {
+      "heldout_clip_id": 8,
+      "existing_student_l2": 0.6420616507530212,
+      "actor_only": {
+        "train_l2": 0.44498735666275024,
+        "heldout_l2": 0.4752291738986969,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44999071955680847,
+        "heldout_l2": 0.47899922728538513,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4650827646255493,
+        "heldout_l2": 0.5042423605918884,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45990413427352905,
+        "heldout_l2": 0.5242730975151062,
+        "train_n": 2476,
+        "heldout_n": 66
+      }
+    },
+    {
+      "heldout_clip_id": 9,
+      "existing_student_l2": 0.6028075814247131,
+      "actor_only": {
+        "train_l2": 0.4451732039451599,
+        "heldout_l2": 0.41976654529571533,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4486735761165619,
+        "heldout_l2": 0.42126333713531494,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46375587582588196,
+        "heldout_l2": 0.43949469923973083,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4557981491088867,
+        "heldout_l2": 0.4800680875778198,
+        "train_n": 2474,
+        "heldout_n": 68
+      }
+    },
+    {
+      "heldout_clip_id": 10,
+      "existing_student_l2": 0.7654474973678589,
+      "actor_only": {
+        "train_l2": 0.4436631500720978,
+        "heldout_l2": 0.511684238910675,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4456949830055237,
+        "heldout_l2": 0.506987988948822,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46200764179229736,
+        "heldout_l2": 0.5348231196403503,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4607737362384796,
+        "heldout_l2": 0.6106008291244507,
+        "train_n": 2477,
+        "heldout_n": 65
+      }
+    },
+    {
+      "heldout_clip_id": 11,
+      "existing_student_l2": 0.7436279058456421,
+      "actor_only": {
+        "train_l2": 0.4440009295940399,
+        "heldout_l2": 0.5211695432662964,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4489147663116455,
+        "heldout_l2": 0.5258131623268127,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46429237723350525,
+        "heldout_l2": 0.5450993180274963,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.46002334356307983,
+        "heldout_l2": 0.6051308512687683,
+        "train_n": 2476,
+        "heldout_n": 66
+      }
+    },
+    {
+      "heldout_clip_id": 12,
+      "existing_student_l2": 0.7174370288848877,
+      "actor_only": {
+        "train_l2": 0.44654154777526855,
+        "heldout_l2": 0.43641629815101624,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4514480531215668,
+        "heldout_l2": 0.4615294635295868,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4664703607559204,
+        "heldout_l2": 0.4933508634567261,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4591985046863556,
+        "heldout_l2": 0.5684025883674622,
+        "train_n": 2476,
+        "heldout_n": 66
+      }
+    },
+    {
+      "heldout_clip_id": 13,
+      "existing_student_l2": 0.8525309562683105,
+      "actor_only": {
+        "train_l2": 0.4449647068977356,
+        "heldout_l2": 0.5409519672393799,
+        "train_n": 2480,
+        "heldout_n": 62
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4488285779953003,
+        "heldout_l2": 0.5552091002464294,
+        "train_n": 2480,
+        "heldout_n": 62
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4633772373199463,
+        "heldout_l2": 0.5881405472755432,
+        "train_n": 2480,
+        "heldout_n": 62
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.456533282995224,
+        "heldout_l2": 0.6792458295822144,
+        "train_n": 2480,
+        "heldout_n": 62
+      }
+    },
+    {
+      "heldout_clip_id": 14,
+      "existing_student_l2": 0.6715012788772583,
+      "actor_only": {
+        "train_l2": 0.44533541798591614,
+        "heldout_l2": 0.39981377124786377,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44864165782928467,
+        "heldout_l2": 0.4094858169555664,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.465449720621109,
+        "heldout_l2": 0.4282664954662323,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4633512496948242,
+        "heldout_l2": 0.4915112257003784,
+        "train_n": 2477,
+        "heldout_n": 65
+      }
+    },
+    {
+      "heldout_clip_id": 15,
+      "existing_student_l2": 0.7327848672866821,
+      "actor_only": {
+        "train_l2": 0.44426876306533813,
+        "heldout_l2": 0.4873037040233612,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44827398657798767,
+        "heldout_l2": 0.4978988766670227,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4635424017906189,
+        "heldout_l2": 0.523155152797699,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4546816945075989,
+        "heldout_l2": 0.5912275314331055,
+        "train_n": 2473,
+        "heldout_n": 69
+      }
+    },
+    {
+      "heldout_clip_id": 16,
+      "existing_student_l2": 0.7000877857208252,
+      "actor_only": {
+        "train_l2": 0.4449490010738373,
+        "heldout_l2": 0.446013480424881,
+        "train_n": 2479,
+        "heldout_n": 63
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4487612843513489,
+        "heldout_l2": 0.45869478583335876,
+        "train_n": 2479,
+        "heldout_n": 63
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4644976854324341,
+        "heldout_l2": 0.4717300236225128,
+        "train_n": 2479,
+        "heldout_n": 63
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45809581875801086,
+        "heldout_l2": 0.5755773782730103,
+        "train_n": 2479,
+        "heldout_n": 63
+      }
+    },
+    {
+      "heldout_clip_id": 17,
+      "existing_student_l2": 0.7265198826789856,
+      "actor_only": {
+        "train_l2": 0.4426407516002655,
+        "heldout_l2": 0.5606369972229004,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.446175217628479,
+        "heldout_l2": 0.563004732131958,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46246108412742615,
+        "heldout_l2": 0.5907726883888245,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4593096375465393,
+        "heldout_l2": 0.6389808058738708,
+        "train_n": 2477,
+        "heldout_n": 65
+      }
+    },
+    {
+      "heldout_clip_id": 18,
+      "existing_student_l2": 0.6163852214813232,
+      "actor_only": {
+        "train_l2": 0.4472147226333618,
+        "heldout_l2": 0.38077834248542786,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44946303963661194,
+        "heldout_l2": 0.39260464906692505,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4647091031074524,
+        "heldout_l2": 0.4195134937763214,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45813116431236267,
+        "heldout_l2": 0.4720136523246765,
+        "train_n": 2475,
+        "heldout_n": 67
+      }
+    },
+    {
+      "heldout_clip_id": 19,
+      "existing_student_l2": 0.6856800317764282,
+      "actor_only": {
+        "train_l2": 0.4442410171031952,
+        "heldout_l2": 0.5195130705833435,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44683247804641724,
+        "heldout_l2": 0.515281617641449,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4626022279262543,
+        "heldout_l2": 0.5391431450843811,
+        "train_n": 2477,
+        "heldout_n": 65
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4618593156337738,
+        "heldout_l2": 0.6340199708938599,
+        "train_n": 2477,
+        "heldout_n": 65
+      }
+    },
+    {
+      "heldout_clip_id": 20,
+      "existing_student_l2": 0.7247011065483093,
+      "actor_only": {
+        "train_l2": 0.44197237491607666,
+        "heldout_l2": 0.5027597546577454,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4472499489784241,
+        "heldout_l2": 0.5032391548156738,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46349215507507324,
+        "heldout_l2": 0.5354489088058472,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45623326301574707,
+        "heldout_l2": 0.591434895992279,
+        "train_n": 2478,
+        "heldout_n": 64
+      }
+    },
+    {
+      "heldout_clip_id": 21,
+      "existing_student_l2": 0.6768431663513184,
+      "actor_only": {
+        "train_l2": 0.4447254538536072,
+        "heldout_l2": 0.47607848048210144,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.449215292930603,
+        "heldout_l2": 0.4741269648075104,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46581345796585083,
+        "heldout_l2": 0.49225836992263794,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45575231313705444,
+        "heldout_l2": 0.5703646540641785,
+        "train_n": 2473,
+        "heldout_n": 69
+      }
+    },
+    {
+      "heldout_clip_id": 22,
+      "existing_student_l2": 0.6660128235816956,
+      "actor_only": {
+        "train_l2": 0.44479483366012573,
+        "heldout_l2": 0.5010973811149597,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44588279724121094,
+        "heldout_l2": 0.5060411095619202,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4618622660636902,
+        "heldout_l2": 0.5225334763526917,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4546932578086853,
+        "heldout_l2": 0.6287227272987366,
+        "train_n": 2475,
+        "heldout_n": 67
+      }
+    },
+    {
+      "heldout_clip_id": 23,
+      "existing_student_l2": 0.679717481136322,
+      "actor_only": {
+        "train_l2": 0.4453600347042084,
+        "heldout_l2": 0.4710724651813507,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4499335289001465,
+        "heldout_l2": 0.4628051519393921,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46504372358322144,
+        "heldout_l2": 0.5043240189552307,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45679372549057007,
+        "heldout_l2": 0.5133394598960876,
+        "train_n": 2476,
+        "heldout_n": 66
+      }
+    },
+    {
+      "heldout_clip_id": 24,
+      "existing_student_l2": 0.7907842397689819,
+      "actor_only": {
+        "train_l2": 0.44011929631233215,
+        "heldout_l2": 0.6671723127365112,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44556108117103577,
+        "heldout_l2": 0.6902368068695068,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46125829219818115,
+        "heldout_l2": 0.7032231688499451,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4515894055366516,
+        "heldout_l2": 0.7874243855476379,
+        "train_n": 2478,
+        "heldout_n": 64
+      }
+    },
+    {
+      "heldout_clip_id": 25,
+      "existing_student_l2": 0.6585681438446045,
+      "actor_only": {
+        "train_l2": 0.4430583417415619,
+        "heldout_l2": 0.42222440242767334,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44842538237571716,
+        "heldout_l2": 0.4370863437652588,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46418073773384094,
+        "heldout_l2": 0.46818506717681885,
+        "train_n": 2478,
+        "heldout_n": 64
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45718562602996826,
+        "heldout_l2": 0.5041981339454651,
+        "train_n": 2478,
+        "heldout_n": 64
+      }
+    },
+    {
+      "heldout_clip_id": 26,
+      "existing_student_l2": 0.664024293422699,
+      "actor_only": {
+        "train_l2": 0.44436711072921753,
+        "heldout_l2": 0.4689856767654419,
+        "train_n": 2479,
+        "heldout_n": 63
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44829055666923523,
+        "heldout_l2": 0.44690683484077454,
+        "train_n": 2479,
+        "heldout_n": 63
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4643716812133789,
+        "heldout_l2": 0.4709726572036743,
+        "train_n": 2479,
+        "heldout_n": 63
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45759516954421997,
+        "heldout_l2": 0.5368080735206604,
+        "train_n": 2479,
+        "heldout_n": 63
+      }
+    },
+    {
+      "heldout_clip_id": 27,
+      "existing_student_l2": 0.7030549049377441,
+      "actor_only": {
+        "train_l2": 0.443214476108551,
+        "heldout_l2": 0.5035122632980347,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4466659128665924,
+        "heldout_l2": 0.5119225978851318,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4620468318462372,
+        "heldout_l2": 0.5417581796646118,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4557795822620392,
+        "heldout_l2": 0.6110253930091858,
+        "train_n": 2476,
+        "heldout_n": 66
+      }
+    },
+    {
+      "heldout_clip_id": 28,
+      "existing_student_l2": 0.5872153639793396,
+      "actor_only": {
+        "train_l2": 0.4459514021873474,
+        "heldout_l2": 0.40509581565856934,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44852882623672485,
+        "heldout_l2": 0.40907546877861023,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46374019980430603,
+        "heldout_l2": 0.43287283182144165,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45764967799186707,
+        "heldout_l2": 0.4806957244873047,
+        "train_n": 2476,
+        "heldout_n": 66
+      }
+    },
+    {
+      "heldout_clip_id": 29,
+      "existing_student_l2": 0.6619112491607666,
+      "actor_only": {
+        "train_l2": 0.4457065761089325,
+        "heldout_l2": 0.4681045114994049,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44650059938430786,
+        "heldout_l2": 0.46296268701553345,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4628293216228485,
+        "heldout_l2": 0.48621392250061035,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4568632245063782,
+        "heldout_l2": 0.4971922039985657,
+        "train_n": 2475,
+        "heldout_n": 67
+      }
+    },
+    {
+      "heldout_clip_id": 30,
+      "existing_student_l2": 0.6204729676246643,
+      "actor_only": {
+        "train_l2": 0.44605305790901184,
+        "heldout_l2": 0.4176023304462433,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4479348361492157,
+        "heldout_l2": 0.4091218411922455,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46334004402160645,
+        "heldout_l2": 0.4201737940311432,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4587249159812927,
+        "heldout_l2": 0.48336881399154663,
+        "train_n": 2476,
+        "heldout_n": 66
+      }
+    },
+    {
+      "heldout_clip_id": 31,
+      "existing_student_l2": 0.5777603387832642,
+      "actor_only": {
+        "train_l2": 0.4465160369873047,
+        "heldout_l2": 0.4016985595226288,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44848233461380005,
+        "heldout_l2": 0.39015114307403564,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46382251381874084,
+        "heldout_l2": 0.4022158086299896,
+        "train_n": 2476,
+        "heldout_n": 66
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45987874269485474,
+        "heldout_l2": 0.48308977484703064,
+        "train_n": 2476,
+        "heldout_n": 66
+      }
+    },
+    {
+      "heldout_clip_id": 32,
+      "existing_student_l2": 0.7073215842247009,
+      "actor_only": {
+        "train_l2": 0.44487085938453674,
+        "heldout_l2": 0.4024878740310669,
+        "train_n": 2483,
+        "heldout_n": 59
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44950127601623535,
+        "heldout_l2": 0.4045872390270233,
+        "train_n": 2483,
+        "heldout_n": 59
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4653589725494385,
+        "heldout_l2": 0.43339860439300537,
+        "train_n": 2483,
+        "heldout_n": 59
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45929715037345886,
+        "heldout_l2": 0.517039954662323,
+        "train_n": 2483,
+        "heldout_n": 59
+      }
+    },
+    {
+      "heldout_clip_id": 33,
+      "existing_student_l2": 0.6756430864334106,
+      "actor_only": {
+        "train_l2": 0.4428654611110687,
+        "heldout_l2": 0.49468153715133667,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44611993432044983,
+        "heldout_l2": 0.5011525750160217,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4623786509037018,
+        "heldout_l2": 0.5217607021331787,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4588949680328369,
+        "heldout_l2": 0.6115347146987915,
+        "train_n": 2474,
+        "heldout_n": 68
+      }
+    },
+    {
+      "heldout_clip_id": 34,
+      "existing_student_l2": 0.6868774890899658,
+      "actor_only": {
+        "train_l2": 0.44529399275779724,
+        "heldout_l2": 0.4790770411491394,
+        "train_n": 2481,
+        "heldout_n": 61
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4495789706707001,
+        "heldout_l2": 0.48266106843948364,
+        "train_n": 2481,
+        "heldout_n": 61
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4644359052181244,
+        "heldout_l2": 0.5002713203430176,
+        "train_n": 2481,
+        "heldout_n": 61
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.45610788464546204,
+        "heldout_l2": 0.5459627509117126,
+        "train_n": 2481,
+        "heldout_n": 61
+      }
+    },
+    {
+      "heldout_clip_id": 35,
+      "existing_student_l2": 0.6041060090065002,
+      "actor_only": {
+        "train_l2": 0.4442901611328125,
+        "heldout_l2": 0.4366614818572998,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.44850265979766846,
+        "heldout_l2": 0.43394821882247925,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4644335210323334,
+        "heldout_l2": 0.47204113006591797,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4613354504108429,
+        "heldout_l2": 0.5135802626609802,
+        "train_n": 2474,
+        "heldout_n": 68
+      }
+    },
+    {
+      "heldout_clip_id": 36,
+      "existing_student_l2": 0.7134950160980225,
+      "actor_only": {
+        "train_l2": 0.4428131580352783,
+        "heldout_l2": 0.4973110854625702,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4470764100551605,
+        "heldout_l2": 0.5263057947158813,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46264269948005676,
+        "heldout_l2": 0.5514451265335083,
+        "train_n": 2474,
+        "heldout_n": 68
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4589545726776123,
+        "heldout_l2": 0.6003975868225098,
+        "train_n": 2474,
+        "heldout_n": 68
+      }
+    },
+    {
+      "heldout_clip_id": 37,
+      "existing_student_l2": 0.6638974547386169,
+      "actor_only": {
+        "train_l2": 0.4420818090438843,
+        "heldout_l2": 0.44329455494880676,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4518885612487793,
+        "heldout_l2": 0.4594215154647827,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.46829909086227417,
+        "heldout_l2": 0.4878820776939392,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.46103137731552124,
+        "heldout_l2": 0.5183932781219482,
+        "train_n": 2473,
+        "heldout_n": 69
+      }
+    },
+    {
+      "heldout_clip_id": 38,
+      "existing_student_l2": 0.6937914490699768,
+      "actor_only": {
+        "train_l2": 0.44537830352783203,
+        "heldout_l2": 0.47832557559013367,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4465266466140747,
+        "heldout_l2": 0.48249873518943787,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4637322425842285,
+        "heldout_l2": 0.5061047673225403,
+        "train_n": 2475,
+        "heldout_n": 67
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.4564897418022156,
+        "heldout_l2": 0.5495832562446594,
+        "train_n": 2475,
+        "heldout_n": 67
+      }
+    },
+    {
+      "heldout_clip_id": 39,
+      "existing_student_l2": 0.7357803583145142,
+      "actor_only": {
+        "train_l2": 0.4422205090522766,
+        "heldout_l2": 0.47900792956352234,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4515143036842346,
+        "heldout_l2": 0.4838872253894806,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4678192436695099,
+        "heldout_l2": 0.5044164061546326,
+        "train_n": 2473,
+        "heldout_n": 69
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.459789901971817,
+        "heldout_l2": 0.575458824634552,
+        "train_n": 2473,
+        "heldout_n": 69
+      }
+    }
+  ],
+  "within_clip_contiguous_block": {
+    "phase_window": [
+      0.45,
+      0.55
+    ],
+    "results": {
+      "actor_only": {
+        "train_l2": 0.47969362139701843,
+        "heldout_l2": 0.4595308005809784,
+        "train_n": 1908,
+        "heldout_n": 634
+      },
+      "actor_plus_zero_depth": {
+        "train_l2": 0.4823107421398163,
+        "heldout_l2": 0.4469941556453705,
+        "train_n": 1908,
+        "heldout_n": 634
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.4988691210746765,
+        "heldout_l2": 0.47395583987236023,
+        "train_n": 1908,
+        "heldout_n": 634
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.47667714953422546,
+        "heldout_l2": 0.5788179636001587,
+        "train_n": 1908,
+        "heldout_n": 634
+      }
+    }
+  },
+  "means": {
+    "actor_only": 0.47466329038143157,
+    "actor_plus_zero_depth": 0.47708776146173476,
+    "student_actor_plus_frozen_depth": 0.501811508089304,
+    "privileged_teacher_obs": 0.562630308419466
+  }
+}

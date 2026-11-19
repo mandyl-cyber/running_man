@@ -1,0 +1,15 @@
+{
+  "source_checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "arm": "history3",
+  "actor_history_length": 3,
+  "depth_history_length": 1,
+  "rollin_window": [
+    0.25,
+    0.55
+  ],
+  "num_envs": 32,
+  "iterations": 2,
+  "fresh_optimizer": true,
+  "learning_rate": 0.0001,
+  "first_layer_max_abs_error": 5.7220458984375e-06
+}

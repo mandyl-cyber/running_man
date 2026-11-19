@@ -1,0 +1,154 @@
+{
+  "contract": "offline_teacher_driven_same_labels_grouped_motion_cv",
+  "warning": "Offline regression on Teacher-controlled states is not a closed-loop success estimate.",
+  "checkpoint": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_rollin_early15_ab_v1/train/teacher/model_30098.pt",
+  "traces": "/home/sjtu/running_man/StudentPolicy/reports/php_student/continuation_collapse_v1/paired_rollout_v1/source/traces",
+  "samples": 685,
+  "clips": 40,
+  "folds": 5,
+  "seed": 42,
+  "steps_per_arm_per_fold": 600,
+  "backbone_lr": 3e-05,
+  "fold_rows": [
+    {
+      "fold": 0,
+      "heldout_clips": [
+        2,
+        17,
+        21,
+        22,
+        27,
+        29,
+        32,
+        37
+      ],
+      "train_samples": 513,
+      "heldout_samples": 172,
+      "zero": {
+        "train_l2": 1.4480514526367188,
+        "heldout_l2": 1.9822889566421509
+      },
+      "frozen": {
+        "train_l2": 1.36822509765625,
+        "heldout_l2": 2.013782262802124
+      },
+      "trainable": {
+        "train_l2": 1.3785918951034546,
+        "heldout_l2": 1.9941093921661377
+      }
+    },
+    {
+      "fold": 1,
+      "heldout_clips": [
+        7,
+        11,
+        16,
+        19,
+        20,
+        31,
+        33,
+        34
+      ],
+      "train_samples": 513,
+      "heldout_samples": 172,
+      "zero": {
+        "train_l2": 1.47511625289917,
+        "heldout_l2": 1.855542778968811
+      },
+      "frozen": {
+        "train_l2": 1.3857121467590332,
+        "heldout_l2": 1.9366611242294312
+      },
+      "trainable": {
+        "train_l2": 1.387672781944275,
+        "heldout_l2": 1.903619647026062
+      }
+    },
+    {
+      "fold": 2,
+      "heldout_clips": [
+        1,
+        3,
+        5,
+        12,
+        23,
+        30,
+        35,
+        39
+      ],
+      "train_samples": 567,
+      "heldout_samples": 118,
+      "zero": {
+        "train_l2": 1.403630018234253,
+        "heldout_l2": 2.1406524181365967
+      },
+      "frozen": {
+        "train_l2": 1.336683988571167,
+        "heldout_l2": 2.198873519897461
+      },
+      "trainable": {
+        "train_l2": 1.3434901237487793,
+        "heldout_l2": 2.213273763656616
+      }
+    },
+    {
+      "fold": 3,
+      "heldout_clips": [
+        0,
+        9,
+        13,
+        14,
+        18,
+        24,
+        25,
+        26
+      ],
+      "train_samples": 598,
+      "heldout_samples": 87,
+      "zero": {
+        "train_l2": 1.480196237564087,
+        "heldout_l2": 2.1076362133026123
+      },
+      "frozen": {
+        "train_l2": 1.4092870950698853,
+        "heldout_l2": 2.2088072299957275
+      },
+      "trainable": {
+        "train_l2": 1.4200092554092407,
+        "heldout_l2": 2.2062089443206787
+      }
+    },
+    {
+      "fold": 4,
+      "heldout_clips": [
+        4,
+        6,
+        8,
+        10,
+        15,
+        28,
+        36,
+        38
+      ],
+      "train_samples": 549,
+      "heldout_samples": 136,
+      "zero": {
+        "train_l2": 1.4960349798202515,
+        "heldout_l2": 1.736475944519043
+      },
+      "frozen": {
+        "train_l2": 1.4085140228271484,
+        "heldout_l2": 1.7614119052886963
+      },
+      "trainable": {
+        "train_l2": 1.4201722145080566,
+        "heldout_l2": 1.7526154518127441
+      }
+    }
+  ],
+  "means": {
+    "zero": 1.9645192623138428,
+    "frozen": 2.023907208442688,
+    "trainable": 2.013965439796448
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "contract": "student_closed_loop_state_cross_motion_nearest_neighbor_label_conflict",
+  "warning": "Nearest-neighbor association is diagnostic, not proof of irreducible partial observability.",
+  "checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "trace_dir": "/home/sjtu/running_man/StudentPolicy/reports/php_student/own_state_supervision_probe_v1/eval/traces",
+  "phase_window": [
+    0.25,
+    0.65
+  ],
+  "phase_denominator": "bundle_joint_pos_frames_minus_one",
+  "removed_teacher_routing_column": 449,
+  "k": 5,
+  "samples": 1713,
+  "clip_count": 40,
+  "results": [
+    {
+      "features": "actor_only",
+      "samples": 1688,
+      "source_samples": 1713,
+      "clips": 40,
+      "k": 5,
+      "cross_motion_neighbor_distance_median": 5.570101261138916,
+      "cross_motion_action_l2_mean": 2.3558459281921387,
+      "cross_motion_action_l2_clip_balanced_mean": 2.5194086348172853,
+      "cross_motion_action_l2_clip_bootstrap_95ci": [
+        2.3333812107705083,
+        2.7186781765803465
+      ],
+      "cross_motion_action_l2_median": 1.7601041793823242,
+      "cross_motion_action_l2_p90": 4.807031440734864,
+      "within_motion_action_l2_mean": 1.2003339529037476,
+      "random_pair_action_l2_mean": 3.5604069232940674,
+      "conflict_ratio_to_random": 0.6616788506507874
+    },
+    {
+      "features": "actor_plus_frozen_depth",
+      "samples": 1688,
+      "source_samples": 1713,
+      "clips": 40,
+      "k": 5,
+      "cross_motion_neighbor_distance_median": 7.706993103027344,
+      "cross_motion_action_l2_mean": 2.459672212600708,
+      "cross_motion_action_l2_clip_balanced_mean": 2.6172162075041934,
+      "cross_motion_action_l2_clip_bootstrap_95ci": [
+        2.4213863433979914,
+        2.834909123995747
+      ],
+      "cross_motion_action_l2_median": 1.8422294855117798,
+      "cross_motion_action_l2_p90": 4.899430751800537,
+      "within_motion_action_l2_mean": 1.2218507528305054,
+      "random_pair_action_l2_mean": 3.5604069232940674,
+      "conflict_ratio_to_random": 0.6908401846885681
+    },
+    {
+      "features": "privileged_without_routing_id",
+      "samples": 1688,
+      "source_samples": 1713,
+      "clips": 40,
+      "k": 5,
+      "cross_motion_neighbor_distance_median": 14.618207931518555,
+      "cross_motion_action_l2_mean": 1.6813944578170776,
+      "cross_motion_action_l2_clip_balanced_mean": 1.7645334529136267,
+      "cross_motion_action_l2_clip_bootstrap_95ci": [
+        1.6181260014083654,
+        1.9203736744807014
+      ],
+      "cross_motion_action_l2_median": 1.4141560792922974,
+      "cross_motion_action_l2_p90": 2.914612698554993,
+      "within_motion_action_l2_mean": 1.168715000152588,
+      "random_pair_action_l2_mean": 3.5604069232940674,
+      "conflict_ratio_to_random": 0.472247838973999
+    }
+  ]
+}

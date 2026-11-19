@@ -1,0 +1,10 @@
+{
+  "steps": 2639,
+  "valid_samples": 500000.0,
+  "bins_seen_fraction": 0.9857795834541321,
+  "table_mean": 0.6447967886924744,
+  "table_std": 0.18067224323749542,
+  "table_min": 0.5,
+  "table_max": 1.0,
+  "optimizer_steps": 0
+}

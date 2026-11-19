@@ -1,0 +1,21 @@
+{
+  "decision": "HOLD",
+  "seeds": [
+    43,
+    44
+  ],
+  "incumbent_successes": 15,
+  "candidate_successes": 15,
+  "success_delta": 0,
+  "clip_seed_wins": 13,
+  "clip_seed_losses": 13,
+  "clip_seed_ties": 54,
+  "incumbent_failure_progress_mean": 0.5275813431430256,
+  "candidate_failure_progress_mean": 0.5037688070224071,
+  "failure_progress_delta": -0.02381253612061851,
+  "pass_contract": {
+    "min_success_gain": 2,
+    "wins_must_exceed_losses": true,
+    "minimum_failure_progress_delta": -0.02
+  }
+}

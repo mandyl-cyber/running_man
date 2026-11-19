@@ -1,0 +1,19 @@
+{
+  "schema_version": 2,
+  "contract": "deterministic_frame0_full_clip",
+  "episodes_per_motion_target": 20,
+  "max_eval_steps": 12000,
+  "executed_steps": 798,
+  "complete": true,
+  "motions": [
+    {
+      "motion_id": 0,
+      "motion": "forward_walk0.6s_step0.7s",
+      "episodes": 20,
+      "successes": 20,
+      "bad_tracking": 0,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 1.0
+    }
+  ]
+}

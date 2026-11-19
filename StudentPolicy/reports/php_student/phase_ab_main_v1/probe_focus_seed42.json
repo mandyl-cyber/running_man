@@ -1,0 +1,50 @@
+{
+  "contract": "saved_student_training_config_inference_rollout",
+  "checkpoint": "/home/sjtu/running_man/StudentPolicy/reports/php_student/phase_ab_main_v1/focus/model_30198.pt",
+  "num_envs": 128,
+  "steps": 500,
+  "reset_count": 140,
+  "preprocess_hook_kwargs": "{\"add_onpath_obstacle\": true, \"num_variants\": 3}",
+  "rows": [
+    {
+      "phase": "0-20%",
+      "samples": 6311,
+      "teacher_valid_samples": 6248,
+      "teacher_valid_rate": 0.990017429884329,
+      "valid_action_l2_mean": 0.7573548227825253,
+      "ref_pos_error_mean_m": 0.1300219928483033
+    },
+    {
+      "phase": "20-40%",
+      "samples": 13654,
+      "teacher_valid_samples": 7460,
+      "teacher_valid_rate": 0.5463600410136223,
+      "valid_action_l2_mean": 1.3623920802456444,
+      "ref_pos_error_mean_m": 0.3425423306830023
+    },
+    {
+      "phase": "40-60%",
+      "samples": 14284,
+      "teacher_valid_samples": 7627,
+      "teacher_valid_rate": 0.5339540744889387,
+      "valid_action_l2_mean": 1.0862051731358198,
+      "ref_pos_error_mean_m": 0.4275692655104811
+    },
+    {
+      "phase": "60-80%",
+      "samples": 13147,
+      "teacher_valid_samples": 11419,
+      "teacher_valid_rate": 0.8685631703050125,
+      "valid_action_l2_mean": 1.1901553259472972,
+      "ref_pos_error_mean_m": 0.24305752328913446
+    },
+    {
+      "phase": "80-100%",
+      "samples": 16604,
+      "teacher_valid_samples": 12547,
+      "teacher_valid_rate": 0.7556612864370031,
+      "valid_action_l2_mean": 0.772025009374785,
+      "ref_pos_error_mean_m": 0.33136831347811974
+    }
+  ]
+}

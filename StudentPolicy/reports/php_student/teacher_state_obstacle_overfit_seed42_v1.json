@@ -1,0 +1,45 @@
+{
+  "contract": "offline_teacher_controlled_obstacle_states_pure_mse_diagnostic_not_deployment_policy",
+  "checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "obstacle_frame_window": [
+    180,
+    320
+  ],
+  "held_out_motion_id": 4,
+  "steps": 300,
+  "learning_rate": 0.0001,
+  "before": {
+    "train": {
+      "count": 92,
+      "action_l2_mean": 0.9633142352104187,
+      "mse_mean": 0.03831133991479874
+    },
+    "interleaved_holdout": {
+      "count": 20,
+      "action_l2_mean": 1.006964087486267,
+      "mse_mean": 0.039701513946056366
+    },
+    "unseen_motion": {
+      "count": 28,
+      "action_l2_mean": 0.7917338609695435,
+      "mse_mean": 0.025220530107617378
+    }
+  },
+  "after": {
+    "train": {
+      "count": 92,
+      "action_l2_mean": 0.13583843410015106,
+      "mse_mean": 0.0006824127049185336
+    },
+    "interleaved_holdout": {
+      "count": 20,
+      "action_l2_mean": 0.7298309803009033,
+      "mse_mean": 0.021207507699728012
+    },
+    "unseen_motion": {
+      "count": 28,
+      "action_l2_mean": 0.7199934124946594,
+      "mse_mean": 0.01951349712908268
+    }
+  }
+}

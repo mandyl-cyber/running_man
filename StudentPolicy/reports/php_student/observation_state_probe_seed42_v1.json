@@ -1,0 +1,136 @@
+{
+  "contract": "offline_teacher_controlled_same_state_same_label_leave_one_clip_out",
+  "interpretation_warning": "Teacher observations contain privileged reference state; this is an oracle bound, not a deployable policy. Frozen depth features cannot distinguish missing image information from a weak saved encoder.",
+  "checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "teacher_traces": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_state_action_audit_seed42_v1/traces",
+  "phase_window": [
+    0.25,
+    0.65
+  ],
+  "steps_per_fold": 600,
+  "samples": 316,
+  "clips": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "folds": [
+    {
+      "heldout_clip_id": 0,
+      "existing_student_l2": 0.7612257599830627,
+      "actor_only": {
+        "train_l2": 0.3527834117412567,
+        "heldout_l2": 0.7156064510345459,
+        "train_n": 252,
+        "heldout_n": 64
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.3514162003993988,
+        "heldout_l2": 0.7469642162322998,
+        "train_n": 252,
+        "heldout_n": 64
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.2035355269908905,
+        "heldout_l2": 0.9968063235282898,
+        "train_n": 252,
+        "heldout_n": 64
+      }
+    },
+    {
+      "heldout_clip_id": 1,
+      "existing_student_l2": 0.7266026139259338,
+      "actor_only": {
+        "train_l2": 0.35222411155700684,
+        "heldout_l2": 0.6868045330047607,
+        "train_n": 251,
+        "heldout_n": 65
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.34712105989456177,
+        "heldout_l2": 0.7646365761756897,
+        "train_n": 251,
+        "heldout_n": 65
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.21181081235408783,
+        "heldout_l2": 1.1010856628417969,
+        "train_n": 251,
+        "heldout_n": 65
+      }
+    },
+    {
+      "heldout_clip_id": 2,
+      "existing_student_l2": 0.7578747868537903,
+      "actor_only": {
+        "train_l2": 0.36284154653549194,
+        "heldout_l2": 0.6578624844551086,
+        "train_n": 254,
+        "heldout_n": 62
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.3609669506549835,
+        "heldout_l2": 0.6958436369895935,
+        "train_n": 254,
+        "heldout_n": 62
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.21518133580684662,
+        "heldout_l2": 1.009902834892273,
+        "train_n": 254,
+        "heldout_n": 62
+      }
+    },
+    {
+      "heldout_clip_id": 3,
+      "existing_student_l2": 0.6736935377120972,
+      "actor_only": {
+        "train_l2": 0.3627617657184601,
+        "heldout_l2": 0.5810865759849548,
+        "train_n": 252,
+        "heldout_n": 64
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.35788509249687195,
+        "heldout_l2": 0.6685665845870972,
+        "train_n": 252,
+        "heldout_n": 64
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.21418079733848572,
+        "heldout_l2": 0.9072547554969788,
+        "train_n": 252,
+        "heldout_n": 64
+      }
+    },
+    {
+      "heldout_clip_id": 4,
+      "existing_student_l2": 0.6367693543434143,
+      "actor_only": {
+        "train_l2": 0.3717691898345947,
+        "heldout_l2": 0.574640154838562,
+        "train_n": 255,
+        "heldout_n": 61
+      },
+      "student_actor_plus_frozen_depth": {
+        "train_l2": 0.3624502122402191,
+        "heldout_l2": 0.664116382598877,
+        "train_n": 255,
+        "heldout_n": 61
+      },
+      "privileged_teacher_obs": {
+        "train_l2": 0.21562182903289795,
+        "heldout_l2": 0.9869509339332581,
+        "train_n": 255,
+        "heldout_n": 61
+      }
+    }
+  ],
+  "means": {
+    "actor_only": 0.6432000398635864,
+    "student_actor_plus_frozen_depth": 0.7080254793167114,
+    "privileged_teacher_obs": 1.0004001021385194
+  }
+}

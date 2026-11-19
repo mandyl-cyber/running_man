@@ -1,0 +1,15 @@
+{
+  "source_checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "arm": "student",
+  "mode": "probe",
+  "num_envs": 256,
+  "iterations": null,
+  "rollouts": 2,
+  "window": [
+    0.12,
+    0.25
+  ],
+  "ppo_window_gate": 0,
+  "teacher_control_requires_valid_label": true,
+  "evaluation_teacher_takeover": false
+}

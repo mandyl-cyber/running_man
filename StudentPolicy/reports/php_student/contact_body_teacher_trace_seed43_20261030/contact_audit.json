@@ -1,0 +1,414 @@
+{
+  "contract": "teacher_control_full_body_net_contact_force_audit",
+  "warning": "Wrist links are a proxy for fixed half-sphere hands. Net force does not identify the other contact body; threshold choice matters.",
+  "report_dir": "/home/sjtu/running_man/StudentPolicy/reports/php_student/contact_body_teacher_trace_seed43_20261030",
+  "threshold_N": 10.0,
+  "motions": 40,
+  "teacher_successes": 38,
+  "successful_clips_without_wrist_contact": 23,
+  "clips_with_wrist_contact": 16,
+  "body_rows": [
+    {
+      "body": "pelvis",
+      "contact_fraction": 0.00018963337547408344,
+      "max_force_N": 391.83575439453125
+    },
+    {
+      "body": "left_hip_pitch_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "left_hip_roll_link",
+      "contact_fraction": 0.0015802781289506952,
+      "max_force_N": 422.5709228515625
+    },
+    {
+      "body": "left_hip_yaw_link",
+      "contact_fraction": 0.0024336283185840708,
+      "max_force_N": 672.2386474609375
+    },
+    {
+      "body": "left_knee_link",
+      "contact_fraction": 0.04914664981036662,
+      "max_force_N": 3981.504638671875
+    },
+    {
+      "body": "left_ankle_pitch_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "left_ankle_roll_link",
+      "contact_fraction": 0.7667509481668774,
+      "max_force_N": 5116.8310546875
+    },
+    {
+      "body": "left_foot_contact_point",
+      "contact_fraction": 0.7667509481668774,
+      "max_force_N": 5116.8310546875
+    },
+    {
+      "body": "right_hip_pitch_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "right_hip_roll_link",
+      "contact_fraction": 0.0008217446270543616,
+      "max_force_N": 1552.5985107421875
+    },
+    {
+      "body": "right_hip_yaw_link",
+      "contact_fraction": 0.0022439949431099873,
+      "max_force_N": 3479.031982421875
+    },
+    {
+      "body": "right_knee_link",
+      "contact_fraction": 0.0436472819216182,
+      "max_force_N": 3245.9619140625
+    },
+    {
+      "body": "right_ankle_pitch_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "right_ankle_roll_link",
+      "contact_fraction": 0.7600821744627054,
+      "max_force_N": 5190.67626953125
+    },
+    {
+      "body": "right_foot_contact_point",
+      "contact_fraction": 0.7600821744627054,
+      "max_force_N": 5190.67626953125
+    },
+    {
+      "body": "waist_yaw_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "waist_roll_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "torso_link",
+      "contact_fraction": 0.0004740834386852086,
+      "max_force_N": 2711.2197265625
+    },
+    {
+      "body": "left_shoulder_pitch_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "left_shoulder_roll_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "left_shoulder_yaw_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "left_elbow_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "left_wrist_roll_link",
+      "contact_fraction": 3.1605562579013905e-05,
+      "max_force_N": 11.704855918884277
+    },
+    {
+      "body": "left_wrist_pitch_link",
+      "contact_fraction": 0.0022439949431099873,
+      "max_force_N": 240.62928771972656
+    },
+    {
+      "body": "left_wrist_yaw_link",
+      "contact_fraction": 0.002939317319848293,
+      "max_force_N": 100.12366485595703
+    },
+    {
+      "body": "right_shoulder_pitch_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "right_shoulder_roll_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "right_shoulder_yaw_link",
+      "contact_fraction": 3.1605562579013905e-05,
+      "max_force_N": 190.27821350097656
+    },
+    {
+      "body": "right_elbow_link",
+      "contact_fraction": 3.1605562579013905e-05,
+      "max_force_N": 371.1972961425781
+    },
+    {
+      "body": "right_wrist_roll_link",
+      "contact_fraction": 0.0,
+      "max_force_N": 0.0
+    },
+    {
+      "body": "right_wrist_pitch_link",
+      "contact_fraction": 0.0009797724399494311,
+      "max_force_N": 408.3107604980469
+    },
+    {
+      "body": "right_wrist_yaw_link",
+      "contact_fraction": 0.0006321112515802782,
+      "max_force_N": 594.377685546875
+    }
+  ],
+  "clip_rows": [
+    {
+      "clip": 0,
+      "successes": 0,
+      "frames": 250,
+      "wrist_contact_frames": 5
+    },
+    {
+      "clip": 1,
+      "successes": 1,
+      "frames": 835,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 2,
+      "successes": 1,
+      "frames": 751,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 3,
+      "successes": 1,
+      "frames": 787,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 4,
+      "successes": 1,
+      "frames": 799,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 5,
+      "successes": 1,
+      "frames": 798,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 6,
+      "successes": 1,
+      "frames": 831,
+      "wrist_contact_frames": 22
+    },
+    {
+      "clip": 7,
+      "successes": 0,
+      "frames": 346,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 8,
+      "successes": 1,
+      "frames": 818,
+      "wrist_contact_frames": 1
+    },
+    {
+      "clip": 9,
+      "successes": 1,
+      "frames": 848,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 10,
+      "successes": 1,
+      "frames": 811,
+      "wrist_contact_frames": 1
+    },
+    {
+      "clip": 11,
+      "successes": 1,
+      "frames": 816,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 12,
+      "successes": 1,
+      "frames": 818,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 13,
+      "successes": 1,
+      "frames": 781,
+      "wrist_contact_frames": 50
+    },
+    {
+      "clip": 14,
+      "successes": 1,
+      "frames": 812,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 15,
+      "successes": 1,
+      "frames": 868,
+      "wrist_contact_frames": 3
+    },
+    {
+      "clip": 16,
+      "successes": 1,
+      "frames": 788,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 17,
+      "successes": 1,
+      "frames": 821,
+      "wrist_contact_frames": 2
+    },
+    {
+      "clip": 18,
+      "successes": 1,
+      "frames": 836,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 19,
+      "successes": 1,
+      "frames": 815,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 20,
+      "successes": 1,
+      "frames": 805,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 21,
+      "successes": 1,
+      "frames": 859,
+      "wrist_contact_frames": 1
+    },
+    {
+      "clip": 22,
+      "successes": 1,
+      "frames": 845,
+      "wrist_contact_frames": 52
+    },
+    {
+      "clip": 23,
+      "successes": 1,
+      "frames": 817,
+      "wrist_contact_frames": 13
+    },
+    {
+      "clip": 24,
+      "successes": 1,
+      "frames": 806,
+      "wrist_contact_frames": 31
+    },
+    {
+      "clip": 25,
+      "successes": 1,
+      "frames": 793,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 26,
+      "successes": 1,
+      "frames": 792,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 27,
+      "successes": 1,
+      "frames": 816,
+      "wrist_contact_frames": 1
+    },
+    {
+      "clip": 28,
+      "successes": 1,
+      "frames": 816,
+      "wrist_contact_frames": 1
+    },
+    {
+      "clip": 29,
+      "successes": 1,
+      "frames": 833,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 30,
+      "successes": 1,
+      "frames": 820,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 31,
+      "successes": 1,
+      "frames": 819,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 32,
+      "successes": 1,
+      "frames": 733,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 33,
+      "successes": 1,
+      "frames": 840,
+      "wrist_contact_frames": 1
+    },
+    {
+      "clip": 34,
+      "successes": 1,
+      "frames": 768,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 35,
+      "successes": 1,
+      "frames": 850,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 36,
+      "successes": 1,
+      "frames": 848,
+      "wrist_contact_frames": 6
+    },
+    {
+      "clip": 37,
+      "successes": 1,
+      "frames": 863,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 38,
+      "successes": 1,
+      "frames": 833,
+      "wrist_contact_frames": 0
+    },
+    {
+      "clip": 39,
+      "successes": 1,
+      "frames": 855,
+      "wrist_contact_frames": 6
+    }
+  ]
+}

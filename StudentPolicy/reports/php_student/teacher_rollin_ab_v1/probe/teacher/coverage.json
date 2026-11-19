@@ -1,0 +1,51 @@
+{
+  "arm": "teacher",
+  "window": [
+    0.12,
+    0.25
+  ],
+  "phase_bins": [
+    "0-20",
+    "20-40",
+    "40-60",
+    "60-80",
+    "80-100"
+  ],
+  "counts": [
+    {
+      "samples": 9640,
+      "valid_labels": 9532,
+      "teacher_control": 5665,
+      "valid_fraction": 0.9887966804979254,
+      "valid_action_l2": 0.5811321404217373
+    },
+    {
+      "samples": 22118,
+      "valid_labels": 13149,
+      "teacher_control": 4392,
+      "valid_fraction": 0.5944931729812822,
+      "valid_action_l2": 1.271786055498517
+    },
+    {
+      "samples": 29714,
+      "valid_labels": 17895,
+      "teacher_control": 0,
+      "valid_fraction": 0.6022413677054587,
+      "valid_action_l2": 0.997386774413244
+    },
+    {
+      "samples": 30727,
+      "valid_labels": 26913,
+      "teacher_control": 0,
+      "valid_fraction": 0.8758746379405734,
+      "valid_action_l2": 1.1838541376379446
+    },
+    {
+      "samples": 36825,
+      "valid_labels": 26856,
+      "teacher_control": 0,
+      "valid_fraction": 0.7292871690427699,
+      "valid_action_l2": 0.7248568610133675
+    }
+  ]
+}

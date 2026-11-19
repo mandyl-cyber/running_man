@@ -1,0 +1,25 @@
+{
+  "source_checkpoint": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_rollin_early15_ab_v1/train/teacher/model_30098.pt",
+  "arm": "baseline",
+  "num_envs": 256,
+  "iterations": 1,
+  "focus_multiplier": 1.0,
+  "focus_event_window_frames": [
+    -110,
+    -40
+  ],
+  "event_traces": "/home/sjtu/running_man/StudentPolicy/reports/php_student/contact_geometry_teacher_trace_seed43_20261030/traces",
+  "teacher_valid_only": true,
+  "save_loaded_only": false,
+  "save_milestones": [
+    1
+  ],
+  "cold_gate_fallback": null,
+  "anchor_prefix_frames": 0,
+  "anchor_coef": 0.0,
+  "gate_rebuild_valid_samples": 0,
+  "gate_rebuild_mode": "discard",
+  "gate_rebuild_state": "/home/sjtu/running_man/StudentPolicy/reports/php_student/gate_rebuild_ab_v1/preflight_keep_gpu_v2/baseline/gate_rebuild_state.pt",
+  "early_ppo_frames": 100,
+  "early_ppo_scale": 0.1
+}

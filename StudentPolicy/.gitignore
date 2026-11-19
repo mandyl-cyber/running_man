@@ -17,10 +17,13 @@ htmlcov/
 # Training runs, generated reports and Hydra outputs
 /logs/
 /outputs/
-/reports/
 /wandb/
 /runs/
 /multirun/
+
+# Keep compact evaluation reports, not bulk rollout arrays.
+/reports/**/*.npz
+/reports/**/*.npy
 
 # Models and exported policies, wherever generated
 *.pt

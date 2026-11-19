@@ -1,0 +1,15 @@
+{
+  "source_checkpoint": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_rollin_early15_ab_v1/train/teacher/model_30098.pt",
+  "arm": "teacher",
+  "mode": "train",
+  "num_envs": 256,
+  "iterations": 100,
+  "rollouts": null,
+  "steps": 80,
+  "max_events": 3,
+  "cooldown": 40,
+  "sustain": 3,
+  "threshold": 1.0,
+  "ppo_excluded_on_recovery_active": true,
+  "teacher_control_requires_valid_label": true
+}

@@ -1,0 +1,67 @@
+{
+  "contract": "student_continuation_clean_seed43_one_episode_per_clip",
+  "seed": 43,
+  "results": {
+    "source": {
+      "successes": 3,
+      "episodes": 40,
+      "successful_motions": [
+        "forward_walk0.9s_step1.2s",
+        "right_90_walk0.6s_step0.7s",
+        "right_90_walk1.5s_step0.7s"
+      ]
+    },
+    "loaded_only": {
+      "successes": 3,
+      "episodes": 40,
+      "successful_motions": [
+        "forward_walk0.9s_step1.2s",
+        "right_90_walk0.6s_step0.7s",
+        "right_90_walk1.5s_step0.7s"
+      ],
+      "matches_source": true
+    },
+    "step_001": {
+      "successes": 3,
+      "episodes": 40,
+      "successful_motions": [
+        "left_90_walk1.2s_step1.2s",
+        "right_45_walk0.9s_step1.2s",
+        "right_90_walk0.6s_step0.7s"
+      ]
+    },
+    "step_005": {
+      "successes": 3,
+      "episodes": 40,
+      "successful_motions": [
+        "forward_walk0.9s_step0.7s",
+        "left_45_walk1.5s_step1.2s",
+        "right_90_walk1.5s_step0.7s"
+      ]
+    },
+    "step_010": {
+      "successes": 3,
+      "episodes": 40,
+      "successful_motions": [
+        "forward_walk0.9s_step1.2s",
+        "right_90_walk1.2s_step1.2s",
+        "right_90_walk1.5s_step0.7s"
+      ]
+    },
+    "step_025": {
+      "successes": 3,
+      "episodes": 40,
+      "successful_motions": [
+        "left_45_walk1.5s_step1.2s",
+        "right_90_walk0.6s_step0.7s",
+        "right_90_walk1.5s_step0.7s"
+      ]
+    },
+    "step_050": {
+      "successes": 0,
+      "episodes": 40,
+      "successful_motions": []
+    }
+  },
+  "first_observed_drop_step": 50
+}

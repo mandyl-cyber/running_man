@@ -1,0 +1,51 @@
+{
+  "arm": "student",
+  "window": [
+    0.12,
+    0.25
+  ],
+  "phase_bins": [
+    "0-20",
+    "20-40",
+    "40-60",
+    "60-80",
+    "80-100"
+  ],
+  "counts": [
+    {
+      "samples": 46194,
+      "valid_labels": 45805,
+      "teacher_control": 0,
+      "valid_fraction": 0.9915789929428064,
+      "valid_action_l2": 0.734498741267329
+    },
+    {
+      "samples": 113152,
+      "valid_labels": 62071,
+      "teacher_control": 0,
+      "valid_fraction": 0.5485629949095022,
+      "valid_action_l2": 1.4081881786583106
+    },
+    {
+      "samples": 141048,
+      "valid_labels": 75484,
+      "teacher_control": 0,
+      "valid_fraction": 0.5351653337870795,
+      "valid_action_l2": 1.0890005456454348
+    },
+    {
+      "samples": 139359,
+      "valid_labels": 120976,
+      "teacher_control": 0,
+      "valid_fraction": 0.8680888927159351,
+      "valid_action_l2": 1.2294103014234228
+    },
+    {
+      "samples": 174647,
+      "valid_labels": 131234,
+      "teacher_control": 0,
+      "valid_fraction": 0.7514243015912097,
+      "valid_action_l2": 0.7558538088452688
+    }
+  ]
+}

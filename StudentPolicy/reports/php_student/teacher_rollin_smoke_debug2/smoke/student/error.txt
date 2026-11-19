@@ -1,0 +1,42 @@
+Traceback (most recent call last):
+  File "/home/sjtu/running_man/StudentPolicy/scripts/php_student/teacher_rollin_ab.py", line 147, in main
+    algo = RollinPPO(device=device, env=env, config=config.algo.config,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/agents/distillation_ppo/distillation_ppo.py", line 166, in __init__
+    _ = self.env.reset_all()
+        ^^^^^^^^^^^^^^^^^^^^
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/envs/wbt/wbt_manager.py", line 97, in reset_all
+    return super().reset_all()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/envs/base_task/base_task.py", line 241, in reset_all
+    obs_dict, _, _, _ = self.step(actor_state)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/envs/base_task/base_task.py", line 446, in step
+    self._post_physics_step()
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/envs/base_task/base_task.py", line 502, in _post_physics_step
+    self._compute_observations()
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/envs/base_task/base_task.py", line 571, in _compute_observations
+    self.obs_buf_dict = self.observation_manager.compute()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/managers/observation/manager.py", line 104, in compute
+    obs_dict[group_name] = self.compute_group(group_name, modify_history=modify_history)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/managers/observation/manager.py", line 132, in compute_group
+    obs = self._compute_term(
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/managers/observation/manager.py", line 205, in _compute_term
+    obs = instance(self.env, modify_history=modify_history, **term_cfg.params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/managers/observation/terms/depth.py", line 207, in __call__
+    depth_images = self._get_depth_images(env)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/managers/observation/terms/depth.py", line 272, in _get_depth_images
+    depth_images = self.camera_sensor.capture()  # (num_cameras, num_envs, H, W)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/sensors/warp/camera_sensor.py", line 250, in capture
+    self.create_render_graph_depth_range()
+  File "/home/sjtu/php_parkour_official/thirdparty/holosoma/src/holosoma/holosoma/sensors/warp/camera_sensor.py", line 188, in create_render_graph_depth_range
+    wp.capture_begin(device=self.device)
+  File "/home/sjtu/.holosoma_deps/miniconda3/envs/php/lib/python3.11/site-packages/isaacsim/extscache/omni.warp.core-1.8.2+lx64/warp/context.py", line 6369, in capture_begin
+    raise RuntimeError("Must be a CUDA device")
+RuntimeError: Must be a CUDA device

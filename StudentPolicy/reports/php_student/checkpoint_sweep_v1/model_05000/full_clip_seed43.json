@@ -1,0 +1,1498 @@
+{
+  "schema_version": 1,
+  "contract": "student_deterministic_frame0_full_clip",
+  "profile": "clean",
+  "episodes_per_motion_target": 1,
+  "max_eval_steps": 6000,
+  "executed_steps": 301,
+  "complete": true,
+  "obstacle_seed": 43,
+  "diagnostics_enabled": true,
+  "intervention": {
+    "mode": "none",
+    "start_fraction": null,
+    "steps": null
+  },
+  "motions": [
+    {
+      "motion_id": 0,
+      "motion": "forward_walk0.6s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 237,
+        "failure_progress_mean": 0.29662077596996245,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.49181798100471497,
+        "robot_path_projection_mean": 0.24796192348003387,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.11563524603843689,
+        "student_teacher_action_l2_mean": 0.8286016583442688,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 237,
+            "progress_ratio": 0.29662077596996245,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.49181798100471497,
+            "robot_path_projection_ratio": 0.24796192348003387,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.11563524603843689,
+            "student_teacher_action_l2_mean": 0.8286016583442688,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 1,
+      "motion": "forward_walk0.6s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 239,
+        "failure_progress_mean": 0.28588516746411485,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.44847261905670166,
+        "robot_path_projection_mean": 0.23331329226493835,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.09410925209522247,
+        "student_teacher_action_l2_mean": 0.9170833826065063,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 239,
+            "progress_ratio": 0.28588516746411485,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.44847261905670166,
+            "robot_path_projection_ratio": 0.23331329226493835,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.09410925209522247,
+            "student_teacher_action_l2_mean": 0.9170833826065063,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 2,
+      "motion": "forward_walk0.9s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 242,
+        "failure_progress_mean": 0.32180851063829785,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.6346850991249084,
+        "robot_path_projection_mean": 0.3315674066543579,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.04235924780368805,
+        "student_teacher_action_l2_mean": 0.674724817276001,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 242,
+            "progress_ratio": 0.32180851063829785,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.6346850991249084,
+            "robot_path_projection_ratio": 0.3315674066543579,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.04235924780368805,
+            "student_teacher_action_l2_mean": 0.674724817276001,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 3,
+      "motion": "forward_walk0.9s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 253,
+        "failure_progress_mean": 0.3210659898477157,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.4730754494667053,
+        "robot_path_projection_mean": 0.3544841706752777,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.023204030469059944,
+        "student_teacher_action_l2_mean": 0.7465386986732483,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 253,
+            "progress_ratio": 0.3210659898477157,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.4730754494667053,
+            "robot_path_projection_ratio": 0.3544841706752777,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.023204030469059944,
+            "student_teacher_action_l2_mean": 0.7465386986732483,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 4,
+      "motion": "forward_walk1.2s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 258,
+        "failure_progress_mean": 0.3225,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.44972577691078186,
+        "robot_path_projection_mean": 0.3496915102005005,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.046462949365377426,
+        "student_teacher_action_l2_mean": 0.7911933064460754,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 258,
+            "progress_ratio": 0.3225,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.44972577691078186,
+            "robot_path_projection_ratio": 0.3496915102005005,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.046462949365377426,
+            "student_teacher_action_l2_mean": 0.7911933064460754,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 5,
+      "motion": "forward_walk1.2s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 260,
+        "failure_progress_mean": 0.32540675844806005,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5855030417442322,
+        "robot_path_projection_mean": 0.34252437949180603,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.21578377485275269,
+        "student_teacher_action_l2_mean": 0.8671674132347107,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 260,
+            "progress_ratio": 0.32540675844806005,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5855030417442322,
+            "robot_path_projection_ratio": 0.34252437949180603,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.21578377485275269,
+            "student_teacher_action_l2_mean": 0.8671674132347107,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 6,
+      "motion": "forward_walk1.5s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 283,
+        "failure_progress_mean": 0.3401442307692308,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.6940364241600037,
+        "robot_path_projection_mean": 0.3415256440639496,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.20775015652179718,
+        "student_teacher_action_l2_mean": 0.9142909646034241,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 283,
+            "progress_ratio": 0.3401442307692308,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.6940364241600037,
+            "robot_path_projection_ratio": 0.3415256440639496,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.20775015652179718,
+            "student_teacher_action_l2_mean": 0.9142909646034241,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 7,
+      "motion": "forward_walk1.5s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 273,
+        "failure_progress_mean": 0.3057110862262038,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5463552474975586,
+        "robot_path_projection_mean": 0.313789963722229,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.2288305014371872,
+        "student_teacher_action_l2_mean": 0.8898575901985168,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 273,
+            "progress_ratio": 0.3057110862262038,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5463552474975586,
+            "robot_path_projection_ratio": 0.313789963722229,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.2288305014371872,
+            "student_teacher_action_l2_mean": 0.8898575901985168,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 8,
+      "motion": "left_45_walk0.6s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 227,
+        "failure_progress_mean": 0.2771672771672772,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5973320603370667,
+        "robot_path_projection_mean": 0.23522643744945526,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.26615771651268005,
+        "student_teacher_action_l2_mean": 1.4338198900222778,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 227,
+            "progress_ratio": 0.2771672771672772,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5973320603370667,
+            "robot_path_projection_ratio": 0.23522643744945526,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.26615771651268005,
+            "student_teacher_action_l2_mean": 1.4338198900222778,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 9,
+      "motion": "left_45_walk0.6s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 232,
+        "failure_progress_mean": 0.27326266195524146,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5829311609268188,
+        "robot_path_projection_mean": 0.19946357607841492,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.18775644898414612,
+        "student_teacher_action_l2_mean": 0.7823706865310669,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 232,
+            "progress_ratio": 0.27326266195524146,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5829311609268188,
+            "robot_path_projection_ratio": 0.19946357607841492,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.18775644898414612,
+            "student_teacher_action_l2_mean": 0.7823706865310669,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 10,
+      "motion": "left_45_walk0.9s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 247,
+        "failure_progress_mean": 0.3041871921182266,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5086368322372437,
+        "robot_path_projection_mean": 0.24258390069007874,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.2810818552970886,
+        "student_teacher_action_l2_mean": 0.7153258323669434,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 247,
+            "progress_ratio": 0.3041871921182266,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5086368322372437,
+            "robot_path_projection_ratio": 0.24258390069007874,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.2810818552970886,
+            "student_teacher_action_l2_mean": 0.7153258323669434,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 11,
+      "motion": "left_45_walk0.9s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 245,
+        "failure_progress_mean": 0.2998776009791922,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5712116360664368,
+        "robot_path_projection_mean": 0.24347904324531555,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.13816048204898834,
+        "student_teacher_action_l2_mean": 0.67173171043396,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 245,
+            "progress_ratio": 0.2998776009791922,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5712116360664368,
+            "robot_path_projection_ratio": 0.24347904324531555,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.13816048204898834,
+            "student_teacher_action_l2_mean": 0.67173171043396,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 12,
+      "motion": "left_45_walk1.2s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 257,
+        "failure_progress_mean": 0.3137973137973138,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.41382551193237305,
+        "robot_path_projection_mean": 0.3482625484466553,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.23615600168704987,
+        "student_teacher_action_l2_mean": 0.7036053538322449,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 257,
+            "progress_ratio": 0.3137973137973138,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.41382551193237305,
+            "robot_path_projection_ratio": 0.3482625484466553,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.23615600168704987,
+            "student_teacher_action_l2_mean": 0.7036053538322449,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 13,
+      "motion": "left_45_walk1.2s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 257,
+        "failure_progress_mean": 0.32864450127877237,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.4019225537776947,
+        "robot_path_projection_mean": 0.3953688144683838,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.10819954425096512,
+        "student_teacher_action_l2_mean": 0.6678999066352844,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 257,
+            "progress_ratio": 0.32864450127877237,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.4019225537776947,
+            "robot_path_projection_ratio": 0.3953688144683838,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.10819954425096512,
+            "student_teacher_action_l2_mean": 0.6678999066352844,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 14,
+      "motion": "left_45_walk1.5s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 276,
+        "failure_progress_mean": 0.33948339483394835,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.44452667236328125,
+        "robot_path_projection_mean": 0.36040690541267395,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.06599904596805573,
+        "student_teacher_action_l2_mean": 0.8005645275115967,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 276,
+            "progress_ratio": 0.33948339483394835,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.44452667236328125,
+            "robot_path_projection_ratio": 0.36040690541267395,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.06599904596805573,
+            "student_teacher_action_l2_mean": 0.8005645275115967,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 15,
+      "motion": "left_45_walk1.5s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 278,
+        "failure_progress_mean": 0.31990794016110474,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.4189178943634033,
+        "robot_path_projection_mean": 0.2957386076450348,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.10827501863241196,
+        "student_teacher_action_l2_mean": 0.7079900503158569,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 278,
+            "progress_ratio": 0.31990794016110474,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.4189178943634033,
+            "robot_path_projection_ratio": 0.2957386076450348,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.10827501863241196,
+            "student_teacher_action_l2_mean": 0.7079900503158569,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 16,
+      "motion": "left_90_walk0.6s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 236,
+        "failure_progress_mean": 0.2991128010139417,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.36511465907096863,
+        "robot_path_projection_mean": 0.2737903594970703,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.06692782044410706,
+        "student_teacher_action_l2_mean": 0.9392013549804688,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 236,
+            "progress_ratio": 0.2991128010139417,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.36511465907096863,
+            "robot_path_projection_ratio": 0.2737903594970703,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.06692782044410706,
+            "student_teacher_action_l2_mean": 0.9392013549804688,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 17,
+      "motion": "left_90_walk0.6s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 228,
+        "failure_progress_mean": 0.2773722627737226,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5599910616874695,
+        "robot_path_projection_mean": 0.1998458355665207,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.1475326120853424,
+        "student_teacher_action_l2_mean": 0.8122058510780334,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 228,
+            "progress_ratio": 0.2773722627737226,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5599910616874695,
+            "robot_path_projection_ratio": 0.1998458355665207,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.1475326120853424,
+            "student_teacher_action_l2_mean": 0.8122058510780334,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 18,
+      "motion": "left_90_walk0.9s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 252,
+        "failure_progress_mean": 0.3010752688172043,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5712358951568604,
+        "robot_path_projection_mean": 0.19328485429286957,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.13249923288822174,
+        "student_teacher_action_l2_mean": 0.8064097166061401,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 252,
+            "progress_ratio": 0.3010752688172043,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5712358951568604,
+            "robot_path_projection_ratio": 0.19328485429286957,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.13249923288822174,
+            "student_teacher_action_l2_mean": 0.8064097166061401,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 19,
+      "motion": "left_90_walk0.9s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 246,
+        "failure_progress_mean": 0.3014705882352941,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5270667672157288,
+        "robot_path_projection_mean": 0.21625536680221558,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.20637981593608856,
+        "student_teacher_action_l2_mean": 0.9930629730224609,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 246,
+            "progress_ratio": 0.3014705882352941,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5270667672157288,
+            "robot_path_projection_ratio": 0.21625536680221558,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.20637981593608856,
+            "student_teacher_action_l2_mean": 0.9930629730224609,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 20,
+      "motion": "left_90_walk1.2s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 285,
+        "failure_progress_mean": 0.3535980148883375,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.47753190994262695,
+        "robot_path_projection_mean": 0.30715444684028625,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.22075989842414856,
+        "student_teacher_action_l2_mean": 0.7697315812110901,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 285,
+            "progress_ratio": 0.3535980148883375,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.47753190994262695,
+            "robot_path_projection_ratio": 0.30715444684028625,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.22075989842414856,
+            "student_teacher_action_l2_mean": 0.7697315812110901,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 21,
+      "motion": "left_90_walk1.2s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 281,
+        "failure_progress_mean": 0.3267441860465116,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.33615776896476746,
+        "robot_path_projection_mean": 0.2759275734424591,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.08457373827695847,
+        "student_teacher_action_l2_mean": 0.9082304835319519,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 281,
+            "progress_ratio": 0.3267441860465116,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.33615776896476746,
+            "robot_path_projection_ratio": 0.2759275734424591,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.08457373827695847,
+            "student_teacher_action_l2_mean": 0.9082304835319519,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 22,
+      "motion": "left_90_walk1.5s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 272,
+        "failure_progress_mean": 0.3215130023640662,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.4628029465675354,
+        "robot_path_projection_mean": 0.14995139837265015,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.16094215214252472,
+        "student_teacher_action_l2_mean": 0.6699661612510681,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 272,
+            "progress_ratio": 0.3215130023640662,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.4628029465675354,
+            "robot_path_projection_ratio": 0.14995139837265015,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.16094215214252472,
+            "student_teacher_action_l2_mean": 0.6699661612510681,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 23,
+      "motion": "left_90_walk1.5s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 282,
+        "failure_progress_mean": 0.34474327628361856,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.6554312705993652,
+        "robot_path_projection_mean": 0.14081545174121857,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.2114180326461792,
+        "student_teacher_action_l2_mean": 0.8379958271980286,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 282,
+            "progress_ratio": 0.34474327628361856,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.6554312705993652,
+            "robot_path_projection_ratio": 0.14081545174121857,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.2114180326461792,
+            "student_teacher_action_l2_mean": 0.8379958271980286,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 24,
+      "motion": "right_45_walk0.6s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 237,
+        "failure_progress_mean": 0.2936802973977695,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5477380752563477,
+        "robot_path_projection_mean": 0.26224860548973083,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.17158612608909607,
+        "student_teacher_action_l2_mean": 0.986286997795105,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 237,
+            "progress_ratio": 0.2936802973977695,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5477380752563477,
+            "robot_path_projection_ratio": 0.26224860548973083,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.17158612608909607,
+            "student_teacher_action_l2_mean": 0.986286997795105,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 25,
+      "motion": "right_45_walk0.6s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 229,
+        "failure_progress_mean": 0.2884130982367758,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.6545547842979431,
+        "robot_path_projection_mean": 0.24212409555912018,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.22799746692180634,
+        "student_teacher_action_l2_mean": 0.6735345721244812,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 229,
+            "progress_ratio": 0.2884130982367758,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.6545547842979431,
+            "robot_path_projection_ratio": 0.24212409555912018,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.22799746692180634,
+            "student_teacher_action_l2_mean": 0.6735345721244812,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 26,
+      "motion": "right_45_walk0.9s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 288,
+        "failure_progress_mean": 0.36317780580075665,
+        "ref_pos_trigger_count": 1,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 0,
+        "ref_pos_error_m_mean": 0.7254152297973633,
+        "robot_path_projection_mean": 0.4096732437610626,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.04359263554215431,
+        "student_teacher_action_l2_mean": 0.850082516670227,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 288,
+            "progress_ratio": 0.36317780580075665,
+            "ref_pos": true,
+            "ref_ori": false,
+            "body_pos": false,
+            "ref_pos_error_m": 0.7254152297973633,
+            "robot_path_projection_ratio": 0.4096732437610626,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.04359263554215431,
+            "student_teacher_action_l2_mean": 0.850082516670227,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 27,
+      "motion": "right_45_walk0.9s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 270,
+        "failure_progress_mean": 0.33047735618115054,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.39108744263648987,
+        "robot_path_projection_mean": 0.34105828404426575,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.217417910695076,
+        "student_teacher_action_l2_mean": 0.7357544898986816,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 270,
+            "progress_ratio": 0.33047735618115054,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.39108744263648987,
+            "robot_path_projection_ratio": 0.34105828404426575,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.217417910695076,
+            "student_teacher_action_l2_mean": 0.7357544898986816,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 28,
+      "motion": "right_45_walk1.2s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 260,
+        "failure_progress_mean": 0.3182374541003672,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5499235987663269,
+        "robot_path_projection_mean": 0.29670006036758423,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.2094864398241043,
+        "student_teacher_action_l2_mean": 0.6827498078346252,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 260,
+            "progress_ratio": 0.3182374541003672,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5499235987663269,
+            "robot_path_projection_ratio": 0.29670006036758423,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.2094864398241043,
+            "student_teacher_action_l2_mean": 0.6827498078346252,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 29,
+      "motion": "right_45_walk1.2s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 301,
+        "failure_progress_mean": 0.3609112709832134,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.6639026403427124,
+        "robot_path_projection_mean": 0.2654987871646881,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.20859861373901367,
+        "student_teacher_action_l2_mean": 0.767448365688324,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 301,
+            "progress_ratio": 0.3609112709832134,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.6639026403427124,
+            "robot_path_projection_ratio": 0.2654987871646881,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.20859861373901367,
+            "student_teacher_action_l2_mean": 0.767448365688324,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 30,
+      "motion": "right_45_walk1.5s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 278,
+        "failure_progress_mean": 0.3386114494518879,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.6656516194343567,
+        "robot_path_projection_mean": 0.28320226073265076,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.2762237787246704,
+        "student_teacher_action_l2_mean": 0.8307495713233948,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 278,
+            "progress_ratio": 0.3386114494518879,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.6656516194343567,
+            "robot_path_projection_ratio": 0.28320226073265076,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.2762237787246704,
+            "student_teacher_action_l2_mean": 0.8307495713233948,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 31,
+      "motion": "right_45_walk1.5s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 273,
+        "failure_progress_mean": 0.3329268292682927,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.4498942196369171,
+        "robot_path_projection_mean": 0.3203275203704834,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.26445499062538147,
+        "student_teacher_action_l2_mean": 0.6177533864974976,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 273,
+            "progress_ratio": 0.3329268292682927,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.4498942196369171,
+            "robot_path_projection_ratio": 0.3203275203704834,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.26445499062538147,
+            "student_teacher_action_l2_mean": 0.6177533864974976,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 32,
+      "motion": "right_90_walk0.6s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 236,
+        "failure_progress_mean": 0.3215258855585831,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.41340506076812744,
+        "robot_path_projection_mean": 0.443660706281662,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.043494198471307755,
+        "student_teacher_action_l2_mean": 0.9555339813232422,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 236,
+            "progress_ratio": 0.3215258855585831,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.41340506076812744,
+            "robot_path_projection_ratio": 0.443660706281662,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.043494198471307755,
+            "student_teacher_action_l2_mean": 0.9555339813232422,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 33,
+      "motion": "right_90_walk0.6s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 233,
+        "failure_progress_mean": 0.27705112960760997,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.4964452385902405,
+        "robot_path_projection_mean": 0.22601376473903656,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.07664851099252701,
+        "student_teacher_action_l2_mean": 0.70811527967453,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 233,
+            "progress_ratio": 0.27705112960760997,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.4964452385902405,
+            "robot_path_projection_ratio": 0.22601376473903656,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.07664851099252701,
+            "student_teacher_action_l2_mean": 0.70811527967453,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 34,
+      "motion": "right_90_walk0.9s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 245,
+        "failure_progress_mean": 0.31859557867360205,
+        "ref_pos_trigger_count": 1,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.7320472002029419,
+        "robot_path_projection_mean": 0.22905395925045013,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.11832387745380402,
+        "student_teacher_action_l2_mean": 1.081018090248108,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 245,
+            "progress_ratio": 0.31859557867360205,
+            "ref_pos": true,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.7320472002029419,
+            "robot_path_projection_ratio": 0.22905395925045013,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.11832387745380402,
+            "student_teacher_action_l2_mean": 1.081018090248108,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 35,
+      "motion": "right_90_walk0.9s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 284,
+        "failure_progress_mean": 0.3337250293772033,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5272080302238464,
+        "robot_path_projection_mean": 0.2205672264099121,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.09182893484830856,
+        "student_teacher_action_l2_mean": 0.7333718538284302,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 284,
+            "progress_ratio": 0.3337250293772033,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5272080302238464,
+            "robot_path_projection_ratio": 0.2205672264099121,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.09182893484830856,
+            "student_teacher_action_l2_mean": 0.7333718538284302,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 36,
+      "motion": "right_90_walk1.2s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 259,
+        "failure_progress_mean": 0.3050647820965842,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.6004632711410522,
+        "robot_path_projection_mean": 0.14223003387451172,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.1208566427230835,
+        "student_teacher_action_l2_mean": 0.7616743445396423,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 259,
+            "progress_ratio": 0.3050647820965842,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.6004632711410522,
+            "robot_path_projection_ratio": 0.14223003387451172,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.1208566427230835,
+            "student_teacher_action_l2_mean": 0.7616743445396423,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 37,
+      "motion": "right_90_walk1.2s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 268,
+        "failure_progress_mean": 0.3101851851851852,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.38366198539733887,
+        "robot_path_projection_mean": 0.20695732533931732,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.03623824194073677,
+        "student_teacher_action_l2_mean": 1.055822730064392,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 268,
+            "progress_ratio": 0.3101851851851852,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.38366198539733887,
+            "robot_path_projection_ratio": 0.20695732533931732,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.03623824194073677,
+            "student_teacher_action_l2_mean": 1.055822730064392,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 38,
+      "motion": "right_90_walk1.5s_step0.7s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 272,
+        "failure_progress_mean": 0.3261390887290168,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.4282476603984833,
+        "robot_path_projection_mean": 0.22423186898231506,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.27437013387680054,
+        "student_teacher_action_l2_mean": 0.7454826831817627,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 272,
+            "progress_ratio": 0.3261390887290168,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.4282476603984833,
+            "robot_path_projection_ratio": 0.22423186898231506,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.27437013387680054,
+            "student_teacher_action_l2_mean": 0.7454826831817627,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    },
+    {
+      "motion_id": 39,
+      "motion": "right_90_walk1.5s_step1.2s",
+      "episodes": 1,
+      "successes": 0,
+      "bad_tracking": 1,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0,
+      "diagnostic": {
+        "failure_frame_mean": 276,
+        "failure_progress_mean": 0.32242990654205606,
+        "ref_pos_trigger_count": 0,
+        "ref_ori_trigger_count": 0,
+        "body_pos_trigger_count": 1,
+        "ref_pos_error_m_mean": 0.5812031626701355,
+        "robot_path_projection_mean": 0.1574905514717102,
+        "depth_finite_fraction_mean": 1.0,
+        "depth_image_std_mean": 0.15097250044345856,
+        "student_teacher_action_l2_mean": 0.7249401211738586,
+        "teacher_takeover_steps_mean": 0,
+        "samples": [
+          {
+            "frame": 276,
+            "progress_ratio": 0.32242990654205606,
+            "ref_pos": false,
+            "ref_ori": false,
+            "body_pos": true,
+            "ref_pos_error_m": 0.5812031626701355,
+            "robot_path_projection_ratio": 0.1574905514717102,
+            "depth_finite_fraction": 1.0,
+            "depth_image_std": 0.15097250044345856,
+            "student_teacher_action_l2_mean": 0.7249401211738586,
+            "teacher_takeover_steps_applied": 0
+          }
+        ]
+      }
+    }
+  ]
+}

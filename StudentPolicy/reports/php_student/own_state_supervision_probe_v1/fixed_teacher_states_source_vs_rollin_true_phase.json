@@ -1,0 +1,258 @@
+{
+  "contract": "fixed_student_closed_loop_states_valid_teacher_label",
+  "warning": "Offline same-state action comparison, not candidate closed-loop performance. Trace driver must be checked from evaluation report.",
+  "source": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "candidate": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_rollin_ab_v3/train/teacher/model_30098.pt",
+  "trace_dir": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_state_action_audit_seed42_v1/traces",
+  "phase_denominator": "bundle_joint_pos_frames_minus_one",
+  "full_motion_lengths": {
+    "0": 800,
+    "1": 813,
+    "2": 783,
+    "3": 795,
+    "4": 770
+  },
+  "samples": 317,
+  "source_l2": 0.7063647508621216,
+  "candidate_l2": 0.56429523229599,
+  "clips_improved": 5,
+  "clips_regressed": 0,
+  "phase": [
+    {
+      "phase": [
+        0.2,
+        0.4
+      ],
+      "samples": 158,
+      "source_l2": 0.8902114629745483,
+      "candidate_l2": 0.6687178015708923
+    },
+    {
+      "phase": [
+        0.4,
+        0.6
+      ],
+      "samples": 159,
+      "source_l2": 0.5236742496490479,
+      "candidate_l2": 0.46052950620651245
+    }
+  ],
+  "per_dof": [
+    {
+      "index": 0,
+      "source_abs": 0.14592096209526062,
+      "candidate_abs": 0.11517035216093063,
+      "delta_abs": -0.030750609934329987
+    },
+    {
+      "index": 1,
+      "source_abs": 0.08419173210859299,
+      "candidate_abs": 0.07381459325551987,
+      "delta_abs": -0.01037713885307312
+    },
+    {
+      "index": 2,
+      "source_abs": 0.11017919331789017,
+      "candidate_abs": 0.08833517879247665,
+      "delta_abs": -0.021844014525413513
+    },
+    {
+      "index": 3,
+      "source_abs": 0.14496754109859467,
+      "candidate_abs": 0.11324504017829895,
+      "delta_abs": -0.031722500920295715
+    },
+    {
+      "index": 4,
+      "source_abs": 0.12746202945709229,
+      "candidate_abs": 0.0956391766667366,
+      "delta_abs": -0.03182285279035568
+    },
+    {
+      "index": 5,
+      "source_abs": 0.052838634699583054,
+      "candidate_abs": 0.03957574442028999,
+      "delta_abs": -0.01326289027929306
+    },
+    {
+      "index": 6,
+      "source_abs": 0.15209491550922394,
+      "candidate_abs": 0.11186143755912781,
+      "delta_abs": -0.04023347795009613
+    },
+    {
+      "index": 7,
+      "source_abs": 0.08844917267560959,
+      "candidate_abs": 0.07554294914007187,
+      "delta_abs": -0.01290622353553772
+    },
+    {
+      "index": 8,
+      "source_abs": 0.10479531437158585,
+      "candidate_abs": 0.08338979631662369,
+      "delta_abs": -0.021405518054962158
+    },
+    {
+      "index": 9,
+      "source_abs": 0.13466621935367584,
+      "candidate_abs": 0.10006943345069885,
+      "delta_abs": -0.03459678590297699
+    },
+    {
+      "index": 10,
+      "source_abs": 0.12458033859729767,
+      "candidate_abs": 0.10511464625597,
+      "delta_abs": -0.019465692341327667
+    },
+    {
+      "index": 11,
+      "source_abs": 0.04896661639213562,
+      "candidate_abs": 0.04155309870839119,
+      "delta_abs": -0.0074135176837444305
+    },
+    {
+      "index": 12,
+      "source_abs": 0.11422817409038544,
+      "candidate_abs": 0.090216264128685,
+      "delta_abs": -0.02401190996170044
+    },
+    {
+      "index": 13,
+      "source_abs": 0.12098290771245956,
+      "candidate_abs": 0.1061960905790329,
+      "delta_abs": -0.014786817133426666
+    },
+    {
+      "index": 14,
+      "source_abs": 0.1353396624326706,
+      "candidate_abs": 0.11168091744184494,
+      "delta_abs": -0.023658744990825653
+    },
+    {
+      "index": 15,
+      "source_abs": 0.14798487722873688,
+      "candidate_abs": 0.10659383237361908,
+      "delta_abs": -0.0413910448551178
+    },
+    {
+      "index": 16,
+      "source_abs": 0.08698081970214844,
+      "candidate_abs": 0.07449013739824295,
+      "delta_abs": -0.012490682303905487
+    },
+    {
+      "index": 17,
+      "source_abs": 0.05541906878352165,
+      "candidate_abs": 0.05111280828714371,
+      "delta_abs": -0.004306260496377945
+    },
+    {
+      "index": 18,
+      "source_abs": 0.08423331379890442,
+      "candidate_abs": 0.07763677835464478,
+      "delta_abs": -0.0065965354442596436
+    },
+    {
+      "index": 19,
+      "source_abs": 0.0965498685836792,
+      "candidate_abs": 0.07349076867103577,
+      "delta_abs": -0.023059099912643433
+    },
+    {
+      "index": 20,
+      "source_abs": 0.06662232428789139,
+      "candidate_abs": 0.05498741567134857,
+      "delta_abs": -0.011634908616542816
+    },
+    {
+      "index": 21,
+      "source_abs": 0.0637521892786026,
+      "candidate_abs": 0.06301333755254745,
+      "delta_abs": -0.0007388517260551453
+    },
+    {
+      "index": 22,
+      "source_abs": 0.1247476264834404,
+      "candidate_abs": 0.0938950777053833,
+      "delta_abs": -0.0308525487780571
+    },
+    {
+      "index": 23,
+      "source_abs": 0.09209892153739929,
+      "candidate_abs": 0.07500756531953812,
+      "delta_abs": -0.017091356217861176
+    },
+    {
+      "index": 24,
+      "source_abs": 0.06614348292350769,
+      "candidate_abs": 0.053137071430683136,
+      "delta_abs": -0.013006411492824554
+    },
+    {
+      "index": 25,
+      "source_abs": 0.11027078330516815,
+      "candidate_abs": 0.08634153008460999,
+      "delta_abs": -0.023929253220558167
+    },
+    {
+      "index": 26,
+      "source_abs": 0.08033304661512375,
+      "candidate_abs": 0.07046028971672058,
+      "delta_abs": -0.009872756898403168
+    },
+    {
+      "index": 27,
+      "source_abs": 0.0629613846540451,
+      "candidate_abs": 0.057232312858104706,
+      "delta_abs": -0.005729071795940399
+    },
+    {
+      "index": 28,
+      "source_abs": 0.07402867078781128,
+      "candidate_abs": 0.059812720865011215,
+      "delta_abs": -0.014215949922800064
+    }
+  ],
+  "per_motion": [
+    {
+      "clip_id": 0,
+      "motion": "forward_walk0.6s_step0.7s",
+      "samples": 64,
+      "source_l2": 0.7576448917388916,
+      "candidate_l2": 0.6108099222183228,
+      "delta_l2": -0.14683496952056885
+    },
+    {
+      "clip_id": 1,
+      "motion": "left_45_walk0.9s_step0.7s",
+      "samples": 65,
+      "source_l2": 0.7498172521591187,
+      "candidate_l2": 0.6179383993148804,
+      "delta_l2": -0.13187885284423828
+    },
+    {
+      "clip_id": 2,
+      "motion": "left_45_walk1.2s_step1.2s",
+      "samples": 62,
+      "source_l2": 0.7520421147346497,
+      "candidate_l2": 0.5859211087226868,
+      "delta_l2": -0.1661210060119629
+    },
+    {
+      "clip_id": 3,
+      "motion": "right_45_walk0.6s_step1.2s",
+      "samples": 64,
+      "source_l2": 0.6505632996559143,
+      "candidate_l2": 0.503818154335022,
+      "delta_l2": -0.14674514532089233
+    },
+    {
+      "clip_id": 4,
+      "motion": "right_90_walk0.9s_step0.7s",
+      "samples": 62,
+      "source_l2": 0.6197994351387024,
+      "candidate_l2": 0.5008432269096375,
+      "delta_l2": -0.11895620822906494
+    }
+  ]
+}

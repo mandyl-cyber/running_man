@@ -1,0 +1,5 @@
+forward_walk0.6s_step0.7s
+left_45_walk0.9s_step0.7s
+left_45_walk1.2s_step1.2s
+right_45_walk0.6s_step1.2s
+right_90_walk0.9s_step0.7s

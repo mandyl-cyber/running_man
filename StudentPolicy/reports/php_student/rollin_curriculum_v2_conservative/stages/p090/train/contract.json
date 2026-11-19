@@ -1,0 +1,16 @@
+{
+  "source_checkpoint": "/home/sjtu/running_man/StudentPolicy/reports/php_student/wide_rollin_v1/train/model_30198.pt",
+  "arm": "single",
+  "actor_history_length": 1,
+  "depth_history_length": 1,
+  "rollin_window": [
+    0.05,
+    0.85
+  ],
+  "num_envs": 256,
+  "rollin_probability": 0.9,
+  "iterations": 50,
+  "fresh_optimizer": true,
+  "learning_rate": 3e-05,
+  "first_layer_max_abs_error": 0.0
+}

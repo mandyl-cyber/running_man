@@ -1,0 +1,21 @@
+{
+  "decision": "REGRESS",
+  "seeds": [
+    43,
+    44
+  ],
+  "incumbent_successes": 15,
+  "candidate_successes": 7,
+  "success_delta": -8,
+  "clip_seed_wins": 7,
+  "clip_seed_losses": 15,
+  "clip_seed_ties": 58,
+  "incumbent_failure_progress_mean": 0.5275813431430256,
+  "candidate_failure_progress_mean": 0.5205034858737304,
+  "failure_progress_delta": -0.007077857269295218,
+  "pass_contract": {
+    "min_success_gain": 2,
+    "wins_must_exceed_losses": true,
+    "minimum_failure_progress_delta": -0.02
+  }
+}

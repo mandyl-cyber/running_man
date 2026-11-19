@@ -1,0 +1,13 @@
+{
+  "source_checkpoint": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_rollin_early15_ab_v1/train/teacher/model_30098.pt",
+  "arm": "focus",
+  "num_envs": 128,
+  "iterations": 1,
+  "focus_multiplier": 2.0,
+  "focus_event_window_frames": [
+    -110,
+    -40
+  ],
+  "event_traces": "/home/sjtu/running_man/StudentPolicy/reports/php_student/contact_geometry_teacher_trace_seed43_20261030/traces",
+  "teacher_valid_only": true
+}

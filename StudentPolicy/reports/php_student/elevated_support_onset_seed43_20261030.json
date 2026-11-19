@@ -1,0 +1,385 @@
+{
+  "contract": "teacher_driven_contact_transition_grouped_motion_probe",
+  "warning": "Wrist net force is only a hand-contact proxy; foot transitions include ordinary walking. No online Student success is measured.",
+  "trace_dir": "/home/sjtu/running_man/StudentPolicy/reports/php_student/contact_geometry_teacher_trace_seed43_20261030/traces",
+  "seed": 43,
+  "bundle": "/home/sjtu/.cache/php-parkour/motions-low-climb-76",
+  "phase_window": [
+    0.1,
+    0.65
+  ],
+  "horizon_steps": 30,
+  "target_mode": "first_elevated_foot_contact",
+  "rise_delta_m": 0.08,
+  "elevation_delta_m": 0.15,
+  "force_key": "foot_contact_force",
+  "force_threshold_N": 20.0,
+  "samples": 1565,
+  "positive_rate": 0.14568689465522766,
+  "per_clip": [
+    {
+      "clip": 0,
+      "samples": 29,
+      "positives": 0
+    },
+    {
+      "clip": 1,
+      "samples": 32,
+      "positives": 6
+    },
+    {
+      "clip": 2,
+      "samples": 34,
+      "positives": 6
+    },
+    {
+      "clip": 3,
+      "samples": 44,
+      "positives": 6
+    },
+    {
+      "clip": 4,
+      "samples": 47,
+      "positives": 6
+    },
+    {
+      "clip": 5,
+      "samples": 40,
+      "positives": 6
+    },
+    {
+      "clip": 6,
+      "samples": 41,
+      "positives": 6
+    },
+    {
+      "clip": 7,
+      "samples": 40,
+      "positives": 0
+    },
+    {
+      "clip": 8,
+      "samples": 33,
+      "positives": 6
+    },
+    {
+      "clip": 9,
+      "samples": 31,
+      "positives": 6
+    },
+    {
+      "clip": 10,
+      "samples": 34,
+      "positives": 6
+    },
+    {
+      "clip": 11,
+      "samples": 43,
+      "positives": 6
+    },
+    {
+      "clip": 12,
+      "samples": 43,
+      "positives": 6
+    },
+    {
+      "clip": 13,
+      "samples": 40,
+      "positives": 6
+    },
+    {
+      "clip": 14,
+      "samples": 49,
+      "positives": 6
+    },
+    {
+      "clip": 15,
+      "samples": 41,
+      "positives": 6
+    },
+    {
+      "clip": 16,
+      "samples": 34,
+      "positives": 6
+    },
+    {
+      "clip": 17,
+      "samples": 35,
+      "positives": 6
+    },
+    {
+      "clip": 18,
+      "samples": 35,
+      "positives": 6
+    },
+    {
+      "clip": 19,
+      "samples": 34,
+      "positives": 6
+    },
+    {
+      "clip": 20,
+      "samples": 50,
+      "positives": 6
+    },
+    {
+      "clip": 21,
+      "samples": 38,
+      "positives": 6
+    },
+    {
+      "clip": 22,
+      "samples": 43,
+      "positives": 6
+    },
+    {
+      "clip": 23,
+      "samples": 40,
+      "positives": 6
+    },
+    {
+      "clip": 24,
+      "samples": 40,
+      "positives": 6
+    },
+    {
+      "clip": 25,
+      "samples": 35,
+      "positives": 6
+    },
+    {
+      "clip": 26,
+      "samples": 42,
+      "positives": 6
+    },
+    {
+      "clip": 27,
+      "samples": 39,
+      "positives": 6
+    },
+    {
+      "clip": 28,
+      "samples": 40,
+      "positives": 6
+    },
+    {
+      "clip": 29,
+      "samples": 39,
+      "positives": 6
+    },
+    {
+      "clip": 30,
+      "samples": 43,
+      "positives": 6
+    },
+    {
+      "clip": 31,
+      "samples": 47,
+      "positives": 6
+    },
+    {
+      "clip": 32,
+      "samples": 37,
+      "positives": 6
+    },
+    {
+      "clip": 33,
+      "samples": 32,
+      "positives": 6
+    },
+    {
+      "clip": 34,
+      "samples": 38,
+      "positives": 6
+    },
+    {
+      "clip": 35,
+      "samples": 42,
+      "positives": 6
+    },
+    {
+      "clip": 36,
+      "samples": 38,
+      "positives": 6
+    },
+    {
+      "clip": 37,
+      "samples": 38,
+      "positives": 6
+    },
+    {
+      "clip": 38,
+      "samples": 42,
+      "positives": 6
+    },
+    {
+      "clip": 39,
+      "samples": 43,
+      "positives": 6
+    }
+  ],
+  "fold_rows": [
+    {
+      "fold": 0,
+      "heldout_clips": [
+        4,
+        11,
+        13,
+        14,
+        26,
+        35,
+        38,
+        39
+      ],
+      "actor_only": {
+        "auc": 0.9694444444444444,
+        "balanced_accuracy": 0.9316666666666666,
+        "test_samples": 348,
+        "test_positives": 48
+      },
+      "actor_aligned_depth": {
+        "auc": 0.9407638888888888,
+        "balanced_accuracy": 0.9125000000000001,
+        "test_samples": 348,
+        "test_positives": 48
+      },
+      "actor_shuffled_depth": {
+        "auc": 0.949375,
+        "balanced_accuracy": 0.9366666666666666,
+        "test_samples": 348,
+        "test_positives": 48
+      }
+    },
+    {
+      "fold": 1,
+      "heldout_clips": [
+        7,
+        18,
+        22,
+        23,
+        25,
+        29,
+        36,
+        37
+      ],
+      "actor_only": {
+        "auc": 0.9862155388471178,
+        "balanced_accuracy": 0.9718045112781954,
+        "test_samples": 308,
+        "test_positives": 42
+      },
+      "actor_aligned_depth": {
+        "auc": 0.9820981023988543,
+        "balanced_accuracy": 0.9379699248120301,
+        "test_samples": 308,
+        "test_positives": 42
+      },
+      "actor_shuffled_depth": {
+        "auc": 0.9803079126387397,
+        "balanced_accuracy": 0.9060150375939849,
+        "test_samples": 308,
+        "test_positives": 42
+      }
+    },
+    {
+      "fold": 2,
+      "heldout_clips": [
+        0,
+        2,
+        12,
+        15,
+        16,
+        20,
+        21,
+        34
+      ],
+      "actor_only": {
+        "auc": 0.9483378256963163,
+        "balanced_accuracy": 0.8883647798742138,
+        "test_samples": 307,
+        "test_positives": 42
+      },
+      "actor_aligned_depth": {
+        "auc": 0.9344115004492363,
+        "balanced_accuracy": 0.8770440251572327,
+        "test_samples": 307,
+        "test_positives": 42
+      },
+      "actor_shuffled_depth": {
+        "auc": 0.9225516621743037,
+        "balanced_accuracy": 0.8583108715184187,
+        "test_samples": 307,
+        "test_positives": 42
+      }
+    },
+    {
+      "fold": 3,
+      "heldout_clips": [
+        9,
+        10,
+        24,
+        27,
+        28,
+        30,
+        32,
+        33
+      ],
+      "actor_only": {
+        "auc": 0.9762264784946236,
+        "balanced_accuracy": 0.9448924731182795,
+        "test_samples": 296,
+        "test_positives": 48
+      },
+      "actor_aligned_depth": {
+        "auc": 0.9761424731182796,
+        "balanced_accuracy": 0.9264112903225806,
+        "test_samples": 296,
+        "test_positives": 48
+      },
+      "actor_shuffled_depth": {
+        "auc": 0.9744623655913979,
+        "balanced_accuracy": 0.8840725806451613,
+        "test_samples": 296,
+        "test_positives": 48
+      }
+    },
+    {
+      "fold": 4,
+      "heldout_clips": [
+        1,
+        3,
+        5,
+        6,
+        8,
+        17,
+        19,
+        31
+      ],
+      "actor_only": {
+        "auc": 0.9579295865633075,
+        "balanced_accuracy": 0.9338662790697674,
+        "test_samples": 306,
+        "test_positives": 48
+      },
+      "actor_aligned_depth": {
+        "auc": 0.9479166666666666,
+        "balanced_accuracy": 0.8883236434108527,
+        "test_samples": 306,
+        "test_positives": 48
+      },
+      "actor_shuffled_depth": {
+        "auc": 0.958171834625323,
+        "balanced_accuracy": 0.9169089147286822,
+        "test_samples": 306,
+        "test_positives": 48
+      }
+    }
+  ],
+  "mean_auc": {
+    "actor_only": 0.9676307748091618,
+    "actor_aligned_depth": 0.956266526304385,
+    "actor_shuffled_depth": 0.9569737550059528
+  },
+  "aligned_vs_actor_auc": -0.011364248504776797,
+  "aligned_vs_shuffled_auc": -0.000707228701567808
+}

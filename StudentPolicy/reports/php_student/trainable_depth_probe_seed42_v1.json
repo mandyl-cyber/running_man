@@ -1,0 +1,154 @@
+{
+  "contract": "offline_teacher_driven_same_labels_grouped_motion_cv",
+  "warning": "Offline regression on Teacher-controlled states is not a closed-loop success estimate.",
+  "checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "traces": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_state_action_audit_seed43_all40/traces",
+  "samples": 2542,
+  "clips": 40,
+  "folds": 5,
+  "seed": 42,
+  "steps_per_arm_per_fold": 600,
+  "backbone_lr": 3e-05,
+  "fold_rows": [
+    {
+      "fold": 0,
+      "heldout_clips": [
+        2,
+        17,
+        21,
+        22,
+        27,
+        29,
+        32,
+        37
+      ],
+      "train_samples": 2020,
+      "heldout_samples": 522,
+      "zero": {
+        "train_l2": 0.44603317975997925,
+        "heldout_l2": 0.4783990979194641
+      },
+      "frozen": {
+        "train_l2": 0.46545979380607605,
+        "heldout_l2": 0.5072140693664551
+      },
+      "trainable": {
+        "train_l2": 0.4544193148612976,
+        "heldout_l2": 0.4881131052970886
+      }
+    },
+    {
+      "fold": 1,
+      "heldout_clips": [
+        7,
+        11,
+        16,
+        19,
+        20,
+        31,
+        33,
+        34
+      ],
+      "train_samples": 2057,
+      "heldout_samples": 485,
+      "zero": {
+        "train_l2": 0.44056621193885803,
+        "heldout_l2": 0.4880683422088623
+      },
+      "frozen": {
+        "train_l2": 0.4570823609828949,
+        "heldout_l2": 0.5082534551620483
+      },
+      "trainable": {
+        "train_l2": 0.44588690996170044,
+        "heldout_l2": 0.4971123933792114
+      }
+    },
+    {
+      "fold": 2,
+      "heldout_clips": [
+        1,
+        3,
+        5,
+        12,
+        23,
+        30,
+        35,
+        39
+      ],
+      "train_samples": 2013,
+      "heldout_samples": 529,
+      "zero": {
+        "train_l2": 0.4553748369216919,
+        "heldout_l2": 0.4724828898906708
+      },
+      "frozen": {
+        "train_l2": 0.46811091899871826,
+        "heldout_l2": 0.4974720776081085
+      },
+      "trainable": {
+        "train_l2": 0.4564453661441803,
+        "heldout_l2": 0.4785770773887634
+      }
+    },
+    {
+      "fold": 3,
+      "heldout_clips": [
+        0,
+        9,
+        13,
+        14,
+        18,
+        24,
+        25,
+        26
+      ],
+      "train_samples": 2068,
+      "heldout_samples": 474,
+      "zero": {
+        "train_l2": 0.4523097574710846,
+        "heldout_l2": 0.49020665884017944
+      },
+      "frozen": {
+        "train_l2": 0.4643053710460663,
+        "heldout_l2": 0.5181463956832886
+      },
+      "trainable": {
+        "train_l2": 0.45550158619880676,
+        "heldout_l2": 0.5030525922775269
+      }
+    },
+    {
+      "fold": 4,
+      "heldout_clips": [
+        4,
+        6,
+        8,
+        10,
+        15,
+        28,
+        36,
+        38
+      ],
+      "train_samples": 2010,
+      "heldout_samples": 532,
+      "zero": {
+        "train_l2": 0.43711042404174805,
+        "heldout_l2": 0.4763796627521515
+      },
+      "frozen": {
+        "train_l2": 0.45192694664001465,
+        "heldout_l2": 0.4988172948360443
+      },
+      "trainable": {
+        "train_l2": 0.4434359669685364,
+        "heldout_l2": 0.4877045154571533
+      }
+    }
+  ],
+  "means": {
+    "zero": 0.4811073303222656,
+    "frozen": 0.505980658531189,
+    "trainable": 0.4909119367599487
+  }
+}

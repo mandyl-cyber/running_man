@@ -1,0 +1,51 @@
+{
+  "episodes_per_motion": 3,
+  "seed": 43,
+  "rows": [
+    {
+      "iteration": 500,
+      "baseline": {
+        "successes": 0,
+        "episodes": 120,
+        "rate": 0.0,
+        "failure_progress": 0.22320816394999438
+      },
+      "candidate": {
+        "successes": 0,
+        "episodes": 120,
+        "rate": 0.0,
+        "failure_progress": 0.28045998653187865
+      }
+    },
+    {
+      "iteration": 1000,
+      "baseline": {
+        "successes": 0,
+        "episodes": 120,
+        "rate": 0.0,
+        "failure_progress": 0.2681513939451427
+      },
+      "candidate": {
+        "successes": 0,
+        "episodes": 120,
+        "rate": 0.0,
+        "failure_progress": 0.1764830849305355
+      }
+    },
+    {
+      "iteration": 2500,
+      "baseline": {
+        "successes": 0,
+        "episodes": 120,
+        "rate": 0.0,
+        "failure_progress": 0.2994646917233003
+      },
+      "candidate": {
+        "successes": 0,
+        "episodes": 120,
+        "rate": 0.0,
+        "failure_progress": 0.30143035204213764
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "contract": "student_deterministic_frame0_full_clip",
+  "profile": "clean",
+  "episodes_per_motion_target": 20,
+  "max_eval_steps": 12000,
+  "executed_steps": 400,
+  "complete": true,
+  "obstacle_seed": 43,
+  "diagnostics_enabled": false,
+  "intervention": {
+    "joint_ids": "all",
+    "mode": "none",
+    "start_fraction": null,
+    "steps": null,
+    "start_map": null,
+    "max_events": null,
+    "sustain": null,
+    "action_l2_threshold": null,
+    "cooldown_steps": null
+  },
+  "motions": [
+    {
+      "motion_id": 0,
+      "motion": "forward_walk0.6s_step0.7s",
+      "episodes": 20,
+      "successes": 0,
+      "bad_tracking": 20,
+      "simulator_timeouts_ignored": 0,
+      "success_rate": 0.0
+    }
+  ]
+}

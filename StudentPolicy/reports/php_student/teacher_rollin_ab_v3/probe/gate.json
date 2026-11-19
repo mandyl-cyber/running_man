@@ -1,0 +1,1136 @@
+{
+  "student_valid_40_60": 0.534834825268389,
+  "teacher_valid_40_60": 0.9657863145258103,
+  "delta": 0.4309514892574213,
+  "teacher_control_steps": 34153,
+  "eligible_clips": 79,
+  "improved_clips": 61,
+  "thresholds": {
+    "min_pooled_delta": 0.05,
+    "min_clip_delta": 0.05,
+    "min_improved_clips": 20,
+    "min_improved_clip_fraction": 0.25,
+    "min_samples_per_clip": 100
+  },
+  "phases": [
+    {
+      "phase": "0-20",
+      "student_valid": 0.9917810868304003,
+      "teacher_valid": 0.9914019584427991,
+      "delta": -0.00037912838760123524,
+      "teacher_control": 0
+    },
+    {
+      "phase": "20-40",
+      "student_valid": 0.5486943284281197,
+      "teacher_valid": 0.9338851167170541,
+      "delta": 0.3851907882889344,
+      "teacher_control": 14855
+    },
+    {
+      "phase": "40-60",
+      "student_valid": 0.534834825268389,
+      "teacher_valid": 0.9657863145258103,
+      "delta": 0.4309514892574213,
+      "teacher_control": 19298
+    },
+    {
+      "phase": "60-80",
+      "student_valid": 0.9007384882710686,
+      "teacher_valid": 0.9305547571141133,
+      "delta": 0.02981626884304467,
+      "teacher_control": 0
+    },
+    {
+      "phase": "80-100",
+      "student_valid": 0.7364309210526315,
+      "teacher_valid": 0.751130858381735,
+      "delta": 0.014699937329103463,
+      "teacher_control": 0
+    }
+  ],
+  "per_clip": [
+    {
+      "clip_id": 0,
+      "student_samples": 0,
+      "teacher_samples": 164,
+      "student_valid": null,
+      "teacher_valid": 1.0,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 1,
+      "student_samples": 263,
+      "teacher_samples": 9,
+      "student_valid": 1.0,
+      "teacher_valid": 0.0,
+      "delta": -1.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 2,
+      "student_samples": 542,
+      "teacher_samples": 410,
+      "student_valid": 0.7214022140221402,
+      "teacher_valid": 1.0,
+      "delta": 0.2785977859778598,
+      "eligible": true
+    },
+    {
+      "clip_id": 3,
+      "student_samples": 271,
+      "teacher_samples": 0,
+      "student_valid": 0.5682656826568265,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 4,
+      "student_samples": 214,
+      "teacher_samples": 247,
+      "student_valid": 0.9299065420560748,
+      "teacher_valid": 1.0,
+      "delta": 0.07009345794392519,
+      "eligible": true
+    },
+    {
+      "clip_id": 5,
+      "student_samples": 261,
+      "teacher_samples": 160,
+      "student_valid": 0.4559386973180077,
+      "teacher_valid": 1.0,
+      "delta": 0.5440613026819923,
+      "eligible": true
+    },
+    {
+      "clip_id": 6,
+      "student_samples": 130,
+      "teacher_samples": 239,
+      "student_valid": 0.7692307692307693,
+      "teacher_valid": 1.0,
+      "delta": 0.23076923076923073,
+      "eligible": true
+    },
+    {
+      "clip_id": 7,
+      "student_samples": 171,
+      "teacher_samples": 0,
+      "student_valid": 0.3157894736842105,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 8,
+      "student_samples": 108,
+      "teacher_samples": 1,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 9,
+      "student_samples": 201,
+      "teacher_samples": 71,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 10,
+      "student_samples": 572,
+      "teacher_samples": 269,
+      "student_valid": 0.8496503496503497,
+      "teacher_valid": 1.0,
+      "delta": 0.1503496503496503,
+      "eligible": true
+    },
+    {
+      "clip_id": 11,
+      "student_samples": 459,
+      "teacher_samples": 390,
+      "student_valid": 0.7167755991285403,
+      "teacher_valid": 1.0,
+      "delta": 0.2832244008714597,
+      "eligible": true
+    },
+    {
+      "clip_id": 12,
+      "student_samples": 25,
+      "teacher_samples": 0,
+      "student_valid": 1.0,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 13,
+      "student_samples": 504,
+      "teacher_samples": 599,
+      "student_valid": 0.1111111111111111,
+      "teacher_valid": 1.0,
+      "delta": 0.8888888888888888,
+      "eligible": true
+    },
+    {
+      "clip_id": 14,
+      "student_samples": 189,
+      "teacher_samples": 229,
+      "student_valid": 0.3544973544973545,
+      "teacher_valid": 1.0,
+      "delta": 0.6455026455026456,
+      "eligible": true
+    },
+    {
+      "clip_id": 15,
+      "student_samples": 83,
+      "teacher_samples": 0,
+      "student_valid": 1.0,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 16,
+      "student_samples": 66,
+      "teacher_samples": 265,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 17,
+      "student_samples": 701,
+      "teacher_samples": 469,
+      "student_valid": 0.6590584878744651,
+      "teacher_valid": 1.0,
+      "delta": 0.3409415121255349,
+      "eligible": true
+    },
+    {
+      "clip_id": 18,
+      "student_samples": 343,
+      "teacher_samples": 272,
+      "student_valid": 0.6034985422740525,
+      "teacher_valid": 0.5882352941176471,
+      "delta": -0.015263248156405451,
+      "eligible": true
+    },
+    {
+      "clip_id": 19,
+      "student_samples": 381,
+      "teacher_samples": 167,
+      "student_valid": 0.1942257217847769,
+      "teacher_valid": 1.0,
+      "delta": 0.8057742782152231,
+      "eligible": true
+    },
+    {
+      "clip_id": 20,
+      "student_samples": 557,
+      "teacher_samples": 511,
+      "student_valid": 0.3895870736086176,
+      "teacher_valid": 1.0,
+      "delta": 0.6104129263913824,
+      "eligible": true
+    },
+    {
+      "clip_id": 21,
+      "student_samples": 316,
+      "teacher_samples": 365,
+      "student_valid": 0.7563291139240507,
+      "teacher_valid": 1.0,
+      "delta": 0.24367088607594933,
+      "eligible": true
+    },
+    {
+      "clip_id": 22,
+      "student_samples": 454,
+      "teacher_samples": 631,
+      "student_valid": 0.46255506607929514,
+      "teacher_valid": 1.0,
+      "delta": 0.5374449339207048,
+      "eligible": true
+    },
+    {
+      "clip_id": 23,
+      "student_samples": 120,
+      "teacher_samples": 163,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 24,
+      "student_samples": 0,
+      "teacher_samples": 134,
+      "student_valid": null,
+      "teacher_valid": 1.0,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 25,
+      "student_samples": 145,
+      "teacher_samples": 112,
+      "student_valid": 0.7241379310344828,
+      "teacher_valid": 1.0,
+      "delta": 0.27586206896551724,
+      "eligible": true
+    },
+    {
+      "clip_id": 26,
+      "student_samples": 435,
+      "teacher_samples": 121,
+      "student_valid": 0.6551724137931034,
+      "teacher_valid": 0.6446280991735537,
+      "delta": -0.010544314619549744,
+      "eligible": true
+    },
+    {
+      "clip_id": 27,
+      "student_samples": 4,
+      "teacher_samples": 49,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 28,
+      "student_samples": 384,
+      "teacher_samples": 349,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 29,
+      "student_samples": 409,
+      "teacher_samples": 167,
+      "student_valid": 0.9902200488997555,
+      "teacher_valid": 1.0,
+      "delta": 0.009779951100244544,
+      "eligible": true
+    },
+    {
+      "clip_id": 30,
+      "student_samples": 395,
+      "teacher_samples": 357,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 31,
+      "student_samples": 174,
+      "teacher_samples": 158,
+      "student_valid": 0.9540229885057471,
+      "teacher_valid": 1.0,
+      "delta": 0.04597701149425293,
+      "eligible": true
+    },
+    {
+      "clip_id": 32,
+      "student_samples": 232,
+      "teacher_samples": 302,
+      "student_valid": 0.034482758620689655,
+      "teacher_valid": 1.0,
+      "delta": 0.9655172413793104,
+      "eligible": true
+    },
+    {
+      "clip_id": 33,
+      "student_samples": 414,
+      "teacher_samples": 0,
+      "student_valid": 0.8019323671497585,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 34,
+      "student_samples": 230,
+      "teacher_samples": 319,
+      "student_valid": 0.5260869565217391,
+      "teacher_valid": 0.677115987460815,
+      "delta": 0.15102903093907594,
+      "eligible": true
+    },
+    {
+      "clip_id": 35,
+      "student_samples": 281,
+      "teacher_samples": 224,
+      "student_valid": 0.604982206405694,
+      "teacher_valid": 1.0,
+      "delta": 0.395017793594306,
+      "eligible": true
+    },
+    {
+      "clip_id": 36,
+      "student_samples": 121,
+      "teacher_samples": 160,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 37,
+      "student_samples": 130,
+      "teacher_samples": 0,
+      "student_valid": 0.03076923076923077,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 38,
+      "student_samples": 178,
+      "teacher_samples": 0,
+      "student_valid": 0.02247191011235955,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 39,
+      "student_samples": 569,
+      "teacher_samples": 565,
+      "student_valid": 0.3866432337434095,
+      "teacher_valid": 1.0,
+      "delta": 0.6133567662565905,
+      "eligible": true
+    },
+    {
+      "clip_id": 40,
+      "student_samples": 13,
+      "teacher_samples": 0,
+      "student_valid": 0.0,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 41,
+      "student_samples": 366,
+      "teacher_samples": 4,
+      "student_valid": 0.7923497267759563,
+      "teacher_valid": 1.0,
+      "delta": 0.20765027322404372,
+      "eligible": false
+    },
+    {
+      "clip_id": 42,
+      "student_samples": 302,
+      "teacher_samples": 528,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 43,
+      "student_samples": 13,
+      "teacher_samples": 13,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 44,
+      "student_samples": 382,
+      "teacher_samples": 320,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 45,
+      "student_samples": 340,
+      "teacher_samples": 480,
+      "student_valid": 0.47058823529411764,
+      "teacher_valid": 1.0,
+      "delta": 0.5294117647058824,
+      "eligible": true
+    },
+    {
+      "clip_id": 46,
+      "student_samples": 118,
+      "teacher_samples": 4,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 47,
+      "student_samples": 250,
+      "teacher_samples": 0,
+      "student_valid": 0.584,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 48,
+      "student_samples": 164,
+      "teacher_samples": 433,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 49,
+      "student_samples": 506,
+      "teacher_samples": 363,
+      "student_valid": 0.6007905138339921,
+      "teacher_valid": 0.46831955922865015,
+      "delta": -0.13247095460534192,
+      "eligible": true
+    },
+    {
+      "clip_id": 50,
+      "student_samples": 141,
+      "teacher_samples": 162,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 51,
+      "student_samples": 0,
+      "teacher_samples": 10,
+      "student_valid": null,
+      "teacher_valid": 1.0,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 52,
+      "student_samples": 306,
+      "teacher_samples": 328,
+      "student_valid": 0.3660130718954248,
+      "teacher_valid": 1.0,
+      "delta": 0.6339869281045751,
+      "eligible": true
+    },
+    {
+      "clip_id": 53,
+      "student_samples": 24,
+      "teacher_samples": 0,
+      "student_valid": 0.0,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 54,
+      "student_samples": 251,
+      "teacher_samples": 159,
+      "student_valid": 0.23107569721115537,
+      "teacher_valid": 1.0,
+      "delta": 0.7689243027888446,
+      "eligible": true
+    },
+    {
+      "clip_id": 55,
+      "student_samples": 370,
+      "teacher_samples": 0,
+      "student_valid": 0.4243243243243243,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 56,
+      "student_samples": 432,
+      "teacher_samples": 207,
+      "student_valid": 0.4444444444444444,
+      "teacher_valid": 1.0,
+      "delta": 0.5555555555555556,
+      "eligible": true
+    },
+    {
+      "clip_id": 57,
+      "student_samples": 249,
+      "teacher_samples": 229,
+      "student_valid": 0.6224899598393574,
+      "teacher_valid": 0.9082969432314411,
+      "delta": 0.28580698339208366,
+      "eligible": true
+    },
+    {
+      "clip_id": 58,
+      "student_samples": 374,
+      "teacher_samples": 588,
+      "student_valid": 0.32085561497326204,
+      "teacher_valid": 1.0,
+      "delta": 0.679144385026738,
+      "eligible": true
+    },
+    {
+      "clip_id": 59,
+      "student_samples": 157,
+      "teacher_samples": 58,
+      "student_valid": 0.006369426751592357,
+      "teacher_valid": 1.0,
+      "delta": 0.9936305732484076,
+      "eligible": false
+    },
+    {
+      "clip_id": 60,
+      "student_samples": 365,
+      "teacher_samples": 644,
+      "student_valid": 0.010958904109589041,
+      "teacher_valid": 1.0,
+      "delta": 0.989041095890411,
+      "eligible": true
+    },
+    {
+      "clip_id": 61,
+      "student_samples": 76,
+      "teacher_samples": 0,
+      "student_valid": 0.9473684210526315,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 62,
+      "student_samples": 334,
+      "teacher_samples": 295,
+      "student_valid": 0.38922155688622756,
+      "teacher_valid": 1.0,
+      "delta": 0.6107784431137724,
+      "eligible": true
+    },
+    {
+      "clip_id": 63,
+      "student_samples": 427,
+      "teacher_samples": 221,
+      "student_valid": 0.5199063231850117,
+      "teacher_valid": 1.0,
+      "delta": 0.48009367681498827,
+      "eligible": true
+    },
+    {
+      "clip_id": 64,
+      "student_samples": 7,
+      "teacher_samples": 11,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 65,
+      "student_samples": 159,
+      "teacher_samples": 159,
+      "student_valid": 0.9685534591194969,
+      "teacher_valid": 0.9748427672955975,
+      "delta": 0.0062893081761006275,
+      "eligible": true
+    },
+    {
+      "clip_id": 66,
+      "student_samples": 158,
+      "teacher_samples": 158,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 67,
+      "student_samples": 735,
+      "teacher_samples": 332,
+      "student_valid": 0.22312925170068026,
+      "teacher_valid": 1.0,
+      "delta": 0.7768707482993198,
+      "eligible": true
+    },
+    {
+      "clip_id": 68,
+      "student_samples": 431,
+      "teacher_samples": 482,
+      "student_valid": 0.8236658932714617,
+      "teacher_valid": 1.0,
+      "delta": 0.17633410672853833,
+      "eligible": true
+    },
+    {
+      "clip_id": 69,
+      "student_samples": 295,
+      "teacher_samples": 77,
+      "student_valid": 1.0,
+      "teacher_valid": 0.948051948051948,
+      "delta": -0.051948051948051965,
+      "eligible": false
+    },
+    {
+      "clip_id": 70,
+      "student_samples": 310,
+      "teacher_samples": 328,
+      "student_valid": 0.18387096774193548,
+      "teacher_valid": 1.0,
+      "delta": 0.8161290322580645,
+      "eligible": true
+    },
+    {
+      "clip_id": 71,
+      "student_samples": 0,
+      "teacher_samples": 0,
+      "student_valid": null,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 72,
+      "student_samples": 147,
+      "teacher_samples": 147,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 73,
+      "student_samples": 30,
+      "teacher_samples": 0,
+      "student_valid": 1.0,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 74,
+      "student_samples": 292,
+      "teacher_samples": 379,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 75,
+      "student_samples": 409,
+      "teacher_samples": 712,
+      "student_valid": 0.15158924205378974,
+      "teacher_valid": 1.0,
+      "delta": 0.8484107579462102,
+      "eligible": true
+    },
+    {
+      "clip_id": 76,
+      "student_samples": 474,
+      "teacher_samples": 475,
+      "student_valid": 0.7320675105485233,
+      "teacher_valid": 1.0,
+      "delta": 0.26793248945147674,
+      "eligible": true
+    },
+    {
+      "clip_id": 77,
+      "student_samples": 761,
+      "teacher_samples": 421,
+      "student_valid": 0.8304862023653088,
+      "teacher_valid": 1.0,
+      "delta": 0.1695137976346912,
+      "eligible": true
+    },
+    {
+      "clip_id": 78,
+      "student_samples": 199,
+      "teacher_samples": 227,
+      "student_valid": 0.20100502512562815,
+      "teacher_valid": 0.2643171806167401,
+      "delta": 0.06331215549111194,
+      "eligible": true
+    },
+    {
+      "clip_id": 79,
+      "student_samples": 351,
+      "teacher_samples": 289,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 80,
+      "student_samples": 357,
+      "teacher_samples": 282,
+      "student_valid": 0.0,
+      "teacher_valid": 0.5673758865248227,
+      "delta": 0.5673758865248227,
+      "eligible": true
+    },
+    {
+      "clip_id": 81,
+      "student_samples": 395,
+      "teacher_samples": 557,
+      "student_valid": 0.4481012658227848,
+      "teacher_valid": 0.8186714542190305,
+      "delta": 0.3705701883962457,
+      "eligible": true
+    },
+    {
+      "clip_id": 82,
+      "student_samples": 150,
+      "teacher_samples": 151,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 83,
+      "student_samples": 273,
+      "teacher_samples": 495,
+      "student_valid": 0.14285714285714285,
+      "teacher_valid": 0.9939393939393939,
+      "delta": 0.8510822510822511,
+      "eligible": true
+    },
+    {
+      "clip_id": 84,
+      "student_samples": 367,
+      "teacher_samples": 164,
+      "student_valid": 0.662125340599455,
+      "teacher_valid": 1.0,
+      "delta": 0.33787465940054495,
+      "eligible": true
+    },
+    {
+      "clip_id": 85,
+      "student_samples": 204,
+      "teacher_samples": 80,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 86,
+      "student_samples": 148,
+      "teacher_samples": 125,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 87,
+      "student_samples": 686,
+      "teacher_samples": 438,
+      "student_valid": 0.5962099125364432,
+      "teacher_valid": 0.9885844748858448,
+      "delta": 0.3923745623494016,
+      "eligible": true
+    },
+    {
+      "clip_id": 88,
+      "student_samples": 0,
+      "teacher_samples": 172,
+      "student_valid": null,
+      "teacher_valid": 1.0,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 89,
+      "student_samples": 232,
+      "teacher_samples": 48,
+      "student_valid": 0.6724137931034483,
+      "teacher_valid": 0.08333333333333333,
+      "delta": -0.5890804597701149,
+      "eligible": false
+    },
+    {
+      "clip_id": 90,
+      "student_samples": 141,
+      "teacher_samples": 348,
+      "student_valid": 0.3475177304964539,
+      "teacher_valid": 1.0,
+      "delta": 0.6524822695035462,
+      "eligible": true
+    },
+    {
+      "clip_id": 91,
+      "student_samples": 94,
+      "teacher_samples": 202,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 92,
+      "student_samples": 0,
+      "teacher_samples": 23,
+      "student_valid": null,
+      "teacher_valid": 1.0,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 93,
+      "student_samples": 171,
+      "teacher_samples": 641,
+      "student_valid": 0.935672514619883,
+      "teacher_valid": 1.0,
+      "delta": 0.06432748538011701,
+      "eligible": true
+    },
+    {
+      "clip_id": 94,
+      "student_samples": 493,
+      "teacher_samples": 627,
+      "student_valid": 0.539553752535497,
+      "teacher_valid": 1.0,
+      "delta": 0.460446247464503,
+      "eligible": true
+    },
+    {
+      "clip_id": 95,
+      "student_samples": 721,
+      "teacher_samples": 574,
+      "student_valid": 0.6338418862690708,
+      "teacher_valid": 1.0,
+      "delta": 0.3661581137309292,
+      "eligible": true
+    },
+    {
+      "clip_id": 96,
+      "student_samples": 379,
+      "teacher_samples": 312,
+      "student_valid": 0.6464379947229552,
+      "teacher_valid": 1.0,
+      "delta": 0.35356200527704484,
+      "eligible": true
+    },
+    {
+      "clip_id": 97,
+      "student_samples": 0,
+      "teacher_samples": 0,
+      "student_valid": null,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 98,
+      "student_samples": 0,
+      "teacher_samples": 0,
+      "student_valid": null,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 99,
+      "student_samples": 258,
+      "teacher_samples": 327,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 100,
+      "student_samples": 233,
+      "teacher_samples": 91,
+      "student_valid": 0.3090128755364807,
+      "teacher_valid": 1.0,
+      "delta": 0.6909871244635193,
+      "eligible": false
+    },
+    {
+      "clip_id": 101,
+      "student_samples": 70,
+      "teacher_samples": 0,
+      "student_valid": 0.5,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 102,
+      "student_samples": 239,
+      "teacher_samples": 0,
+      "student_valid": 1.0,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 103,
+      "student_samples": 134,
+      "teacher_samples": 134,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 104,
+      "student_samples": 244,
+      "teacher_samples": 170,
+      "student_valid": 0.680327868852459,
+      "teacher_valid": 1.0,
+      "delta": 0.319672131147541,
+      "eligible": true
+    },
+    {
+      "clip_id": 105,
+      "student_samples": 0,
+      "teacher_samples": 0,
+      "student_valid": null,
+      "teacher_valid": null,
+      "delta": null,
+      "eligible": false
+    },
+    {
+      "clip_id": 106,
+      "student_samples": 243,
+      "teacher_samples": 158,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 107,
+      "student_samples": 298,
+      "teacher_samples": 228,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 108,
+      "student_samples": 118,
+      "teacher_samples": 114,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 109,
+      "student_samples": 573,
+      "teacher_samples": 635,
+      "student_valid": 0.5322862129144852,
+      "teacher_valid": 1.0,
+      "delta": 0.4677137870855148,
+      "eligible": true
+    },
+    {
+      "clip_id": 110,
+      "student_samples": 575,
+      "teacher_samples": 494,
+      "student_valid": 0.2643478260869565,
+      "teacher_valid": 1.0,
+      "delta": 0.7356521739130435,
+      "eligible": true
+    },
+    {
+      "clip_id": 111,
+      "student_samples": 181,
+      "teacher_samples": 207,
+      "student_valid": 0.39779005524861877,
+      "teacher_valid": 1.0,
+      "delta": 0.6022099447513812,
+      "eligible": true
+    },
+    {
+      "clip_id": 112,
+      "student_samples": 132,
+      "teacher_samples": 294,
+      "student_valid": 0.0,
+      "teacher_valid": 1.0,
+      "delta": 1.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 113,
+      "student_samples": 29,
+      "teacher_samples": 42,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": false
+    },
+    {
+      "clip_id": 114,
+      "student_samples": 300,
+      "teacher_samples": 158,
+      "student_valid": 0.62,
+      "teacher_valid": 1.0,
+      "delta": 0.38,
+      "eligible": true
+    },
+    {
+      "clip_id": 115,
+      "student_samples": 256,
+      "teacher_samples": 466,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": true
+    },
+    {
+      "clip_id": 116,
+      "student_samples": 441,
+      "teacher_samples": 583,
+      "student_valid": 0.36054421768707484,
+      "teacher_valid": 1.0,
+      "delta": 0.6394557823129252,
+      "eligible": true
+    },
+    {
+      "clip_id": 117,
+      "student_samples": 216,
+      "teacher_samples": 555,
+      "student_valid": 0.27314814814814814,
+      "teacher_valid": 0.9315315315315316,
+      "delta": 0.6583833833833834,
+      "eligible": true
+    },
+    {
+      "clip_id": 118,
+      "student_samples": 286,
+      "teacher_samples": 264,
+      "student_valid": 0.5594405594405595,
+      "teacher_valid": 1.0,
+      "delta": 0.4405594405594405,
+      "eligible": true
+    },
+    {
+      "clip_id": 119,
+      "student_samples": 4,
+      "teacher_samples": 272,
+      "student_valid": 1.0,
+      "teacher_valid": 1.0,
+      "delta": 0.0,
+      "eligible": false
+    }
+  ],
+  "gate_pass": true,
+  "reasons": []
+}

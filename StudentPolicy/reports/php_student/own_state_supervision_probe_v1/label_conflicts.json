@@ -1,0 +1,57 @@
+{
+  "contract": "student_closed_loop_state_cross_motion_nearest_neighbor_label_conflict",
+  "warning": "Nearest-neighbor association is diagnostic, not proof of irreducible partial observability.",
+  "checkpoint": "/home/sjtu/php_parkour_official/logs/WBT-Holosoma/20261018_172554-local-student-official-seed42-locomotion/model_29999.pt",
+  "trace_dir": "/home/sjtu/running_man/StudentPolicy/reports/php_student/own_state_supervision_probe_v1/eval/traces",
+  "phase_window": [
+    0.25,
+    0.65
+  ],
+  "k": 5,
+  "samples": 5539,
+  "clip_count": 40,
+  "results": [
+    {
+      "features": "actor_only",
+      "samples": 2400,
+      "source_samples": 5539,
+      "clips": 40,
+      "k": 5,
+      "cross_motion_neighbor_distance_median": 5.381107330322266,
+      "cross_motion_action_l2_mean": 1.5529624223709106,
+      "cross_motion_action_l2_median": 1.2309319972991943,
+      "cross_motion_action_l2_p90": 2.734792304039002,
+      "within_motion_action_l2_mean": 1.3885759115219116,
+      "random_pair_action_l2_mean": 2.8430495262145996,
+      "conflict_ratio_to_random": 0.546231210231781
+    },
+    {
+      "features": "actor_plus_frozen_depth",
+      "samples": 2400,
+      "source_samples": 5539,
+      "clips": 40,
+      "k": 5,
+      "cross_motion_neighbor_distance_median": 6.970772743225098,
+      "cross_motion_action_l2_mean": 1.5840765237808228,
+      "cross_motion_action_l2_median": 1.2622952461242676,
+      "cross_motion_action_l2_p90": 2.748913526535034,
+      "within_motion_action_l2_mean": 1.4344837665557861,
+      "random_pair_action_l2_mean": 2.8430495262145996,
+      "conflict_ratio_to_random": 0.5571751594543457
+    },
+    {
+      "features": "privileged_without_routing_id",
+      "samples": 2400,
+      "source_samples": 5539,
+      "clips": 40,
+      "k": 5,
+      "cross_motion_neighbor_distance_median": 12.834098815917969,
+      "cross_motion_action_l2_mean": 1.3711079359054565,
+      "cross_motion_action_l2_median": 1.1759107112884521,
+      "cross_motion_action_l2_p90": 2.151278853416443,
+      "within_motion_action_l2_mean": 1.474625587463379,
+      "random_pair_action_l2_mean": 2.8430495262145996,
+      "conflict_ratio_to_random": 0.4822666347026825
+    }
+  ]
+}

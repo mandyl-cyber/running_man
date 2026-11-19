@@ -1,0 +1,99 @@
+{
+  "contract": "student_structural_tests_v1",
+  "tests": {
+    "single_clip_specialization": {
+      "baseline": {
+        "path": "/home/sjtu/running_man/StudentPolicy/reports/php_student/structural_tests_v1/single_clip/baseline/full_clip_seed43.json",
+        "motions": 1,
+        "episodes": 20,
+        "successes": 0
+      },
+      "teacher": {
+        "path": "/home/sjtu/running_man/StudentPolicy/reports/php_student/structural_tests_v1/single_clip/teacher/full_clip_seed43.json",
+        "motions": 1,
+        "episodes": 20,
+        "successes": 20
+      },
+      "specialized": {
+        "path": "/home/sjtu/running_man/StudentPolicy/reports/php_student/structural_tests_v1/single_clip/specialized/full_clip_seed43.json",
+        "motions": 1,
+        "episodes": 20,
+        "successes": 0
+      }
+    },
+    "observation_ceiling": {
+      "samples": 685,
+      "clips": 40,
+      "heldout_clip_mean_l2": {
+        "actor_only": 1.9143404364585876,
+        "actor_plus_zero_depth": 1.9102767914533616,
+        "student_actor_plus_frozen_depth": 1.9414563059806824,
+        "actor_plus_oracle_phase": 1.9173843294382096,
+        "student_frozen_depth_plus_oracle_phase": 1.9509806752204895,
+        "privileged_teacher_obs": 1.0832702040672302
+      },
+      "within_clip_block_l2": {
+        "actor_only": 1.956479787826538,
+        "actor_plus_zero_depth": 1.9885703325271606,
+        "student_actor_plus_frozen_depth": 2.087845802307129,
+        "actor_plus_oracle_phase": 1.9729278087615967,
+        "student_frozen_depth_plus_oracle_phase": 2.094857692718506,
+        "privileged_teacher_obs": 1.7336256504058838
+      },
+      "warning": "Offline label fit is not closed-loop success; privileged observations are an oracle diagnostic.",
+      "trainable_depth_grouped_cv_l2": {
+        "zero": 1.9645192623138428,
+        "frozen": 2.023907208442688,
+        "trainable": 2.013965439796448
+      }
+    },
+    "teacher_recovery": {
+      "baseline": {
+        "path": "/home/sjtu/running_man/StudentPolicy/reports/php_student/structural_tests_v1/recovery/baseline/full_clip_seed43.json",
+        "motions": 40,
+        "episodes": 40,
+        "successes": 3
+      },
+      "finite_teacher_takeover": {
+        "path": "/home/sjtu/running_man/StudentPolicy/reports/php_student/structural_tests_v1/recovery/eval/lead20_steps80/full_clip_seed43.json",
+        "motions": 40,
+        "episodes": 40,
+        "successes": 13
+      },
+      "warning": "Intervention uses privileged Teacher; rescue does not imply the Student learned recovery."
+    },
+    "teacher_label_coverage": {
+      "trace_count": 40,
+      "bins": [
+        {
+          "frames": [
+            0,
+            100
+          ],
+          "valid": 3960,
+          "total": 3960,
+          "fraction": 1.0
+        },
+        {
+          "frames": [
+            100,
+            250
+          ],
+          "valid": 5710,
+          "total": 6000,
+          "fraction": 0.9516666666666667
+        },
+        {
+          "frames": [
+            250,
+            null
+          ],
+          "valid": 2641,
+          "total": 8163,
+          "fraction": 0.32353301482298175
+        }
+      ],
+      "warning": "Teacher-valid is a routing/label availability flag, not a quality score."
+    }
+  }
+}

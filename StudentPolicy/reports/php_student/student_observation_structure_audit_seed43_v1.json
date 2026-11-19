@@ -1,0 +1,159 @@
+{
+  "contract": "teacher_driven_40clip_same_frame_structural_diagnostic",
+  "warning": "Nearest-neighbour similarity does not prove physical state identity; near-region image centroid is not an obstacle-pose label.",
+  "samples": 2542,
+  "clips": 40,
+  "phase_window": [
+    0.25,
+    0.65
+  ],
+  "near_region_proxy_valid_samples": 1310,
+  "cross_clip_same_command_nearest": {
+    "actor_only": {
+      "matched": 2542,
+      "median_cross_distance": 0.33014917373657227,
+      "within_clip_q75_radius": 0.756621778011322,
+      "mean_action_gap": 0.644302487373352,
+      "close_pairs": 2463,
+      "close_pair_mean_action_gap": 0.615559458732605,
+      "close_pair_conflict_gt_1_l2": 0.13276492059230804
+    },
+    "actor_plus_32d_latent": {
+      "matched": 2542,
+      "median_cross_distance": 0.3925122320652008,
+      "within_clip_q75_radius": 0.7330665588378906,
+      "mean_action_gap": 0.7037361860275269,
+      "close_pairs": 2449,
+      "close_pair_mean_action_gap": 0.6726768612861633,
+      "close_pair_conflict_gt_1_l2": 0.16578194499015808
+    },
+    "actor_plus_spatial_grid": {
+      "matched": 2542,
+      "median_cross_distance": 0.36045560240745544,
+      "within_clip_q75_radius": 0.6413907408714294,
+      "mean_action_gap": 0.7239956259727478,
+      "close_pairs": 2365,
+      "close_pair_mean_action_gap": 0.6769607067108154,
+      "close_pair_conflict_gt_1_l2": 0.1665961891412735
+    },
+    "privileged_teacher_obs": {
+      "matched": 2542,
+      "median_cross_distance": 0.564780056476593,
+      "within_clip_q75_radius": 0.611323893070221,
+      "mean_action_gap": 0.8431786298751831,
+      "close_pairs": 1672,
+      "close_pair_mean_action_gap": 0.7431880831718445,
+      "close_pair_conflict_gt_1_l2": 0.21471291780471802
+    }
+  },
+  "near_region_horizontal_centroid": {
+    "actor_only": {
+      "folds": [
+        {
+          "fold": 0,
+          "test_n": 269,
+          "mae": 0.1078589579579977,
+          "mean_baseline_mae": 0.17965700188926217
+        },
+        {
+          "fold": 1,
+          "test_n": 275,
+          "mae": 0.08216750086520831,
+          "mean_baseline_mae": 0.18834991067755358
+        },
+        {
+          "fold": 2,
+          "test_n": 224,
+          "mae": 0.10325559122941726,
+          "mean_baseline_mae": 0.20729051521002548
+        },
+        {
+          "fold": 3,
+          "test_n": 251,
+          "mae": 0.10148023520968394,
+          "mean_baseline_mae": 0.20167834615301167
+        },
+        {
+          "fold": 4,
+          "test_n": 291,
+          "mae": 0.08541611118405053,
+          "mean_baseline_mae": 0.18801162474297775
+        }
+      ],
+      "mae_mean": 0.09603567928927154,
+      "baseline_mae_mean": 0.1929974797345661
+    },
+    "32d_latent": {
+      "folds": [
+        {
+          "fold": 0,
+          "test_n": 269,
+          "mae": 0.10772834663159579,
+          "mean_baseline_mae": 0.17965700188926217
+        },
+        {
+          "fold": 1,
+          "test_n": 275,
+          "mae": 0.09593223966887972,
+          "mean_baseline_mae": 0.18834991067755358
+        },
+        {
+          "fold": 2,
+          "test_n": 224,
+          "mae": 0.08290326232568265,
+          "mean_baseline_mae": 0.20729051521002548
+        },
+        {
+          "fold": 3,
+          "test_n": 251,
+          "mae": 0.09205211138286519,
+          "mean_baseline_mae": 0.20167834615301167
+        },
+        {
+          "fold": 4,
+          "test_n": 291,
+          "mae": 0.09928356170780346,
+          "mean_baseline_mae": 0.18801162474297775
+        }
+      ],
+      "mae_mean": 0.09557990434336536,
+      "baseline_mae_mean": 0.1929974797345661
+    },
+    "raw_8x12_grid": {
+      "folds": [
+        {
+          "fold": 0,
+          "test_n": 269,
+          "mae": 0.11131725153755968,
+          "mean_baseline_mae": 0.17965700188926217
+        },
+        {
+          "fold": 1,
+          "test_n": 275,
+          "mae": 0.09205966412590173,
+          "mean_baseline_mae": 0.18834991067755358
+        },
+        {
+          "fold": 2,
+          "test_n": 224,
+          "mae": 0.09432479072899339,
+          "mean_baseline_mae": 0.20729051521002548
+        },
+        {
+          "fold": 3,
+          "test_n": 251,
+          "mae": 0.10187769754148562,
+          "mean_baseline_mae": 0.20167834615301167
+        },
+        {
+          "fold": 4,
+          "test_n": 291,
+          "mae": 0.08919128902448434,
+          "mean_baseline_mae": 0.18801162474297775
+        }
+      ],
+      "mae_mean": 0.09775413859168496,
+      "baseline_mae_mean": 0.1929974797345661
+    }
+  }
+}

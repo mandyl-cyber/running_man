@@ -20,7 +20,6 @@
 **/wandb/
 **/recordings/
 **/videos/
-**/reports/
 events.out.tfevents.*
 *.log
 *.dmp
@@ -50,6 +49,8 @@ events.out.tfevents.*
 **/assets/generated/
 **/*.zarr/
 **/.cache/
+**/reports/**/*.npz
+**/reports/**/*.npy
 
 # Private administrative attachments
 大创/**/发票*.pdf

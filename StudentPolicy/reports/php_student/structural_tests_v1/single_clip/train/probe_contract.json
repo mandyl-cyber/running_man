@@ -1,0 +1,8 @@
+{
+  "source_checkpoint": "/home/sjtu/running_man/StudentPolicy/reports/php_student/teacher_rollin_early15_ab_v1/train/teacher/model_30098.pt",
+  "source_registry": "file:///home/sjtu/.cache/php-parkour/motions-low-climb-76",
+  "probe_registry": "file:///home/sjtu/running_man/StudentPolicy/reports/php_student/structural_tests_v1/single_clip/bundle",
+  "num_envs": 256,
+  "additional_iterations": 200,
+  "interpretation": "Saved Student continuation specialized to one clip; not scratch training."
+}
